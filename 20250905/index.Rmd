@@ -34,6 +34,10 @@ Please cover the following topics during your Week 1 recitation:
 - by-hand homework needs to be scanned back and uploaded
 - reinforce when we will have the first homework
 - space for asking questions about syllabus
+- AI policy wrong answers
+- homework dropping
+- report absense
+- late for class, early leaving, xueyidian shiyidian
 
 I'm including sample slides/activities you can use for the recitation, but feel free to adapt these materials and/or use your own materials as you see fit.
 
@@ -78,10 +82,151 @@ What is she up to?
   - It **respects** the language patterns of every individual and community as completely **legitimate** and **valid** ways to talk.
 
 ---
+# Standard vs. Non-standard language
+- In order to avoid prescriptivism, we need to **avoid** judgmental terms like "bad grammar", "incorrect language", or "broken English'.
+- Instead, we'll use the terms **standard** and **non-standard** to describe language:
+  - Standard language: the variety taught in schools and used in formal and official settings like the workplace, education, government, newsmedia, textbooks, etc.
+  - Non-standard language: other varieties used in more colloquial settings
+- Note:
+  - The standard variety is often a bit artificial and no one speaks that way all the time.
+  - People may disagree on what counts as standard or non-standard.
+  - Non-standard language may be **stigmatized** in some cases, but   - it is just as legitimate and expressive as standard language. There is nothing inherently "better" or "worse" about any variety or language.
+
+---
+# Grammatical vs. Ungrammatical
+- We also need to use the terms grammatical and ungrammatical as linguists understand them.
+  - **Grammatical**: Language that would be said and understood by a native speaker, and would sound natural to a native speaker of the language.
+  - **Ungrammatical**: Language that would not be said or understood by a native speaker.Often, this is language that just doesn't sound right, for example:
+    -John has finishing his homework. (* = ungrammatical)
+    -This apples is delicious.
+- Speakers may disagree on what is grammatical based on their own mental grammar, and language can be **non-standard** but still **grammatical**, as long as it's something that would sound natural to a native speaker.
+  -How about them apples! and I don't want none are both non-standard but grammatical.
+
+---
+# Standard/Non-standard and Grammatical/Ungrammatical
+<br>
+In groups, **invent three English sentences**:
+1. A grammatical, standard English sentence.
+2. A grammatical, non-standard English sentence.
+3. An ungrammatical English sentence.
+<br>
+Pick **one** of your group's sentences to read aloud for the rest of the class. The rest of the class will have to figure out which one it is.
+
+---
+# Variable Rules
+.pull-left[
+
+- We've seen that language follows mental rules, and that non-standard varieties also have rules.
+- Another important point: the rules of language are often variable.
+- Not everyone speaks the same, and not everyone has the same mental rules.
+- Grammar often varies by region, community, and other social factors –but no matter where you're from, you still have a mental grammar!
+
+]
+
+.pull-right[
+
+Each one of these sentences is used in one or more varieties of American English. Which of them sound natural to you? If not, how would you say it?
+<br>
+1. She was standing on line for tickets.
+2. It’s a quarter of three in the afternoon.
+3. I thought you might could help me.
+4. Do you want to come with?
+5. He doesn’t have no time.
+6. I'm finished my homework.
+7. My shirt needs washed.
+8. He had went to the store.
+<br>
+(*Visit the [Yale Grammatical Diversity Project](https://ygdp.yale.edu/) for more info about each of these grammatical phenomena.*)
+
+]
+
+---
+# (Notes for instructor about previous slide)
+.pull-left[
+
+1. on line = NYC & North Jersey, in line = South Jersey & rest of US; I like to poll my students to see whether they say on line or in line and what part of NJ they're from
+2. quarter of three = quarter to/till three, used in Massachusetts
+3. might could (double modal) = used in Southern US
+4. come with vs. come = used throughout US but perhaps non-standard
+5. double negative = common in many English varieties, including AAE
+6. finished my homework vs. finished with my homework = used by some but not all in South Jersey/Philadelphia; it can be interesting to ask students from South Jersey what they think about this construction
+7. needs washed vs. needs washing/needs to be washed = used in Ohio and neighboring region
+8. had went vs. had gone = used in many varieties of US English
+
+]
+
+.pull-right[
+
+Each one of these sentences is used in one or more varieties of American English. Which of them sound natural to you? If not, how would you say it?
+<br>
+1. She was standing on line for tickets.
+2. It’s a quarter of three in the afternoon.
+3. I thought you might could help me.
+4. Do you want to come with?
+5. He doesn’t have no time.
+6. I'm finished my homework.
+7. My shirt needs washed.
+8. He had went to the store.
+<br>
+(*Visit the [Yale Grammatical Diversity Project](https://ygdp.yale.edu/) for more info about each of these grammatical phenomena.*)
+
+]
+
+---
+# Subfields of Linguistics
+
+.pull-left[
+Major subfields of linguistics are:
+- **Phonetics** – physical attributes of speech sounds
+- **Phonology** – speech sounds considered as a system
+- **Morphology** – structure of words
+- **Syntax** – structure of sentences
+- **Semantics** – literal meaning
+- **Pragmatics** – implied meaning
+]
+
+.pull-right[
+Other subfields:
+- Sociolinguistics
+- Linguistic Anthropology
+- Historical Linguistics
+- Psycholinguistics
+- Neurolingusitics
+- Language Acquisition
+- Second Language Acuisition
+- Computational Linguistics / Natural Language Processing
+- Forensic Linguistics
+]
+
+---
+# Lingsuitics as a science
+- I've mentioned in previous classes that
+  - Linguistics is the **scientific** study of langauge
+    - When I say **language** here, I mean the human ability to communicate through sounds/signs, not a specific language like English, Mandarin, Spanish, Arabic, etc...
+    - One of the goals of linguistics is to understand speakers' **mental grammars**
+
+- But what does it mean to say that it's **science**? Waht is a science?
+
+---
+# Lingsuitics as a science
+.pull-left[
+Science uses the **scientific method** to test hypotheses about how natural phenomena (in our case, language) work:
+1. Develop a **hypothesis** grounded in personal observations, theory, and previous research
+2. **Design an experiment** to collect real-world (empirical) data to test your hypothesis
+3. Run your experiment, **collect** your data
+4. **Analyse your data** - is your hypothesis true or false?
+5. Based on your results, update your theories, develop a new hypothesis, and **repeat**!
+]
+.pull-right[
+Come up with your own experiment!
+- Most English permits only 1 modal/clause: I <u>*might*</u> eat. I <u>*could*</u> eat.
+- Southern American English permits 2: I <u>*might*</u> <u>*could*</u> eat.
+Come up with a hypothesis – a statement that could be true or false – about English modals. (Ideas: Where specifically? What about other modals: can, may, should, oughta? Does anyone use more than 2?)
+- What kind of data could you collect to prove or disprove your hypothesis? How could you design an experiment to collect that data?
+
+]
 
 ---
 class: center, middle
-
-# Thanks!
 
 Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).

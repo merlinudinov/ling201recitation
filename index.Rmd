@@ -29,40 +29,51 @@ This is an R Markdown document serving as the directory. You could find links to
 #### **Week 01**: [Introduction](https://merlinudinov.github.io/ling201recitation/20250905) (Sept 05)
 <br>
 
-#### **Week 02**: ** (Sep 12)
+#### **Week 02**: Morphology I (Sep 12)
 <br>
 
-#### **Week 03**: ** (Sep 19)
+#### **Week 03**: Morphology II (Sep 19)
+Homework 1
+<br><br>
+
+#### **Week 04**: Syntax I (Sep 26)
+Homework 2
+<br><br>
+
+#### **Week 05**: Syntax II (Oct 03)
+Homework 3
+<br><br>
+
+#### **Week 06**: Review & Exam (Oct 10)
 <br>
 
-#### **Week 04**: ** (Sep 26)
+#### **Week 07**: Semantics I (Oct 17)
 <br>
 
-#### **Week 05**: ** (Oct 03)
+#### **Week 08**: Semantics II (Oct 24)
+Homework 4
+<br><br>
+
+#### **Week 09**: Pragmatics (Oct 31)
+Homework 5
+<br><br>
+
+#### **Week 10**: Phonetics I (Nov 07)
 <br>
 
-#### **Week 06**: ** (Oct 10)
+#### **Week 11**: Phonetics II (Nov 14)
+Homework 6
+<br><br>
+
+#### **Week 12**: Phonology I (Nov 21)
+Homework 7
+<br><br>
+
+#### **Week 13**: Phonology II (Nov 26)
+Wednesday recitation class, Thanksgiving adjustment
+<br><br>
+
+#### **Week 14**: Phonology III (Dec 05)
 <br>
 
-#### **Week 07**: ** (Oct 17)
-<br>
-
-#### **Week 08**: ** (Oct 24)
-<br>
-
-#### **Week 09**: ** (Oct 31)
-<br>
-
-#### **Week 10**: ** (Nov 07)
-<br>
-
-#### **Week 11**: ** (Nov 14)
-<br>
-
-#### **Week 12**: ** (Nov 21)
-<br>
-
-#### **Week 13**: ** (Nov 28)
-<br>
-
-#### **Week 14**: ** (Dec 05)
+#### **Final Exam**: Friday, Dec. 19, 12:00 – 3:00 pm, ABE, Room 1180
