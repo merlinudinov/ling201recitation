@@ -1,27 +1,68 @@
 ---
-title: "Introduction to Linguistic Theories (Recitation Sessions)"
-author: "YOU KNOW WHO I AM"
+title: "Introduction to Linguistic Theories"
+subtitle: "(Recitation Sessions)"
 date: "Fall, 2025"
-output: html_document
+output:
+  html_document:
+    css: styles.css
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+<style>
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+</style>
+
 This is an R Markdown document serving as the directory. You could find links to the slides of the recitation sessions for the course *Introduction to Lingusitic Theories* (Fall, 2025).
 
-#### **Week 01**: [Introduction](https://merlinudinov.github.io/ling201recitation/20250901/) (Sept 05)
+<br><br>
+
+#### **Week 01**: [Introduction](https://merlinudinov.github.io/ling201recitation/20250905) (Sept 05)
+<br>
+
 #### **Week 02**: ** (Sep 12)
+<br>
+
 #### **Week 03**: ** (Sep 19)
+<br>
+
 #### **Week 04**: ** (Sep 26)
+<br>
+
 #### **Week 05**: ** (Oct 03)
+<br>
+
 #### **Week 06**: ** (Oct 10)
+<br>
+
 #### **Week 07**: ** (Oct 17)
+<br>
+
 #### **Week 08**: ** (Oct 24)
+<br>
+
 #### **Week 09**: ** (Oct 31)
+<br>
+
 #### **Week 10**: ** (Nov 07)
+<br>
+
 #### **Week 11**: ** (Nov 14)
+<br>
+
 #### **Week 12**: ** (Nov 21)
+<br>
+
 #### **Week 13**: ** (Nov 28)
+<br>
+
 #### **Week 14**: ** (Dec 05)
