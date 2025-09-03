@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This is an R Markdown document serving as the directory. You could find links to the slides of the recitation sessions for the course *Introduction to Lingusitic Theories* (Fall, 2025).
 
-#### **Week 01**: Introduction (Sept 05)
+#### **Week 01**: [Introduction](https://merlinudinov.github.io/ling201recitation/20250901/) (Sept 05)
 #### **Week 02**: ** (Sep 12)
 #### **Week 03**: ** (Sep 19)
 #### **Week 04**: ** (Sep 26)
@@ -23,4 +23,5 @@ This is an R Markdown document serving as the directory. You could find links to
 #### **Week 10**: ** (Nov 07)
 #### **Week 11**: ** (Nov 14)
 #### **Week 12**: ** (Nov 21)
-#### **Week 13**: ** (Dec 05)
+#### **Week 13**: ** (Nov 28)
+#### **Week 14**: ** (Dec 05)
