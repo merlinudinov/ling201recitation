@@ -3,13 +3,15 @@ title: "Introduction"
 subtitle: "⚔<br/>with xaringan"
 author: "Merlin Balkhash"
 institute: "Department of Linguistics, Rutgers University"
-date: "2025/04/22 (updated: `r Sys.Date()`)"
+date: "2025/09/05 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     css: ["rutgers", "rutgers-fonts"]
     lib_dir: libs
+    includes:
+      after_body: nav.html
     nature:
-      ratio: 16:9
+      ratio: "16:9"
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false

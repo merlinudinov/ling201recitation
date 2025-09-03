@@ -1,0 +1,29 @@
+<style>
+  .navbox{
+    position:fixed; bottom:12px; left:12px; z-index:99999;
+    background:rgba(255,255,255,.92); padding:6px 10px; border-radius:8px;
+    font:14px/1.2 system-ui,-apple-system,Segoe UI,Arial,sans-serif;
+    box-shadow:0 2px 6px rgba(0,0,0,.12)
+  }
+  .navbox a{ margin-right:10px; text-decoration:none; }
+</style>
+
+<div class="navbox">
+  <a id="go-first" href="#1">First</a>
+  <a id="go-last"  href="#">Last</a>
+  <a id="go-dir"   href="../index.html">Directory</a>
+</div>
+
+<script>
+(function () {
+  function setLast(){
+    if (window.slideshow && typeof slideshow.getSlideCount === 'function') {
+      var last = slideshow.getSlideCount();
+      document.getElementById('go-last').setAttribute('href', '#' + last);
+    }
+  }
+  // try now, and again after slideshow is ready
+  setLast();
+  document.addEventListener('DOMContentLoaded', setLast);
+})();
+</script>
