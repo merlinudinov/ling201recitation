@@ -41,7 +41,7 @@ class: inverse, center, middle
 
 ---
 
-# Hello World
+# **Hello World**
 
 Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
 

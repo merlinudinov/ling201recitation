@@ -354,29 +354,50 @@ display: none;
 
 <style>
 .navbox{
-position:fixed; bottom:12px; left:12px; z-index:99999;
-background:rgba(255,255,255,.92); padding:6px 10px; border-radius:8px;
-font:14px/1.2 system-ui,-apple-system,Segoe UI,Arial,sans-serif;
-box-shadow:0 2px 6px rgba(0,0,0,.12)
+position: fixed; bottom: 20px; left: 20px; z-index: 2147483647;
+background: rgba(255,255,255,.92); padding: .4rem .6rem; border-radius: .5rem;
+box-shadow: 0 2px 6px rgba(0,0,0,.12);
+font-size: .9rem; font-family: inherit;
 }
-.navbox a{ margin-right:10px; text-decoration:none; }
+.navbox a{ margin-right: .75rem; text-decoration: underline; color: inherit; }
+.navbox a:last-child{ margin-right: 0; }
 </style>
 <div class="navbox">
 <p><a id="go-first" href="#1">First</a>
-<a id="go-last" href="#">Last</a>
-<a id="go-dir" href="../index.html">Directory</a></p>
+<a id="go-prev" href="#">Previous</a>
+<a id="go-dir" href="../index.html">Directory</a>
+<a id="go-next" href="#">Next</a> <a id="go-last" href="#">Last</a></p>
 </div>
 <script>
 (function () {
-  function setLast(){
-    if (window.slideshow && typeof slideshow.getSlideCount === 'function') {
-      var last = slideshow.getSlideCount();
-      document.getElementById('go-last').setAttribute('href', '#' + last);
-    }
+  function ready(fn){
+    if (document.readyState !== 'loading') fn();
+    else document.addEventListener('DOMContentLoaded', fn);
   }
-  // try now, and again after slideshow is ready
-  setLast();
-  document.addEventListener('DOMContentLoaded', setLast);
+  ready(function initNav(){
+    // Wait until remark/xaringan creates the global `slideshow`
+    var tries = 0, iv = setInterval(function(){
+      tries++;
+      var ss = window.slideshow;
+      if (ss && (ss.gotoNextSlide || ss.next)) {
+        clearInterval(iv);
+
+        // Set Last link
+        if (ss.getSlideCount) {
+          document.getElementById('go-last').href = '#' + ss.getSlideCount();
+        }
+
+        // Wire Prev/Next
+        document.getElementById('go-prev').addEventListener('click', function(e){
+          e.preventDefault(); (ss.gotoPreviousSlide || ss.prev).call(ss);
+        });
+        document.getElementById('go-next').addEventListener('click', function(e){
+          e.preventDefault(); (ss.gotoNextSlide || ss.next).call(ss);
+        });
+      }
+      if (tries > 200) clearInterval(iv); // stop after ~10s
+    }, 50);
+  });
 })();
 </script>
 
