@@ -1,6 +1,5 @@
 ---
-title: "Introduction"
-subtitle: "⚔<br/>with xaringan"
+title: "**Introduction**"
 author: "Merlin Balkhash"
 institute: "Department of Linguistics, Rutgers University"
 date: "2025/09/05 (updated: `r Sys.Date()`)"
@@ -9,14 +8,14 @@ output:
     css: ["rutgers", "rutgers-fonts"]
     lib_dir: libs
     includes:
-      after_body: nav.html
+      after_body: [nav.html, header.html]
     nature:
       ratio: "16:9"
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
----
 
+---
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
 
 ```{r setup, include=FALSE}
