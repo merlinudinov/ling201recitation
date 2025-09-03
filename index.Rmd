@@ -1,6 +1,6 @@
 ---
-title: "Recitation for Introduction to Linguistic Theories"
-author: "YOU KNOW WHO AM I"
+title: "Introduction to Linguistic Theories (Recitation Sessions)"
+author: "YOU KNOW WHO I AM"
 date: "Fall, 2025"
 output: html_document
 ---
