@@ -1,7 +1,7 @@
 ---
-title: "index"
-author: "Merlin Balkhash"
-date: "2025-09-02"
+title: "Recitation for Introduction to Linguistic Theories"
+author: "YOU KNOW WHO AM I"
+date: "Fall, 2025"
 output: html_document
 ---
 
@@ -9,22 +9,18 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+This is an R Markdown document serving as the directory. You could find links to the slides of the recitation sessions for the course *Introduction to Lingusitic Theories* (Fall, 2025).
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+#### **Week 01**: Introduction (Sept 05)
+#### **Week 02**: ** (Sep 12)
+#### **Week 03**: ** (Sep 19)
+#### **Week 04**: ** (Sep 26)
+#### **Week 05**: ** (Oct 03)
+#### **Week 06**: ** (Oct 10)
+#### **Week 07**: ** (Oct 17)
+#### **Week 08**: ** (Oct 24)
+#### **Week 09**: ** (Oct 31)
+#### **Week 10**: ** (Nov 07)
+#### **Week 11**: ** (Nov 14)
+#### **Week 12**: ** (Nov 21)
+#### **Week 13**: ** (Dec 05)
