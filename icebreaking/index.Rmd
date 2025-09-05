@@ -1,0 +1,46 @@
+---
+title: "**Ice Breaking**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2025/09/05 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+## **About Me**
+<br>
+.pull-left[
+### Merlin Balkhash [bɑɬ.qʰɑʃ]
+### 魔尔林（魔爾林）
+<br>
+### Phonology
+### Computational Linguistics
+<br>
+### Musical
+]
+.pull-right[
+```{r, echo=FALSE, fig.align='right'}
+knitr::include_graphics("../pic/lakeb.jpg")
+```
+<br>
+*Lake Balkhash, space view*
+]
+---
+## You are all Sherlock Holmes now
+
+### Time
+
+Good morning, everyone. My name is Merlin, and I’m delighted to welcome you to our course. In this class we shall explore how language works, from the smallest sounds to the most fascinating structures. You may notice that I pronounce certain words rather differently from what you usually hear. For instance, I say bath with a long vowel, not short, and schedule with a ‘sh’ sound rather than a ‘sk’. You’ll also hear me articulate the ‘r’ at the ends of words far less.
+---
+class: center, middle
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).

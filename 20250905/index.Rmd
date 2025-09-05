@@ -14,119 +14,183 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+--- 
+## Course-related Reminders
+.pull-left[
+<br><br>
+**AI policy**: allowed to use **with acknowledgement**
+- You **must** acknowledge your source <br><br>
+- You **must** provide the full and complete AI output/response to your query <br><br>
+- Please use a [university-approved AI source](https://it.rutgers.edu/ai/#ai-assistants) <br><br>
+- Be aware of **AI's errors and hallucinations**
+  - Hi, Prof. G. Please solve $x$ for $2x+1=0$.
+  - Sure thing! We can think it this way. **2** halves become a complete **1**, so $2x=1$...<br><br>
+- Asking "what is **equation**?" is fine, but "solve **this equation**" is not
+]
+.pull-right[
+![width=80%](../pic/0905/halluci.png)
+]
 
 ---
-# Recitation Week 1 topics
+## Course-related Reminders
+<br><br>
+.pull-left[
+![width=80%](../pic/0905/homework.png)
+]
+.pull-right[
+<br><br>
+**homework Dropping**
+- Lowest **two** Homework grades will be dropped<br><br>
+- Use it **wisely**<br><br>
 
-Please cover the following topics during your Week 1 recitation:
-- Icebreaker activity
-- Remind students that grammar is a cognitive/mental phenomenon and linguistics is the scientific study of language
-- Prescriptivism vs. descriptivism
-- Standard vs. non-standard language – and idea that all languages and varieties have a mental grammar
-- Main subfields of linguistics
-- If there's time: what makes linguistics a science
-- Remind students about Intro Survey due Sunday and Morphology reading to do by Wednesday
-- AI policy: you can use the technology, but you are not allowed to use it to answer the questions. You can ask for example, what is a bound morpheme as a term, but you cannot ask how do you break this word into morphemes in a specific language…
-- if you use AI in homework, you have to tell us in the homework, what did AI tell you
-- look out for somewhere that everyone gets wrong, look out for something that is beyond what we have told them
-- trees have to be done by hand
-- syntax tree starts with an S, does not seem to be what we have told them
-- by-hand homework needs to be scanned back and uploaded
-- reinforce when we will have the first homework
-- space for asking questions about syllabus
-- AI policy wrong answers
-- homework dropping
-- report absense
-- late for class, early leaving, xueyidian shiyidian
+**being absent or late/early leaving**
+- absence needs previous notifying via **email**<br><br>
 
-I'm including sample slides/activities you can use for the recitation, but feel free to adapt these materials and/or use your own materials as you see fit.
+**my own langauge issue**
+]
 
 ---
-# A paradox
-- Consider the following sentence:
-  -I ain't got no time.
-- We all understand this sentence, and we may even say sentences like this sometimes.
-  - That means it must be part of our mental grammar.
-- But we often hear that sentences like this are "bad English" or "don't have grammar".
-  - This sentence in particular uses a double negative and the word ain't, which some people look down on.
-- So how can the sentence both be part of our grammar and "not have grammar" at the same time?
-  - To understand this, we need to understand the difference between Prescriptivism and Descriptivism.
+## **Linguistics**
+.pull-left[
+<br><br>
+--
+What is **Linguistics**?
+- Literature Studies, Language Learning...?
+
+<br><br>
+Linguistics is the **scientific** study of language
+
+A primary goal of linguistics is to figure out what is in people’s **mental grammar**
+]
+.pull-right[
+![width=80%](../pic/0905/ling.png)
+]
 
 ---
-# Prescriptivism
-- **Prescriptivism** is an approach to language that asserts that there is only one "correct" way to talk, and that tries to tell people what they **should** and **shouldn't** do (it prescribes language).
-- We often hear **prescriptive** rules in language classes, writing manuals, style guides, online grammar correction sites. These are rules like:
-  - Don't use double negatives.
-  - Don't split your infinitives.
-  - Ain't ain't a word.
-  - Don't end sentences with a preposition.
-- But English speakers break these rules all the time, and it sounds completely **natural** to native speakers.
+## **Mental Grammar**
+.pull-left[
+### Grammar is in our **MIND**! 
+- **cognitive** and **mental**.
+
 <br>
+### a paradox
+- I ain't got no time.
 
-I can’t get no satisfaction.
+- **good**, we understand, accept and use it.
+- **bad**, double negation is not allowed.
+<br><br>
 
-To boldly go where no one has gone before.
+- So how can the sentence both be **good** and **bad** at the same time?
+<br><br>
 
-If it ain’t broke, don’t fix it.
-
-What is she up to?
-
+- **PRESCRIPTIVISM** vs. **DESCRIPTIVISM**
+]
+-.pull-right[
+![height=80%](../pic/0905/double.jpg)
+]
 ---
-# Descriptivism
+## **Prescriptivism**
 <br>
-- An alternative approach is **descriptivism**: an approach to language that seeks to **describe** how people really talk in their daily lives without judgment.
-- Linguists take a **descriptive** approach and in this class we'll also take a descriptive approach.
-- This is important for several reasons:
-  - Linguistics is a science and descriptivism helps maintain a **neutral**, **scientific** point of view.
-  - If our goal is to understand people's mental grammars, we won't get very far by focusing on prescriptive rules.
+.pull-left[
+- there is only one "**correct**" way to talk <br><br>
+- it tells people what they **should** and **shouldn't** do (it prescribes languages) <br><br>
+  - **Don't** use double negatives.
+  - **Don't** split your infinitives.
+  - **Ain't** ain't a word.
+  - **Don't** end sentences with a preposition.<br><br>
+- English speakers break these rules all the time
+<br><br>
+  - I **can’t** get **no** satisfaction.
+  - **To** boldly **go** where no one has gone.
+  - If it **ain’t** broke, don’t fix it.
+  - What is she up **to**?
+  ]
+.pull-right[
+![width=80%](../pic/0905/alot.jpg)
+]
+---
+## **Descriptivism**
+<br>
+.pull-left[
+![width=80%](../pic/0905/native.jpeg)
+]
+.pull-right[
+- An alternative approach to **describe** how people **REALLY** talk daily without judgment <br><br>
+- Linguists take a **descriptive** approach<br><br>
+- **Because**:<br><br>
+  - it helps maintain a **neutral**, **scientific** point of view.
+  - we won't get very far by focusing on prescriptive rules.
   - It **respects** the language patterns of every individual and community as completely **legitimate** and **valid** ways to talk.
+]
 
 ---
-# Standard vs. Non-standard language
-- In order to avoid prescriptivism, we need to **avoid** judgmental terms like "bad grammar", "incorrect language", or "broken English'.
-- Instead, we'll use the terms **standard** and **non-standard** to describe language:
-  - Standard language: the variety taught in schools and used in formal and official settings like the workplace, education, government, newsmedia, textbooks, etc.
-  - Non-standard language: other varieties used in more colloquial settings
-- Note:
-  - The standard variety is often a bit artificial and no one speaks that way all the time.
-  - People may disagree on what counts as standard or non-standard.
-  - Non-standard language may be **stigmatized** in some cases, but   - it is just as legitimate and expressive as standard language. There is nothing inherently "better" or "worse" about any variety or language.
-
----
-# Grammatical vs. Ungrammatical
-- We also need to use the terms grammatical and ungrammatical as linguists understand them.
-  - **Grammatical**: Language that would be said and understood by a native speaker, and would sound natural to a native speaker of the language.
-  - **Ungrammatical**: Language that would not be said or understood by a native speaker.Often, this is language that just doesn't sound right, for example:
-    -John has finishing his homework. (* = ungrammatical)
-    -This apples is delicious.
-- Speakers may disagree on what is grammatical based on their own mental grammar, and language can be **non-standard** but still **grammatical**, as long as it's something that would sound natural to a native speaker.
-  -How about them apples! and I don't want none are both non-standard but grammatical.
-
----
-# Standard/Non-standard and Grammatical/Ungrammatical
+## **grammatical vs. ungrammatical**
 <br>
-In groups, **invent three English sentences**:
+.pull-left[
+- **Grammatical**: Language that would be **said and understood** by a native speaker, and would sound **natural** to a native speaker<br><br>
+- **Ungrammatical**: Language that would **NOT** be said or understood by a native speaker<br><br>
+  - $*$ John has finishing his homework.
+  - $*$ This apples is delicious.<br><br>
+- Speakers may disagree on what is grammatical based on their own mental grammar <br><br>
+- language can be **non-standard** but still **grammatical**<br><br>
+  - How about them apples!
+  - I don't want none!
+]
+.pull-right[
+![width=80%](../pic/0905/meow.jpeg)
+]
+
+---
+## **standard** vs. **non-standard** language
+<br>
+.pull-left[
+- Since we take **descriptivism**, we need to **avoid** judgmental terms <br><br>
+  - ~~bad grammar~~
+  - ~~incorrect language~~
+  - ~~broken English~~
+<br><br>
+- **standard language**: the variety taught in schools and used in **formal and official settings** like the workplace, education, government, newsmedia, textbooks, etc.
+<br><br>
+- **non-standard language**: other varieties used in more colloquial settings
+]
+
+.pull-right[
+![width=80%](../pic/0905/bad.png)
+
+- The standard variety is often a bit artificial and no one speaks that way all the time
+- People may disagree on what counts as standard or non-standard
+- Non-standard language may be **stigmatized** in some cases, but - it is just as legitimate and expressive as standard language. There is nothing inherently "better" or "worse" about any variety or language
+]
+---
+## (un)grammatical & (non-)standard
+<br>
+.pull-left[
+In groups, **invent three English sentences**: <br><br>
 1. A grammatical, standard English sentence.
 2. A grammatical, non-standard English sentence.
 3. An ungrammatical English sentence.
+
 <br>
 Pick **one** of your group's sentences to read aloud for the rest of the class. The rest of the class will have to figure out which one it is.
+]
 
+.pull-right[
+![width=80%](../pic/0905/ignor.jpeg)
+]
 ---
-# Variable Rules
+## Rules are **variable**
+<br>
 .pull-left[
-
-- We've seen that language follows mental rules, and that non-standard varieties also have rules.
-- Another important point: the rules of language are often variable.
-- Not everyone speaks the same, and not everyone has the same mental rules.
-- Grammar often varies by region, community, and other social factors –but no matter where you're from, you still have a mental grammar!
-
+- We've seen that language follows mental rules, and that non-standard varieties also have rules<br><br>
+- Another important point: the rules of language are often variable<br><br>
+- Not everyone speaks the same, and not everyone has the same mental rules<br><br>
+- Grammar often varies by region, community, and other social factors but no matter where you're from, you still have a mental grammar
 ]
 
 .pull-right[
 
 Each one of these sentences is used in one or more varieties of American English. Which of them sound natural to you? If not, how would you say it?
-<br>
+<br><br>
 1. She was standing on line for tickets.
 2. It’s a quarter of three in the afternoon.
 3. I thought you might could help me.
@@ -135,95 +199,88 @@ Each one of these sentences is used in one or more varieties of American English
 6. I'm finished my homework.
 7. My shirt needs washed.
 8. He had went to the store.
+
 <br>
 (*Visit the [Yale Grammatical Diversity Project](https://ygdp.yale.edu/) for more info about each of these grammatical phenomena.*)
-
 ]
 
 ---
-# (Notes for instructor about previous slide)
+## Subfields of Linguistics
+<br>
 .pull-left[
-
-1. on line = NYC & North Jersey, in line = South Jersey & rest of US; I like to poll my students to see whether they say on line or in line and what part of NJ they're from
-2. quarter of three = quarter to/till three, used in Massachusetts
-3. might could (double modal) = used in Southern US
-4. come with vs. come = used throughout US but perhaps non-standard
-5. double negative = common in many English varieties, including AAE
-6. finished my homework vs. finished with my homework = used by some but not all in South Jersey/Philadelphia; it can be interesting to ask students from South Jersey what they think about this construction
-7. needs washed vs. needs washing/needs to be washed = used in Ohio and neighboring region
-8. had went vs. had gone = used in many varieties of US English
-
+Major subfields of linguistics are:<br><br>
+- **Phonetics** – physical attributes of speech sounds<br><br>
+- **Phonology** – speech sounds considered as a system<br><br>
+- **Morphology** – structure of words<br><br>
+- **Syntax** – structure of sentences<br><br>
+- **Semantics** – literal meaning<br><br>
+- **Pragmatics** – implied meaning<br><br>
 ]
-
 .pull-right[
-
-Each one of these sentences is used in one or more varieties of American English. Which of them sound natural to you? If not, how would you say it?
-<br>
-1. She was standing on line for tickets.
-2. It’s a quarter of three in the afternoon.
-3. I thought you might could help me.
-4. Do you want to come with?
-5. He doesn’t have no time.
-6. I'm finished my homework.
-7. My shirt needs washed.
-8. He had went to the store.
-<br>
-(*Visit the [Yale Grammatical Diversity Project](https://ygdp.yale.edu/) for more info about each of these grammatical phenomena.*)
-
+![width=80%](../pic/0905/colour.jpg)
+<br><br>
+*Colorless green ideas sleep furiously*.
 ]
 
 ---
-# Subfields of Linguistics
-
+## Subfields of Linguistics
+<br>
 .pull-left[
-Major subfields of linguistics are:
-- **Phonetics** – physical attributes of speech sounds
-- **Phonology** – speech sounds considered as a system
-- **Morphology** – structure of words
-- **Syntax** – structure of sentences
-- **Semantics** – literal meaning
+Major subfields of linguistics are:<br><br>
+- **Phonetics** – physical attributes of speech sounds<br><br>
+- **Phonology** – speech sounds considered as a system<br><br>
+- **Morphology** – structure of words<br><br>
+- **Syntax** – structure of sentences<br><br>
+- **Semantics** – literal meaning<br><br>
 - **Pragmatics** – implied meaning
 ]
 
 .pull-right[
-Other subfields:
-- Sociolinguistics
-- Linguistic Anthropology
-- Historical Linguistics
-- Psycholinguistics
-- Neurolingusitics
-- Language Acquisition
-- Second Language Acuisition
-- Computational Linguistics / Natural Language Processing
+Other subfields:<br><br>
+- Sociolinguistics<br><br>
+- Linguistic Anthropology<br><br>
+- Historical Linguistics<br><br>
+- Psycholinguistics<br><br>
+- Neurolingusitics<br><br>
+- Language Acquisition / Second Language Acuisition<br><br>
+- Computational Linguistics<br><br>
 - Forensic Linguistics
 ]
 
 ---
-# Lingsuitics as a science
-- I've mentioned in previous classes that
-  - Linguistics is the **scientific** study of langauge
-    - When I say **language** here, I mean the human ability to communicate through sounds/signs, not a specific language like English, Mandarin, Spanish, Arabic, etc...
-    - One of the goals of linguistics is to understand speakers' **mental grammars**
-
-- But what does it mean to say that it's **science**? Waht is a science?
-
----
-# Lingsuitics as a science
+## Linguistics as A **Science**
+<br>
 .pull-left[
-Science uses the **scientific method** to test hypotheses about how natural phenomena (in our case, language) work:
-1. Develop a **hypothesis** grounded in personal observations, theory, and previous research
-2. **Design an experiment** to collect real-world (empirical) data to test your hypothesis
-3. Run your experiment, **collect** your data
-4. **Analyse your data** - is your hypothesis true or false?
-5. Based on your results, update your theories, develop a new hypothesis, and **repeat**!
+- Linguistics is the **scientific** study of langauge <br><br>
+- But what does it mean to say that it's **science**?  <br><br>
+- What is a science?<br><br>
+![width=80%](../pic/0905/linguist.png)
 ]
 .pull-right[
-Come up with your own experiment!
-- Most English permits only 1 modal/clause: I <u>*might*</u> eat. I <u>*could*</u> eat.
-- Southern American English permits 2: I <u>*might*</u> <u>*could*</u> eat.
-Come up with a hypothesis – a statement that could be true or false – about English modals. (Ideas: Where specifically? What about other modals: can, may, should, oughta? Does anyone use more than 2?)
-- What kind of data could you collect to prove or disprove your hypothesis? How could you design an experiment to collect that data?
+Science uses the **scientific method** to test hypotheses about how natural phenomena (in our case, language) work:
+1. Develop a **hypothesis** grounded in personal observations, theory, and previous research<br><br>
+2. **Design an experiment** to collect real-world (empirical) data to test your hypothesis<br><br>
+3. Run your experiment, **collect** your data<br><br>
+4. **Analyse your data** - is your hypothesis true or false?<br><br>
+5. Based on your results, update your theories, develop a new hypothesis, and **repeat**!
+]
+---
+## Linguistics as A **Science**
+<br>
+.pull-left[
+1. I found everyone around me is a linguist (**observation**)<br><br>
+2. I thought that every Rutgers student is a linguist (**hypothesis**)<br><br>
+3. I went out and asked every one (**experiment**)<br><br>
+4. I found a Rutgers student who is actually mathematician (**reject**)<br><br>
+5. I have a new hypothesis! (**repeat**)
+]
 
+.pull-right[
+Come up with your own experiment!
+- Most English permits only 1 modal/clause: I <u>*might*</u> eat. I <u>*could*</u> eat.<br><br>
+- Southern American English permits 2: I <u>*might*</u> <u>*could*</u> eat.
+Come up with a hypothesis – a statement that could be true or false – about English modals. (Ideas: Where specifically? What about other modals: can, may, should, oughta? Does anyone use more than 2?) <br><br>
+- What kind of data could you collect to prove or disprove your hypothesis? How could you design an experiment to collect that data?
 ]
 
 ---
