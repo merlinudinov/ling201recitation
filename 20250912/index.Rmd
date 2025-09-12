@@ -1,0 +1,601 @@
+---
+title: "**Morphology I**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2025/09/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+--- 
+## **Previously on 201**
+.pull-left[
+<br><br>
+### Linguistics
+  - **science**
+  - **mental grammar**
+
+### prescriptivism
+
+### **descriptivism**
+
+### grammaticality
+
+### standardness
+]
+--
+.pull-right[
+- Linguistics takes the view of descriptivism.
+<br><br>
+- **neutral**, **non-judgmental**, **objective**
+<br><br>
+- We try to describe, not to prescribe languages.
+<br><br>
+<img src="../pic/0912/obj.jpeg" width="70%">
+]
+
+---
+## **Previously on 201**
+.pull-left[
+<br><br>
+### Linguistics
+  - **science**
+  - **mental grammar**
+
+### prescriptivism
+
+### descriptivism
+
+### grammaticality
+
+### standardness
+
+### **subfields of Linguistics**
+]
+
+.pull-right[
+Major subfields of linguistics:<br><br>
+- **Phonetics** – physical attributes of speech sounds<br><br>
+- **Phonology** – speech sounds considered as a system<br><br>
+- **Morphology** – structure of words<br><br>
+- **Syntax** – structure of sentences<br><br>
+- **Semantics** – literal meaning<br><br>
+- **Pragmatics** – implied meaning
+]
+---
+class: center, middle
+# **morpheme**
+
+### <span style="color:green"><b>smallest linguistic unit</b></span> <b>with</b> <span style="color:blue"><b>meaning</b></span>
+<br><br>
+<img src="../pic/0912/free.jpg" width="40%">
+
+---
+## **Dressing and Naming**
+
+<table style="border-collapse: collapse; border: none; width: auto; text-align:center; vertical-align:middle;">
+  <colgroup>
+    <col style="width: 15em;">
+    <col style="width: 15em;">
+    <col style="width: 15em;">
+  </colgroup>
+  <tr>
+    <td><img src="../pic/0912/m1.png" width="90%"></td>
+    <td><img src="../pic/0912/m2.png" width="90%"></td>
+    <td><img src="../pic/0912/m3.png" width="90%"></td>
+  </tr>
+  <tr>
+    <td><span style="color:brown"><b>Merlin</b></span></td>
+    <td><span style="color:brown"><b>Merlin-Brown</b></span></td>
+    <td><span style="color:brown"><b>Brown-Merlin-White</b></span></td>
+  </tr>
+</table>
+
+---
+## **Dressing and Naming**
+<br><br>
+<table style="border-collapse: collapse; border: none; width: auto; text-align:center; vertical-align:middle;">
+  <colgroup>
+    <col style="width: 15em;">
+    <col style="width: 15em;">
+    <col style="width: 15em;">
+  </colgroup>
+  <tr>
+    <td><span style="color:white">.</span></td>
+    <td><img src="../pic/0912/g.png" width="90%"></td>
+    <td><span style="color:white">.</span></td>
+  </tr>
+    <tr>
+    <td><span style="color:white">.</span></td>
+    <td><b>and this is Arthur</b></td>
+    <td><span style="color:white">.</span></td>
+  </tr>
+</table>
+---
+## **Dressing and Naming**
+<br><br>
+<table style="border-collapse: collapse; border: none; width: auto; text-align:center; vertical-align:middle;">
+  <colgroup>
+    <col style="width: 15em;">
+    <col style="width: 15em;">
+    <col style="width: 15em;">
+  </colgroup>
+  <tr>
+    <td><img src="../pic/0912/g1.png" width="90%"></td>
+    <td><img src="../pic/0912/g2.png" width="90%"></td>
+    <td><img src="../pic/0912/g3.png" width="90%"></td>
+  </tr>
+</table>
+
+--
+<table style="border-collapse: collapse; border: none; width: auto; text-align:center; vertical-align:middle;">
+  <colgroup>
+    <col style="width: 15em;">
+    <col style="width: 15em;">
+    <col style="width: 15em;">
+  </colgroup>
+  <tr>
+    <td><span style="color:brown"><b>Red-Arthur-Red</b></span></td>
+    <td><span style="color:brown"><b>Green-Arthur-Red</b></span></td>
+    <td><span style="color:brown"><b>Green-Arthur-Blue</b></span></td>
+  </tr>
+</table>
+
+---
+## **Dressing and Naming**
+<br><br>
+<table style="border-collapse: collapse; border: none; width: auto; text-align:center; vertical-align:middle;">
+  <colgroup>
+    <col style="width: 15em;">
+    <col style="width: 15em;">
+    <col style="width: 15em;">
+  </colgroup>
+  <tr>
+    <td><img src="../pic/0912/g4.png" width="90%"></td>
+    <td><img src="../pic/0912/g5.png" width="90%"></td>
+    <td><img src="../pic/0912/g6.png" width="90%"></td>
+  </tr>
+</table>
+
+--
+<table style="border-collapse: collapse; border: none; width: auto; text-align:center; vertical-align:middle;">
+  <colgroup>
+    <col style="width: 16em;">
+    <col style="width: 16em;">
+    <col style="width: 16em;">
+  </colgroup>
+  <tr>
+    <td><span style="color:brown"><b>Green-BATMAN-Arthur-Blue</b></span></td>
+    <td><span style="color:brown"><b>Orange-PIRATE-Arthur-Teal</b></span></td>
+    <td><span style="color:brown"><b>Claret-PHANTOM-Arthur-Claret</b></span></td>
+  </tr>
+</table>
+
+---
+## **Dressing and Naming**
+<br><br>
+.pull-left[
+<img src="../pic/0912/h1.png" width="60%">
+]
+.pull-right[
+<img src="../pic/0912/h2.png" width="60%">
+]
+--
+.pull-left[
+<b><span style="color:blue">BLUE</span>-Arthur-<span style="color:blue">HOODY</span></b>
+]
+.pull-right[
+<b><span style="color:blue">BLUE</span>-Ar-<span style="color:pink">EARRING</span>-thur-<span style="color:blue">HOODY</span></b>
+]
+
+---
+##**Review of Terms for Different Morphemes**
+<br><br>
+.pull-left[
+- <b>root</b> (base; **build**, **flower**)<br><br>
+- <b>affix</b> (morpheme that attaches to the base)<br><br>
+  - <b>prefix</b> (**un**-do)<br><br>
+  - <b>suffix</b> (walk-**ed**)<br><br>
+  - <b>infix</b> (rare in English)<br><br>
+  - <b>circumfix</b> (**em**-bold-**en**)<br><br>
+- <b>free vs. bound morpheme</b>
+  - can appear as an independent word?
+  - **blue**berry vs. **cran**berry<br><br>
+]
+.pull-right[
+- <b>derivational morpheme</b> (piano --> pian-**ist**) 
+  - change core meaning even part of speech<br><br>
+- <b>inflectional morpheme</b> (jump --> jump-**ed**) 
+  - add some grammatical nuance<br><br>
+- <b>homophone</b><br><br>
+- <b>allomorph</b><br><br>
+- <b>simple word vs. compound word</b>
+  - one root = simple (inter-**nation**-al)
+  - more than one = compound (**sawhorse**)
+]
+
+---
+## Practice: Morphemes
+.pull-left[
+<br><br>
+<b>For each word:</b><br><br>
+- Indicate whether it is **mono-** or **poly**morphemic
+- Indicate whether it is <span style="color:blue"><b>simple</b></span> or <span style="color:blue"><b>compound</b></span>
+- Divide it into morphemes (use **hyphens**)
+<br><br>
+For each morpheme:
+- Indicate whether it is a <span style="color:blue"><b>root</b></span>, <span style="color:blue"><b>prefix</b></span>, or, <span style="color:blue"><b>suffix</b></span>
+- Indicate whether it is a **free** or **bound** morpheme
+- If it is an affix, indicate whether it is <span style="color:blue"><b>inflectional</b></span> or <span style="color:blue"><b>derivational</b></span>
+]
+
+.pull-right[
+1. unpacks <br><br>
+2. railroad <br><br>
+3. chameleon <br><br>
+4. backpacker <br><br>
+5. greater <br><br>
+6. finger <br><br>
+7. expectant <br><br>
+8. unbelievably <br><br>
+9. uncouth <br><br>
+10. meaningful
+]
+
+---
+## Practice: Morphemes
+.pull-left[
+<br><br>
+<b>For each word:</b><br><br>
+- Indicate whether it is **mono-** or **poly**morphemic
+- Indicate whether it is <span style="color:blue"><b>simple</b></span> or <span style="color:blue"><b>compound</b></span>
+- Divide it into morphemes (use **hyphens**)
+<br><br>
+For each morpheme:
+- Indicate whether it is a <span style="color:blue"><b>root</b></span>, <span style="color:blue"><b>prefix</b></span>, or, <span style="color:blue"><b>suffix</b></span>
+- Indicate whether it is a **free** or **bound** morpheme
+- If it is an affix, indicate whether it is <span style="color:blue"><b>inflectional</b></span> or <span style="color:blue"><b>derivational</b></span>
+]
+
+.pull-right[
+.pull-left[
+1. unpacks <br><br>
+2. railroad <br><br>
+3. chameleon <br><br>
+4. backpacker <br><br>
+5. greater <br><br>
+6. finger <br><br>
+7. expectant <br><br>
+8. unbelievably <br><br>
+9. uncouth <br><br>
+10. meaningful
+]
+.pull-right[
+**un-pack-s** <br><br>
+<span style="color:blue"><b>rail-road</b></span> <br><br>
+**chameleon** <br><br>
+<span style="color:blue"><b>back-pack-er</b></span> <br><br>
+**great-er** <br><br>
+<span style="color:blue"><b>finger</b></span> <br><br>
+**expect-ant** <br><br>
+<span style="color:blue"><b>un-believ-ab-ly</b></span> <br><br>
+**un-couth** <br><br>
+<span style="color:blue"><b>mean-ing-ful</b></span>
+]
+]
+
+---
+## **Dataset 1: Isthmus Zapotec**
+### (Oto-Manguean, Mexico)
+<br>
+<table style="border-collapse: collapse; border: none; width: auto;">
+  <colgroup>
+    <col style="width: 2em;">
+    <col style="width: 6em;">
+    <col style="width: 10em;">
+    <col style="width: 2em;">
+    <col style="width: 2em;">
+    <col style="width: 6em;">
+    <col style="width: 10em;">
+    <col style="width: 2em;">
+    <col style="width: 2em;">
+    <col style="width: 6em;">
+    <col style="width: 10em;">
+  </colgroup>
+  <tr>
+    <td>01.</td>
+    <td>palu</td>
+    <td>'stick'</td>
+    <td></td>
+    <td>06.</td>
+    <td>spalube</td>
+    <td>'his stick'</td>
+    <td></td>
+    <td>11.</td>
+    <td>spalulu</td>
+    <td>'your stick'</td>
+  </tr>
+
+  <tr>
+    <td>02.</td>
+    <td>kuba</td>
+    <td>'dough'</td>
+    <td></td>
+    <td>07.</td>
+    <td>skubabe</td>
+    <td>'his dough'</td>
+    <td></td>
+    <td>12.</td>
+    <td>skubalu</td>
+    <td>'your dough'</td>
+  </tr>
+
+  <tr>
+    <td>03.</td>
+    <td>geta</td>
+    <td>'tortilla'</td>
+    <td></td>
+    <td>08.</td>
+    <td>sketabe</td>
+    <td>'his tortilla'</td>
+    <td></td>
+    <td>13.</td>
+    <td>sketalu</td>
+    <td>'your tortilla'</td>
+  </tr>
+
+  <tr>
+    <td>04.</td>
+    <td>bere</td>
+    <td>'chicken'</td>
+    <td></td>
+    <td>09.</td>
+    <td>sperebe</td>
+    <td>'his chicken'</td>
+    <td></td>
+    <td>14.</td>
+    <td>sperelu</td>
+    <td>'your chicken'</td>
+  </tr>
+  
+  <tr>
+    <td>05.</td>
+    <td>dolo</td>
+    <td>'rope'</td>
+    <td></td>
+    <td>10.</td>
+    <td>stoʔobe</td>
+    <td>'his rope'</td>
+    <td></td>
+    <td>15.</td>
+    <td>stoʔolu</td>
+    <td>'your rope'</td>
+  </tr>
+</table>
+<br><br>
+
+--
+- What morphemes does Isthmus Zapotec use to indicate the following concepts?
+  - stick, dough, tortilla, chicken, rope
+  - third person singular (s/he)
+  - second person plural (plural 'you')
+  - possission ('s in English)
+<br><br>
+- The word for 'four' is <span style="color:red">*tapa*</span>. How would you say 'his four' and 'your four'?
+
+---
+## **Dataset 1: Isthmus Zapotec**
+### (Oto-Manguean, Mexico)
+<br>
+<table style="border-collapse: collapse; border: none; width: auto;">
+  <colgroup>
+    <col style="width: 2em;">
+    <col style="width: 6em;">
+    <col style="width: 10em;">
+    <col style="width: 2em;">
+    <col style="width: 2em;">
+    <col style="width: 6em;">
+    <col style="width: 10em;">
+    <col style="width: 2em;">
+    <col style="width: 2em;">
+    <col style="width: 6em;">
+    <col style="width: 10em;">
+  </colgroup>
+  <tr>
+    <td>01.</td>
+    <td>palu</td>
+    <td>'stick'</td>
+    <td></td>
+    <td>06.</td>
+    <td>s<span style="color:red"><b>palu</b></span>be</td>
+    <td>'his stick'</td>
+    <td></td>
+    <td>11.</td>
+    <td>s<span style="color:blue"><b>palu</b></span>lu</td>
+    <td>'your stick'</td>
+  </tr>
+
+  <tr>
+    <td>02.</td>
+    <td>kuba</td>
+    <td>'dough'</td>
+    <td></td>
+    <td>07.</td>
+    <td>s<span style="color:red"><b>kuba</b></span>be</td>
+    <td>'his dough'</td>
+    <td></td>
+    <td>12.</td>
+    <td>s<span style="color:blue"><b>kuba</b></span>lu</td>
+    <td>'your dough'</td>
+  </tr>
+
+  <tr>
+    <td>03.</td>
+    <td>geta</td>
+    <td>'tortilla'</td>
+    <td></td>
+    <td>08.</td>
+    <td>s<span style="color:red"><b>keta</b></span>be</td>
+    <td>'his tortilla'</td>
+    <td></td>
+    <td>13.</td>
+    <td>s<span style="color:blue"><b>keta</b></span>lu</td>
+    <td>'your tortilla'</td>
+  </tr>
+
+  <tr>
+    <td>04.</td>
+    <td>bere</td>
+    <td>'chicken'</td>
+    <td></td>
+    <td>09.</td>
+    <td>s<span style="color:red"><b>pere</b></span>be</td>
+    <td>'his chicken'</td>
+    <td></td>
+    <td>14.</td>
+    <td>s<span style="color:blue"><b>pere</b></span>lu</td>
+    <td>'your chicken'</td>
+  </tr>
+  
+  <tr>
+    <td>05.</td>
+    <td>dolo</td>
+    <td>'rope'</td>
+    <td></td>
+    <td>10.</td>
+    <td>s<span style="color:red"><b>toʔo</b></span>be</td>
+    <td>'his rope'</td>
+    <td></td>
+    <td>15.</td>
+    <td>s<span style="color:blue"><b>toʔo</b></span>lu</td>
+    <td>'your rope'</td>
+  </tr>
+</table>
+<br><br><br><br>
+
+--
+<table style="border-collapse: collapse; border: none; width: auto;">
+  <colgroup>
+    <col style="width: 2em;">
+    <col style="width: 6em;">
+    <col style="width: 10em;">
+    <col style="width: 2em;">
+    <col style="width: 2em;">
+    <col style="width: 6em;">
+    <col style="width: 10em;">
+    <col style="width: 2em;">
+    <col style="width: 2em;">
+    <col style="width: 6em;">
+    <col style="width: 10em;">
+  </colgroup>
+  <tr>
+    <td>01.</td>
+    <td>palu</td>
+    <td>'stick'</td>
+    <td></td>
+    <td>06.</td>
+    <td><span style="color:red"><b>s</b></span>palu<span style="color:blue"><b>be</b></span></td>
+    <td>'his stick'</td>
+    <td></td>
+    <td>11.</td>
+    <td><span style="color:red"><b>s</b></span>palu<span style="color:blue"><b>lu</b></span></td>
+    <td>'your stick'</td>
+  </tr>
+
+  <tr>
+    <td>02.</td>
+    <td>kuba</td>
+    <td>'dough'</td>
+    <td></td>
+    <td>07.</td>
+    <td><span style="color:red"><b>s</b></span>kuba<span style="color:blue"><b>be</b></span></td>
+    <td>'his dough'</td>
+    <td></td>
+    <td>12.</td>
+    <td><span style="color:red"><b>s</b></span>kuba<span style="color:blue"><b>lu</b></span></td>
+    <td>'your dough'</td>
+  </tr>
+
+  <tr>
+    <td>03.</td>
+    <td>geta</td>
+    <td>'tortilla'</td>
+    <td></td>
+    <td>08.</td>
+    <td><span style="color:red"><b>s</b></span>keta<span style="color:blue"><b>be</b></span></td>
+    <td>'his tortilla'</td>
+    <td></td>
+    <td>13.</td>
+    <td><span style="color:red"><b>s</b></span>keta<span style="color:blue"><b>lu</b></span></td>
+    <td>'your tortilla'</td>
+  </tr>
+
+  <tr>
+    <td>04.</td>
+    <td>bere</td>
+    <td>'chicken'</td>
+    <td></td>
+    <td>09.</td>
+    <td><span style="color:red"><b>s</b></span>pere<span style="color:blue"><b>be</b></span></td>
+    <td>'his chicken'</td>
+    <td></td>
+    <td>14.</td>
+    <td><span style="color:red"><b>s</b></span>pere<span style="color:blue"><b>lu</b></span></td>
+    <td>'your chicken'</td>
+  </tr>
+  
+  <tr>
+    <td>05.</td>
+    <td>dolo</td>
+    <td>'rope'</td>
+    <td></td>
+    <td>10.</td>
+    <td><span style="color:red"><b>s</b></span>toʔo<span style="color:blue"><b>be</b></span></td>
+    <td>'his rope'</td>
+    <td></td>
+    <td>15.</td>
+    <td><span style="color:red"><b>s</b></span>toʔo<span style="color:blue"><b>lu</b></span></td>
+    <td>'your rope'</td>
+  </tr>
+</table>
+
+---
+class: center, middle
+# **BONUS QUESTION**
+<br><br>
+### if **s**palu**be** is grammatical
+### but neither \* ** s**palu nor \* palu**be** is grammatical
+### what does this tell us about morpheme *s-* and *-be*?
+<br><br>
+(This might not be the actual case and it is only an assumption)
+
+---
+## **Morphological Analysis**
+<br><br>
+- **Morphological analysis** is a technique for figuring out how the morphology of a language works.<br><br>
+- You can use it to learn how the morphology of an unfamiliar language works – as long as you have a set of words with different morphemes and their translations (**glosses**) into English. <br><br>
+- **Steps**:
+  1. Identify any **repeated** sequences of sounds in the dataset – they may be morphemes.<br><br>
+  2. Identify any **repeated** meanings in the English glosses.<br><br>
+  3. Try to match each meaning from Step 2 with a potential morpheme from Step 1. (Try to find two words that differ by just one meaning or morpheme.)<br><br>
+
+- **Notes**: As you go, look out for any potential **homophones** or **allomorphs**, and don’t be afraid to **revise your hypotheses** if the data suggests you’re on the wrong track.
+
+---
+## **Dataset 2: Luiseño**
+### (Uto-Aztecan, California)
+<br><br>
+<img src="../pic/0912/data2.png" width="60%">
+---
+class: center, middle
+**HOMEWORK** for morphology will be published over the weekend, and you have one week to finish that.<br><br>
+**Morphology reading 2** by next Wednesday
+<br><br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
