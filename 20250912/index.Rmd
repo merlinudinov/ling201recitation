@@ -214,8 +214,10 @@ class: center, middle
   - change core meaning even part of speech<br><br>
 - <b>inflectional morpheme</b> (jump --> jump-**ed**) 
   - add some grammatical nuance<br><br>
-- <b>homophone</b><br><br>
-- <b>allomorph</b><br><br>
+- <b>homophone</b> (fast-**er**, teach-**er**)
+  - same sound, different meanings<br><br>
+- <b>allomorph</b> (**magic**, **magic**-ian)
+  - same meaning, different sounds<br><br>
 - <b>simple word vs. compound word</b>
   - one root = simple (inter-**nation**-al)
   - more than one = compound (**sawhorse**)
@@ -593,6 +595,130 @@ class: center, middle
 ### (Uto-Aztecan, California)
 <br><br>
 <img src="../pic/0912/data2.png" width="60%">
+
+---
+## **Dataset 2: Luiseño**
+### (Uto-Aztecan, California)
+<br><br>
+.pull-left[
+<table style="border-collapse: collapse; border: none; width: auto;">
+  <colgroup>
+    <col style="width: 2em;">
+    <col style="width: 10em;">
+    <col style="width: 10em;">
+  </colgroup>
+  <tr>
+    <td>a.</td><td>no<span style="color:red"><b>kaamaj</b></span></td><td>'my son'</td>
+  </tr>
+  <tr>
+    <td>h.</td><td>no<span style="color:red"><b>kaamaj</b></span>um</td><td>'my sons'</td>
+  </tr>
+  <tr>
+    <td>m.</td><td>po<span style="color:red"><b>kaamaj</b></span></td><td>'his son'</td>
+  </tr>
+  <tr>
+    <td>r.</td><td>7o<span style="color:red"><b>kaamaj</b></span></td><td>'your son'</td>
+  </tr>
+  <tr>
+    <td>x.</td><td>po<span style="color:red"><b>kaamaj</b></span></td><td>'their son'</td>
+  </tr>
+</table>
+]
+.pull-right[
+<table style="border-collapse: collapse; border: none; width: auto;">
+  <colgroup>
+    <col style="width: 2em;">
+    <col style="width: 10em;">
+    <col style="width: 10em;">
+  </colgroup>
+  <tr>
+    <td>b.</td><td><span style="color:green"><b>7o</b></span>ki</td><td>'your house'</td>
+  </tr>
+  <tr>
+    <td>d.</td><td><span style="color:green"><b>7o</b></span>huukapi</td><td>'your pipe'</td>
+  </tr>
+  <tr>
+    <td>e.</td><td><span style="color:green"><b>7o</b></span>taana</td><td>'your blanket'</td>
+  </tr>
+  <tr>
+    <td>j.</td><td><span style="color:green"><b>7o</b></span>peew</td><td>'your wife'</td>
+  </tr>
+  <tr>
+    <td>r.</td><td><span style="color:green"><b>7o</b></span>kaamaj</td><td>'your son'</td>
+  </tr>
+</table>
+]
+<br><br><br>
+
+--
+<table style="border-collapse: collapse; border: none; width: auto;">
+  <colgroup>
+    <col style="width: 2em;">
+    <col style="width: 8em;">
+    <col style="width: 8em;">
+    <col style="width: 2em;">
+    <col style="width: 2em;">
+    <col style="width: 8em;">
+    <col style="width: 8em;">
+    <col style="width: 2em;">
+    <col style="width: 2em;">
+    <col style="width: 8em;">
+    <col style="width: 8em;">
+  </colgroup>
+  <tr>
+    <td>a.</td>
+    <td>'son'</td>
+    <td><span style="color:blue"><b>kaamaj</b</span></td>
+    <td></td>
+    <td>e.</td>
+    <td>'my'</td>
+    <td><span style="color:blue"><b>no-</b</span></td>
+    <td></td>
+    <td>i.</td>
+    <td>'their'</td>
+    <td><span style="color:blue"><b>pom-</b</span></td>
+  </tr>
+  <tr>
+    <td>b.</td>
+    <td>'house'</td>
+    <td><span style="color:blue"><b>ki</b</span></td>
+    <td></td>
+    <td>f.</td>
+    <td>'his'</td>
+    <td><span style="color:blue"><b>po-</b</span></td>
+    <td></td>
+    <td>j.</td>
+    <td>(plural marker)</td>
+    <td><span style="color:blue"><b>-um</b</span> / <span style="color:blue"><b>-m</b</span></td>
+  </tr>
+  <tr>
+    <td>c.</td>
+    <td>'blanket'</td>
+    <td><span style="color:blue"><b>taana</b</span></td>
+    <td></td>
+    <td>g.</td>
+    <td>'your (sg.)'</td>
+    <td><span style="color:blue"><b>7o-</b</span></td>
+    <td></td>
+    <td>k.</td>
+    <td>'pipe'</td>
+    <td><span style="color:blue"><b>huukapi</b</span></td>
+  </tr>
+  <tr>
+    <td>d.</td>
+    <td>'wife'</td>
+    <td><span style="color:blue"><b>peew</b</span></td>
+    <td></td>
+    <td>h.</td>
+    <td>'your (pl.)'</td>
+    <td><span style="color:blue"><b>7om-</b</span></td>
+    <td></td>
+    <td>l.</td>
+    <td>'our'</td>
+    <td><span style="color:blue"><b>tfam-</b</span></td>
+  </tr>
+</table>
+
 ---
 class: center, middle
 **HOMEWORK** for morphology will be published over the weekend, and you have one week to finish that.<br><br>
