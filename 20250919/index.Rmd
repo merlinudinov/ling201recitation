@@ -1,0 +1,316 @@
+---
+title: "**Morphology II**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2025/09/19 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+## **Previously on 201**
+<br><br>
+<img src="../pic/0919/suffix.jpg" width="60%">
+
+---
+## **Previously on 201**
+<br><br>
+.pull-left[
+- <b>root</b> (base)<br><br>
+- <b>affix</b> (morpheme that attaches to the base)<br><br>
+  - <b>prefix</b> <br><br>
+  - <b>suffix</b> <br><br>
+  - <b>infix</b> (rare in English)<br><br>
+  - <b>circumfix</b> <br><br>
+- <b>free vs. bound morpheme</b>
+  - can appear as an independent word?
+]
+.pull-right[
+- <b>derivational morpheme</b> 
+  - change core meaning even part of speech<br><br>
+- <b>inflectional morpheme</b>
+  - add some grammatical nuance<br><br>
+- <b>homophone</b>
+  - same sound, different meanings<br><br>
+- <b>allomorph</b>
+  - same meaning, different sounds<br><br>
+- <b>simple word vs. compound word</b>
+  - one root = simple
+  - more than one = compound
+]
+---
+## **Previously on 201**
+<br><br>
+.pull-left[
+- <b>root</b> (base; **build**, **flower**)<br><br>
+- <b>affix</b> (morpheme that attaches to the base)<br><br>
+  - <b>prefix</b> (**un**-do)<br><br>
+  - <b>suffix</b> (walk-**ed**)<br><br>
+  - <b>infix</b> (rare in English)<br><br>
+  - <b>circumfix</b> (**em**-bold-**en**)<br><br>
+- <b>free vs. bound morpheme</b>
+  - can appear as an independent word?
+  - **blue**berry vs. **cran**berry<br><br>
+]
+.pull-right[
+- <b>derivational morpheme</b> (piano --> pian-**ist**) 
+  - change core meaning even part of speech<br><br>
+- <b>inflectional morpheme</b> (jump --> jump-**ed**) 
+  - add some grammatical nuance<br><br>
+- <b>homophone</b> (fast-**er**, teach-**er**)
+  - same sound, different meanings<br><br>
+- <b>allomorph</b> (**magic**, **magic**-ian)
+  - same meaning, different sounds<br><br>
+- <b>simple word vs. compound word</b>
+  - one root = simple (inter-**nation**-al)
+  - more than one = compound (**sawhorse**)
+]
+
+---
+## **More Terms**
+<br>
+### Compounding vs. Affixation
+<br>
+**compounding**: combining two or more roots into a single word
+
+- <img src="../pic/0919/german.png" width="65%">
+
+Then the following word in Kazakh is **NOT** compounding:
+
+- <img src="../pic/0919/kazakh.png" width="80%">
+
+---
+## **More Terms**
+<br>
+### Reduplication
+<br>
+.pull-left[
+**full reduplication**: repeat **ALL** of a morpheme
+- Indonesian plural
+  - *orang* 'person' $\rightarrow$ *orang*-*orang* 'people'
+- Chinese intensified adjective:
+  - <em>kʰai<sup>55</sup>ʂin<sup>55</sup></em> 'happy' $\rightarrow$ <em>kʰai<sup>55</sup>kʰai<sup>55</sup> ʂin<sup>55</sup>ʂin<sup>55</sup></em> 'very happy'
+<br><br>
+
+**partial reduplication**: repeat **PART** of a morpheme
+- Tagalog future
+  - *bili* 'buy' $\rightarrow$ *<b>bi</b>-bili* 'will buy'
+- Kazakh intensified adjective:
+  - *tætti* 'sweet' $\rightarrow$ *<b>tæp</b>-tætti* 'very sweet'
+]
+.pull-right[
+<img src="../pic/0919/friday.jpg" width="90%">
+]
+
+---
+## **More Terms**
+<br>
+### Alternation, Suppletion, Zero-derivation
+<br>
+.pull-left[
+<img src="../pic/0919/suppletion.jpg" width="90%">
+]
+.pull-right[
+**alternation**: changing one ore more sounds within the morpheme (not the whole morpheme)
+  - allomorphy is technically a type of alternation, one in which there is no difference in meaning
+  - g**oo**se / g**ee**se; r**i**ng / r**a**ng / r**u**ng
+<br><br>
+
+**suppletion**: an **inflected** form is phonetically very different from other forms of the same word
+  - go / went; good / better / best
+<br><br>  
+  
+**zero-derivation**: change a word's part of speech **without adding anything** at all
+  - 'I ❤️ (heart) Linguistics!'
+]
+
+---
+## **A Little Practice**
+<br><br>
+Identify the **morphological processes** involved in each of the following words.
+<br><br>
+<b>affixation</b> (prefixation, suffixation), <b>compounding</b>, <b>reduplication</b>, <b>alternation</b>, <b>suppletion</b>
+<br><br>
+.pull-left[
+- feed → fed <br><br>
+- leaf → leaves <br><br>
+- peace → peaceful <br><br>
+- foot, ball → football <br><br>
+- good → best <br><br>
+- chair, woman → chairwomen <br><br>
+- back, pack → backpacks <br><br>
+]
+.pull-right[
+<img src="../pic/0919/coffee.jpeg" width="80%"> <br><br>
+- like → like-liked <br><br>
+- go → underwent <br><br>
+- ox → oxen
+]
+---
+## **Order of Affixation**
+
+### unbelievable vs. renewable
+<br>
+.pull-left[
+- How many morphemes does each have? <br><br>
+- What is the root? <br><br>
+- Is there a prefix or suffix? <br><br>
+]
+
+.pull-right[
+<img src="../pic/0919/joey.gif" width="80%">
+]
+
+--
+
+- they're pretty similar: prefix-**ROOT**-suffix <br><br>
+
+--
+
+.pull-left[
+- **BUT BUT BUT**
+  - Is it un + believable or unbelieve + able?
+  - Is it renew + able or re + newable?
+]
+
+--
+.pull-right[
+**believ**-able vs. un-**believe** <br><br>
+re-**new** vs. **new**-able
+]
+
+---
+## **Order of Affixation**
+<br><br>
+**ORDER OF AFFIXATION**: the order in which you add affixes to a root <br><br>
+
+It does play a role in the morphology of a word: <br><br>
+  - different words have different orders of affixation (un + believable / renew + able)<br><br>
+  - order of affixation is part of our mental grammar <br><br>
+  - to **test** the order: we **add** an affix and see if it makes a real word<br><br>
+  - also, to **test** the order: we try to **understand** what the word means<br><br>
+    - If the definition involves some **smaller** combination of the root and an affix, it suggests that that affix is added first (un-[**believ**-able]) <br><br>
+  - Neither of these tests works 100% of the time, so you should try a combination of them
+
+---
+## **Hierarchical Structure**
+<br><br>
+.pull-left[<img src="../pic/0919/cow.jpeg" width="90%">]
+.pull-right[
+- Order of affixation is somehow connected to the **meaning** of a word
+- The fact that we can't add affixes in any old order suggests that words have a **hierarchical structure**
+We can visualize this structure with a **tree diagram**.
+- We start at the bottom with the root and build upward, adding affixes until we get to the full word at the top
+- An alternative is **labeled bracketing**, which is more compact but perhaps less intuitive:
+<br><br>
+<span style="color:red">[<sub>Adj</sub> un </span><span style="color:green">[<sub>Adj</sub></span> <span style="color:blue">[<sub>V</sub> believe ]</span><span style="color:green"> able ]</span> <span style="color:red">]</span>
+<br><br>
+<span style="color:red">[<sub>Adj</sub></span> <span style="color:green">[<sub>V</sub> re</span><span style="color:blue"> [<sub>Adj</sub> new ]</span> <span style="color:green">]</span><span style="color:red"> able ]</span>
+
+]
+---
+## How to draw a morphological tree 
+### **De-humid-ify-er**
+<br>
+1. Identify the word's morphemes and write them out separately in one row
+2. Identify the root (or roots) and label its **part of speech**
+3. Look at the morphemes immediately before and after the root. **Which one is added first**? Draw lines upward connecting them, and label the new word's part of speech
+4. This new word becomes the base you'll keep building off of. **Repeat step 3** using this new base instead of the root, and continue until you have no unconnected morphemes left
+<br><br>
+
+--
+<img src="../pic/0919/how1.png" width="23%">
+
+--
+<img src="../pic/0919/how2.png" width="23%">
+
+--
+<img src="../pic/0919/how3.png" width="23%">
+
+--
+<img src="../pic/0919/how4.png" width="23%">
+---
+## Practice: Hierarchical structure
+<br>
+.pull-left[
+Draw a **tree** or give **bracket labeling** for the following words: <br><br>
+1. disappearance <br><br>
+2. silliness <br><br>
+3. unthinkable <br><br>
+4. overgeneralisation <br><br>
+5. internationalism
+]
+
+.pull-right[
+**HINTS**<br><br>
+- find the root and move outward/upward <br><br>
+- mark the part of speech at every step <br><br>
+- If adding an affix makes a non-word, try adding another affix instead <br><br>
+- If adding an affix makes something that seems unrelated to the overall word's meaning, try adding a different affix instead
+]
+
+<img src="../pic/0919/cat1.png" width="24%">
+<img src="../pic/0919/cat2.png" width="24%">
+<img src="../pic/0919/cat3.png" width="24%">
+<img src="../pic/0919/cat4.png" width="23%">
+
+---
+## **Undoable**
+<br>
+.pull-left[
+- What does **undoable** mean? <br><br>
+- *undo* + *able* vs. *un* + *doable*<br><br>
+<img src="../pic/0919/ambi1.jpeg" width="80%">
+]
+--
+.pull-right[
+- This is an example of a word with an **ambiguous structure**<br><br>
+- Depending on the structure you assign it, it has a **different meaning**<br><br>
+- both meanings are acceptable <br><br>
+- The **meaning** of words is directly affected by their morphological structure<br><br>
+- That's why **structure** is very important:
+  - Without knowing the structure, we wouldn't know how to put together the meanings of a word's different morphemes to create the full word.
+]
+
+---
+## **Undoable**
+<br><br>
+.pull-left[
+<img src="../pic/0919/undo1.png" width="50%">
+
+<img src="../pic/0919/undo3.png" width="50%">
+]
+.pull-right[
+<img src="../pic/0919/undo2.png" width="50%">
+<img src="../pic/0919/undo4.png" width="50%">
+]
+
+---
+## Practice: Ambiguous Structures
+<br>
+.pull-left[
+Are the following words ambiguous? If yes, provide **labeled bracketings** for both readings and explain what each reaching means. If no, explain why not.<br><br>
+1. immeasurable <br><br>
+2. unwrappable <br><br>
+3. unbearable <br><br>
+]
+.pull-right[
+<img src="../pic/0919/ambi2.jpg" width="60%">
+]
+
+---
+class: center, middle
+**HOMEWORK I** is due this Sunday<br><br>
+**HOMEWORK II** will be published during this weekend, you have one week to submit<br><br>
+**Syntax reading 1** by next Wednesday<br><br>
+<img src="../pic/0919/fine.jpeg" width="70%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
