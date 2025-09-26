@@ -1,0 +1,273 @@
+---
+title: "**Syntax I**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2025/09/26 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+## **Previously on 201**
+.pull-left[
+<br>
+<img src="../pic/0926/suffix.jpg" width="65%">
+<br><br>
+**compounding**: blackbird / black bird <br><br>
+**reduplication** partial vs. full <br><br>
+**alternation** / **suppletion** / **zero-derivation**
+
+<img src="../pic/0926/blackbird.png" width="40%">
+]
+
+.pull-right[
+<img src="../pic/0926/infla2.png" width="50%"> 
+
+The firework never got soaked. It is **[inflame]**-<b>able</b>.
+
+<br><br>
+<img src="../pic/0926/infla1.png" width="50%"> 
+
+It seems we don't have this meaning in OED...
+]
+
+---
+## **Previously on 201**
+<br><br>
+### INTER-NATION-AL-ISM
+<br>
+.pull-left[<img src="../pic/0926/inter1.png" width="70%">
+
+why it is this **one**,
+]
+.pull-right[<img src="../pic/0926/inter2.png" width="70%">
+
+but **NOT** this one?
+]
+
+---
+class: center, middle
+
+<img src="../pic/0926/morphosyn.jpg" width="450px" style="float:right; margin-left:20px;">
+### What is the **basic** unit in Morphology? <br><br>
+
+--
+### <span style="color:green"><b>MORPHEME</b><span><br><br>
+
+--
+### What happens if **larger** units were built?<br><br>
+
+--
+### <span style="color:blue"><b>SYNTAX</b><span><br><br>
+
+--
+**Morphology** cares about word <u><b>structure</b></u><br><br>
+**Syntax** cares about sentence <u><b>structure</b></u>
+
+---
+## **Constituents**: basic structure in syntax
+<br>
+.pull-left[
+**constituent**: a group of words that <span style="color:green"><b>acts together</b></span> as a **unit** <br><br>
+- Consider the following sentences. What is the **subject** of each sentence?<br><br>
+1. *Francisco <span style="color:blue"><b>studies linguistics</b><span>.*
+2. *The tall boy <span style="color:blue"><b>studies linguistics</b><span>.*
+3. *The tall boy from New Jersey <span style="color:blue"><b>studies linguistics</b><span>.*
+4. *The tall boy named Francisco <span style="color:blue"><b>studies linguistics</b><span>.*
+5. *The tall boy that I met last week <span style="color:blue"><b>studies linguistics</b><span>.*<br><br>
+]
+
+.pull-right[
+<div style="text-align:center;">
+<img src="../pic/0926/syntax.jpg" width="85%"> <br><br>
+</div>
+[**a video on constituent**](https://www.youtube.com/watch?v=Ia7d4slVL6s)
+]
+
+---
+## **Constituents**: basic structure in syntax
+<br>
+.pull-left[
+**constituent**: a group of words that <span style="color:green"><b>acts together</b></span> as a **unit** <br><br>
+- Consider the following sentences. What is the **subject** of each sentence?<br><br>
+1. *<u>Francisco</u> <span style="color:blue"><b>studies linguistics</b><span>.*
+2. *<u>The tall boy</u> <span style="color:blue"><b>studies linguistics</b><span>.*
+3. *<u>The tall boy from New Jersey</u> <span style="color:blue"><b>studies linguistics</b><span>.*
+4. *<u>The tall boy named Francisco</u> <span style="color:blue"><b>studies linguistics</b><span>.*
+5. *<u>The tall boy that I met last week</u> <span style="color:blue"><b>studies linguistics</b><span>.* <br><br>
+
+- SUBJECT can be **one** or **many** words, but they all <span style="color:green"><b>act together</b></span> to describe a single concept
+]
+
+
+.pull-right[
+<div style="text-align:center;">
+<img src="../pic/0926/syntax2.jpg" width="45%"> <br><br>
+</div>
+[**a video on constituent**](https://www.youtube.com/watch?v=Ia7d4slVL6s)
+]
+
+---
+background-image: url("../pic/0926/video.png")
+background-size: contain
+baground-position: center
+
+---
+## **Phrases**: types of constituents
+<br>
+.pull-left[
+- Each phrase has a main word or **head**<br><br>
+
+- Phrases are named after the head word's **part of speech** (PoS):<br><br>
+  - **noun phrase** (<span style="color:green"><b>NP</b></span>): *<u>man</u>, the <u>man</u>, the happy <u>man</u>, the <u>man</u> with the hat*<br><br>
+  - **prepositional phrase** (<span style="color:purple"><b>PP</b></span>): *<u>into</u> the forest, <u>by</u> the author, <u>for</u> good luck*<br><br>
+  - **verb phrase** (<span style="color:blue"><b>VP</b></span>): *<u>eats</u>, <u>eats</u> pizza, <u>eats</u> quickly, <u>eats</u> pizza quickly at noon*<br><br>
+  - **adjective phrase** (<span style="color:orange"><b>AdjP</b></span>): *<u>happy</u>, <u>ugly</u>*<br><br>
+  - **adverb phrase** (<span style="color:brown"><b>AdvP</b></span>): *<u>quickly</u>, <u>happily</u>*
+]
+  
+.pull-right[
+- **one constituent can contain another**:<br><br>
+  - <u>*the man with the hat*</u> (<span style="color:green"><b>NP</b></span>) contains <u>*with the hat*</u> (<span style="color:purple"><b>PP</b></span>), which contains <u>*the hat*</u> (<span style="color:green"><b>NP</b></span>)<br><br>
+  - <u>*eats quickly at noon*</u> (<span style="color:blue"><b>VP</b></span>)contains <u>*quickly*</u> (<span style="color:brown"><b>AdvP</b></span>) and <u>*at noon*</u> (<span style="color:purple"><b>PP</b></span>)<br><br>
+<img src="../pic/0926/hat.png" width="45%">&nbsp;&nbsp;&nbsp;
+<img src="../pic/0926/noon.png" width="45%">
+]
+  
+---
+background-image: url("../pic/0926/video1.png")
+background-size: contain
+baground-position: center
+
+---
+## **Constituency Tests**
+<br><br>
+.pull-left[
+- There are four tests to **identify** whether a group of words IS a **constituent** or NOT: <br><br>
+  - Replacement (substitution) test <br><br>
+  - Movement test <br><br>
+  - Stand-alone test <br><br>
+  - Coordination test <br><br>
+- **These don't work 100% of the time**, and some tests work better with some sentences. Hence, you might have to try several
+]
+.pull-right[
+<img src="../pic/0926/brocco.png" width="85%">
+]
+<br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* ate *<b><span style="color:blue">[his bland broccoli]</span></b>*.
+
+---
+## **Replacement (Substitution) Test**
+<br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* ate *<b><span style="color:blue">[his bland broccoli]</span></b>*.
+<br>
+.pull-left[
+- **replacement**: replace a group of words with a **pro-form**. If it works, they are one constituent <br><br>
+- **pro-from**: <u>pronoun</u> or other generic expression like <u>there</u>, <u>like that</u>, <u>do</u>, <u>do that</u>, <u>that way</u><br><br>
+  - *<span style="color:blue">[The lugubrious man]</span> ate his bland broccoli* → *<span style="color:blue">[He]</span> ate his bland broccoli.* <br><br>
+  - *The lugubrious man <span style="color:blue">[ate his bland]</span> broccoli* → *The lugubrious man <span style="color:blue">[???] broccoli.*<br><br>
+  - Try the replacement test with  [bland broccoli], [the lugurbious] and [man ate]
+]
+.pull-right[
+<img src="../pic/0926/broccotree.png" width="85%"> <br><br>
+'*The lugubrious man ate his bland broccoli*.'
+]
+---
+## **Movement Test**
+<br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* ate *<b><span style="color:blue">[his bland broccoli]</span></b>*.
+<br>
+.pull-left[
+- **movement test**: move a group of words to a different part of the sentence<br><br>
+- You may have to add **extra** words to support this movement<br><br>
+  - → *The person who <u>ate his bland broccoli</u> is <span style="color:blue">[the lugubrious man]</span>*.<br><br>
+  - → \* *<u>Man</u> who <u>ate his bland broccoli</u> is <span style="color:blue">[the lugubrious]</span>*.<br><br>
+  - Try the movement test with [his bland broccoli], [his bland] and [man ate]
+]
+.pull-right[
+<img src="../pic/0926/broccotree.png" width="85%"> <br><br>
+'*The lugubrious man ate his bland broccoli*.'
+]
+
+---
+## **Movement Test Bonus**
+<br>
+### *<b><span style="color:green">[The dog]</span></b>* ate *<b><span style="color:blue">[the sandwich]</span></b> <b><span style="color:orange">[today]</span></b>*.
+### *<b><span style="color:orange">[Today]</span></b> <b><span style="color:green">[the dog]</span></b>* ate *<b><span style="color:blue">[the sandwich]</span></b>*.
+
+.pull-left[
+<br>
+How do we know whether it was <b><span style="color:orange">'today'</span></b> moved or <b><span style="color:green">'the dog ate the sandwich'</span></b>?
+<br><br>
+<img src="../pic/0926/dog.png" width="60%">
+]
+
+--
+.pull-right[
+<img src="../pic/0926/dogtree.png" width="70%"> <br><br>
+'*The dog ate the sandwich today*.'
+]
+
+---
+## **Stand Alone Test**
+<br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* ate *<b><span style="color:blue">[his bland broccoli]</span></b>*.
+<br>
+.pull-left[
+- **stand alone test**: come up with a question that can be answered by just saying the group of words you want to test **on its own** <br><br>
+  - → *Who <u>ate his bland broccoli</u>?*<br>
+  *<span style="color:blue">[the lugubrious man]</span>!* <br><br>
+  - Try the stand alone test with [his bland broccoli], [the lugubrious] or [man ate]?
+]
+.pull-right[
+<img src="../pic/0926/broccotree.png" width="85%"> <br><br>
+'*The lugubrious man ate his bland broccoli*.'
+]
+
+---
+## **Coordination Test**
+<br>
+### *<b><span style="color:green">[The lugubrious man]</span></b>* ate *<b><span style="color:blue">[his bland broccoli]</span></b>*.
+<br>
+.pull-left[
+- **coordination test**: coordinating conjunctions like <b><span style="color:green">and</span></b> or <b><span style="color:green">or</span></b> will always join two words or phrases of **the same type**<br><br>
+- If a group of words is a constituent, we are able to insert another phrase of the same type joined with <b><span style="color:green">and</span></b> or <b><span style="color:green">or</span></b> <br><br>
+  - → *<span style="color:blue">[the lugubrious man]</span> and <span style="color:orange">[Rumpelstilzchen]</span> <u>ate</u> their <u>bland broccoli</u>*.<br><br>
+  - Try the coordination test with [his bland broccoli], [man ate] and [his bland]
+]
+.pull-right[
+<img src="../pic/0926/broccotree.png" width="85%"> <br><br>
+'*The lugubrious man ate his bland broccoli*.'
+]
+---
+## **Practice**
+<br>
+.pull-left[
+<img src="../pic/0926/fork.jpeg" width="90%"> <br><br>
+]
+.pull-right[
+Use **constituency tests** to determine whether the underlined part is a **constituent** in each sentence:<br><br>
+1. <u>The tragedy</u> upset the entire family. <br><br>
+2. They hid <u>in the cave</u>. <br><br>
+3. The <u>computer was very</u> expensive. <br><br>
+4. The geese <u>swam across</u> the lake. <br><br>
+5. Mary gave <u>a book to her sister</u>. <br><br>
+6. Linda read <u>a book about geology</u>.
+]
+
+---
+class: center, middle
+**HOMEWORK II** is due this Sunday<br><br>
+**HOMEWORK III** will be published during this weekend, you have one week to submit<br><br>
+**Syntax reading 2** by next Wednesday<br><br>
+<img src="../pic/0919/fine.jpeg" width="70%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
