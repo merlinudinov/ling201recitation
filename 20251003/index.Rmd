@@ -1,0 +1,622 @@
+---
+title: "**Syntax II**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2025/10/03 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+## Some Quick Notes
+<br><br>
+<h3>1. slides uploaded again for the class on <b><span style="color:red">Sept 26</span></b></h3>
+<br><br>
+<h3>2. Homework 3 is due <b><span style="color:red">this Sunday</span></b></h3>
+<br><br>
+<h3>3. If you have any questions, come to the office hour <b><span style="color:red">next Wednesday (1-2 pm)</span></b></h3>
+<br><br>
+<h3>4. Any question concerning the <b><span style="color:red">mid-term</span></b>?</h3>
+
+---
+## **Previously on 201**
+### Movement test
+<br>
+- If you can move a string of words **together to another place** in a sentence while meaning about the same thing, the string is a constituent. <br><br>
+  - **Clefting**: putting the string of words between <b><span style="color:orange">it was</span></b>/<b><span style="color:orange">it is</span></b> and a <b><span style="color:orange">that</span></b>/<b><span style="color:orange">who</span></b>/<b><span style="color:orange">who</span></b> at the beginning of the sentence<br><br>
+  - **Preposing**:  putting the string of words before a <b><span style="color:orange">is</span></b>/<b><span style="color:orange">are</span></b> <b><span style="color:orange">what</span></b> or <b><span style="color:orange">is</span></b>/<b><span style="color:orange">are</span></b> <b><span style="color:orange">who</span></b> at the beginning of the sentence<br><br>
+
+.pull-left[
+- She bought <b><u><span style="color:green">a brand new car</span></u></b>.<br><br>
+  - **Clefting**: <b><span style="color:orange">It was</span></b> <b><u><span style="color:green">a brand new car</span></u></b> that she bought.
+  - **Preposing**: <b><u><span style="color:green">A brand new car</span></u></b> <b><span style="color:orange">was what</span></b> she bought.
+]
+.pull-left[
+- She <b><u><span style="color:green">bought a brand</span></u></b> new car.<br><br>
+  - **Clefting**: **\* **<b><span style="color:orange">It was</span></b> <b><u><span style="color:green">bought a brand new car</span></u></b> that she...
+  - **Preposing**: **\* **<b><u><span style="color:green">Bought a brand new car</span></u></b> <b><span style="color:orange">was what</span></b> she...
+]
+
+---
+## **Previously on 201**
+### Movement test
+<br>
+- If you can move a string of words **together to another place** in a sentence while meaning about the same thing, the string is a constituent. <br><br>
+  - **Clefting**: putting the string of words between <b><span style="color:orange">it was</span></b>/<b><span style="color:orange">it is</span></b> and a <b><span style="color:orange">that</span></b>/<b><span style="color:orange">who</span></b>/<b><span style="color:orange">who</span></b> at the beginning of the sentence<br><br>
+  - **Preposing**:  putting the string of words before a <b><span style="color:orange">is</span></b>/<b><span style="color:orange">are</span></b> <b><span style="color:orange">what</span></b> or <b><span style="color:orange">is</span></b>/<b><span style="color:orange">are</span></b> <b><span style="color:orange">who</span></b> at the beginning of the sentence<br><br>
+
+.pull-left[
+- They played <b><u><span style="color:green">in the garden</span></u></b>.<br>
+  - <b><u><span style="color:green">in the garden</span></u></b> is a constituent<br><br>
+
+- They <b><u><span style="color:green"> played in the garden</span></u></b>.<br>
+  - <b><u><span style="color:green">played in the garden</span></u></b> is a constituent
+
+]
+.pull-left[
+- They <b><u><span style="color:green">studied for the exam</span></u></b> in the library.<br>
+  - <b><u><span style="color:green">studied for the exam</span></u></b> is a constituent<br><br>
+
+- They <b><u><span style="color:green">studied for</span></u></b> the exam in the library.<br>
+  - <b><u><span style="color:green">studied for</span></u></b> is not a constituent
+]
+
+---
+## **Previously on 201**
+<br>
+###**constituent**: a group of words that <span style="color:green"><b>acts together</b></span> as a **unit** <br><br>
+
+### **phrases**: types of constituents
+<br>
+- Each phrase has a main word or **head**, and they are named after the **head** word's **part of speech** (PoS):<br><br>
+  - **noun phrase** (<span style="color:green"><b>NP</b></span>): *<u>man</u>, the <u>man</u>, the happy <u>man</u>, the <u>man</u> with the hat*<br><br>
+  - **prepositional phrase** (<span style="color:purple"><b>PP</b></span>): *<u>into</u> the forest, <u>by</u> the author, <u>for</u> good luck*<br><br>
+  - **verb phrase** (<span style="color:blue"><b>VP</b></span>): *<u>eats</u>, <u>eats</u> pizza, <u>eats</u> quickly, <u>eats</u> pizza quickly at noon*<br><br>
+  - **adjective phrase** (<span style="color:orange"><b>AdjP</b></span>): *<u>happy</u>, <u>ugly</u>*<br><br>
+  - **adverb phrase** (<span style="color:brown"><b>AdvP</b></span>): *<u>quickly</u>, <u>happily</u>*
+  
+---
+## **Phrase Structure Rules** (PSRs)
+<br>
+There are (descriptive) rules that indicate **how phrases are built out of smaller units** (which could be words or other phrases)<br><br>
+  - These rules are called **phrase structure rules** <br><br>
+  - They indicate the order and position of the smaller units in a phrase <br><br>
+
+We derive these rules by observing what are the possible structures that exist in natural language<br><br>
+
+.pull-left[
+<br><br>
+<h3><b>NP</b> → (D) (AdjP+) N (PP)</h3>
+]
+
+.pull-right[
+<img src="../pic/1003/nppsr.png" width="70%">
+]
+
+---
+## Notaional Notes
+<br>
+Phrase structure rules indicate the **order** and **position** of the sub-parts.
+<br><br>
+.pull-left[
+<img src="../pic/1003/notation1.png" width="90%">
+]
+.pull-right[
+<h3><b>NP</b> → (D) (AdjP+) N (PP)</h3><br>
+<img src="../pic/1003/notation2.png" width="100%">
+]
+
+---
+## **Phrase Structure Rules for English**
+<br>
+.pull-left[
+- <h3><b><span style="color:green">NP</span></b> → (D) (AdjP+) <b><span style="color:red">N</span></b> (PP+)</h3><br>
+- <h3><b><span style="color:green">PP</span></b> → <b><span style="color:red">P</span></b> NP</h3><br>
+- <h3><b><span style="color:green">AdjP</span></b> → (AdvP) <b><span style="color:red">Adj</span></b></h3><br>
+- <h3><b><span style="color:green">AdvP</span></b> → (AdvP) <b><span style="color:red">Adv</span></b></h3><br>
+]
+.pull-right[
+- <h3><b><span style="color:green">TP</span></b> → NP <b><span style="color:red">(T)</span></b> VP</h3><br>
+- <h3><b><span style="color:green">CP</span></b> → <b><span style="color:red">C</span></b> TP</h3><br>
+]
+- <h3><b><span style="color:green">VP</span></b> → (AdvP+) <b><span style="color:red">V</span></b> (NP) (NP) (AdvP+) (PP+) (AdvP+)</h3>
+
+
+---
+.pull-left[
+## **Practice**
+### NP, PP, AdjP, AdvP
+<br>
+Draw a syntax tree for the underlined phrases. <br><br>
+a. I ate <u>an apple</u>.<br><br>
+b. Don't stare at <u>the bright sun</u>.<br><br>
+c. John went <u>into the building</u>.<br><br>
+d. They're like <u>peas in a pod</u>.<br><br>
+e. The bakery sells <u>wonderfully fresh bread</u>.<br><br>
+f. I like to drive <u>really slowly</u>.<br><br>
+g. Mary helped <u>the man in the car with the flat tire</u>.<br><br>
+h. I threw a ball to <u>the dog with a collar in the park</u>.
+]
+.pull-right[
+<img src="../pic/1003/psr.png" width="100%">
+<br><br><br><br>
+<img src="../pic/1003/a1.png" width="30%">
+<img src="../pic/1003/a2.png" width="30%">
+<img src="../pic/1003/a3.png" width="30%">
+<br><br><br>
+In **g** does *with the flat tire* modify 'the man' or 'the car'? What about *in the park* in **h**?
+]
+---
+.pull-left[
+## **Practice**
+### NP, PP, AdjP, AdvP
+<br>
+### b. <u>the bright sun</u>
+]
+.pull-right[
+<img src="../pic/1003/psr.png" width="100%">]
+<br><br>
+--
+<img src="../pic/1003/b1.png" width="22%" style="margin-right:30px;">
+--
+<img src="../pic/1003/b2.png" width="22%" style="margin-right:30px;">
+--
+<img src="../pic/1003/b3.png" width="22%" style="margin-right:30px;">
+--
+<img src="../pic/1003/b4.png" width="22%" style="margin-right:30px;">
+
+---
+.pull-left[
+## **Practice**
+### NP, PP, AdjP, AdvP
+]
+.pull-right[
+<img src="../pic/1003/psr.png" width="100%">]
+<br><br>
+--
+<img src="../pic/1003/c.png" width="22%" style="margin-right:30px;">
+--
+<img src="../pic/1003/d.png" width="18%" style="margin-right:30px;">
+--
+<img src="../pic/1003/e.png" width="24%" style="margin-right:30px;">
+--
+<img src="../pic/1003/f.png" width="16%" style="margin-right:30px;">
+<br><br>
+
+---
+## Quick Notes
+<br><br>
+1. draw an AdjP for **each** adjective, an AdvP for **each** adverb <br><br>
+2. if X modifies Y, X must be a child of the same parent as Y <br><br>
+.pull-left[
+<img src="../pic/1003/ndog.png" width="90%">
+]
+.pull-right[
+<img src="../pic/1003/vdog.png" width="90%">
+]
+
+
+---
+### **Tense Phrases (TP)**
+<br>
+**Sentences** are labeled as tense phrases. In many cases, we can split a sentence into a **NP** and a **VP**
+<br><br>
+.pull-left[
+- <h3><b><span style="color:green">TP</span></b> → NP <b><span style="color:red">(T)</span></b> VP</h3>
+<br>
+The **head** of a TP is the **T(ense)** node<br><br>
+It can be occupied by: <br><br>
+  - overt **auxiliaries** (is, was, are, will, have...)<br><br>
+  - **modals** (can, could...), or<br><br>
+  - infinitive marker **to**<br><br>
+  - abstract **present/past tense**]
+.pull-right[
+<img src="../pic/1003/t1.png" width="40%"><br><br>
+'*Tina will escape.*'
+<br><br>
+<img src="../pic/1003/t2.png" width="40%"><br><br>
+'*Tina escaped.*'
+]
+
+---
+.pull-left[
+## **Practice**
+### VP, TP
+<br>
+Draw a syntax tree for the following sentences.
+<br><br>
+a. The robin caught a worm.<br><br>
+b. The mockingbird was singing.<br><br>
+c. The sparrow on the windowsill chirped loudly.<br><br>
+d. The osprey brought its hungry chicks a fish.<br><br>
+e. The large owl lives in a nest in the barn.<br><br>
+f. The duck quickly led her ducklings across the street.<br><br>
+]
+.pull-right[
+<img src="../pic/1003/psr.png" width="100%">
+<br><br><br><br><br><br><br><br>
+**challenge**: The irritable bluejay noisily warned the other small birds about the very large circling hawk in the clear sky.]
+
+---
+### **Complementiser Phrases (CP)**
+<br>
+.pull-left[
+Consider the following sentence: <br><br>
+  - Tina thinks <u>that her brother has finished his homework</u>.<br><br>
+  
+Is the underlined string a constituent?<br><br>
+  - <u>That her brother has finished his homework</u> is what Tina thinks.
+  - What does Tina think? <u>That her brother has finished his homework</u>.<br><br>
+  
+**CP**s are sentences preceded by a complementiser:<br>
+- <h3><b><span style="color:green">CP</span></b> → <b><span style="color:red">C</span></b> TP</h3>]
+
+--
+.pull-right[
+<img src="../pic/1003/cp.png" width="90%">
+<br><br>
+*'that her brother has finished his homework'*
+]
+
+---
+## **Revised VP**
+<br><br>
+.pull-left[
+<h3><b><span style="color:green">VP</span></b> → (AdvP+) <b><span style="color:red">V</span></b> (NP)<br>
+<b><span style="color:blue">(NP)</span></b> (AdvP+) (PP+) (AdvP+)</h3>
+<br><br>
+<h3><b><span style="color:green">VP</span></b> → (AdvP+) <b><span style="color:red">V</span></b> (NP)<br>
+<b><span style="color:blue">({NP, CP})</span></b> (AdvP+) (PP+) (AdvP+)</h3>
+]
+.pull-right[
+<img src="../pic/1003/tina.png" width="90%">
+]
+
+---
+.pull-left[
+## **Practice**
+### complex sentences
+<br>
+Identify the **complementiser** (if any) in each of these sentences, and determine whether:
+  - the CP is **acting as** an NP, AdvP, or AdjP
+  - the CP it is **being inserted into** an NP or a VP. <br><br>
+a. John said that he likes pizza.<br><br>
+b. The dog I saw can run fast.<br><br>
+c. I will take an umbrella if it rains.<br><br>
+d. I am studying because I am taking a test tomorrow.<br><br>
+e. I saw a deer that was grazing in the park.<br><br>
+f. I want to go to California.<br><br>
+]
+.pull-right[
+<img src="../pic/1003/psr.png" width="100%">
+<br><br>
+<img src="../pic/1003/pizza.png" width="65%">
+<br><br>
+'*John said that he likes pizza*.'
+]
+
+---
+## **Practice**
+### complex sentences
+<br><br>
+.pull-left[
+<img src="../pic/1003/fastdog.png" width="90%"><br><br>
+'*The dog I saw can run fast*.'
+]
+.pull-right[
+<img src="../pic/1003/rain.png" width="90%"><br><br>
+'*I will take an umbrella if it rains*.'
+]
+---
+## **Part 1, Homework 2**
+<br>
+.pull-left[
+a. maen mixunaem
+
+b. maen ketab nemixunaem
+
+c. shoma ketab mixunid
+
+d. shoma ketab nexundid
+
+e. maen ketab xundaem
+
+f. maen nexundaemesh
+]
+.pull-right[
+‘I am reading.’
+
+‘I am not reading a book.’
+
+‘You are reading a book.’
+
+‘You did not read a book.’
+
+‘I read (past tense) a book.’
+
+‘I did not read it.’
+]
+
+___
+
+.pull-left[
+1.	‘read’<br>
+2.	‘book’<br>
+3.	negation (‘not’)<br>
+4.	1st person (‘I’)<br>
+5.	2nd person (‘you’)<br>
+6.	‘it’<br>
+7.	present progressive tense<br>
+8.	past tense<br>
+]
+.pull-right[
+i.	‘I am reading a book.’<br><br>
+ii.	‘I am not reading.’<br><br>
+iii.	‘You read (past tense) a book.’<br><br>
+iv.	‘You are reading it.’
+]
+---
+## **Part 1, Homework 2**
+<br>
+.pull-left[
+a. <span style="color:red">maen</span> <span style="color:orange">mixunaem</span>
+
+b. <span style="color:red">maen</span> <span style="color:green">ketab</span> <span style="color:blue">ne</span><span style="color:orange">mixunaem</span>
+
+c. shoma <span style="color:green">ketab</span> mixunid
+
+d. shoma ketab nexundid
+
+e. maen ketab xundaem
+
+f. maen nexundaemesh
+]
+.pull-right[
+‘I am reading.’
+
+‘I am not reading a book.’
+
+‘You are reading a book.’
+
+‘You did not read a book.’
+
+‘I read (past tense) a book.’
+
+‘I did not read it.’
+]
+
+___
+
+.pull-left[
+**step 1**, compare:
+  - a. <span style="color:red">maen</span> <span style="color:white">ketab</span> <span style="color:white">ne</span><span style="color:orange">mixunaem</span>
+  - b. <span style="color:red">maen</span> <span style="color:green">ketab</span> <span style="color:blue">ne</span><span style="color:orange">mixunaem</span><br>
+  
+**result**: now we know, <span style="color:green">ketab</span> and <span style="color:blue">ne</span> are <b>*book*</b> and <b>*not*</b>, but we don't know which one is which
+]
+.pull-right[
+**step 2**, compare:
+  - b. maen <span style="color:green">ketab</span> <span style="color:blue">ne</span>mixunaem
+  - c. shoma <span style="color:green">ketab</span> mixunid <br>
+
+**result**: now we know <span style="color:green">ketab</span> is <b>*book*</b> and <span style="color:blue">ne</span> is <b>*not*</b> <br>
+
+why don't we compare b and d?
+]
+
+---
+## **Part 1, Homework 2**
+<br>
+.pull-left[
+a. <span style="color:red">maen</span> <span style="color:orange">mixun</span>aem
+
+b. <span style="color:red">maen</span> ketab nemixunaem
+
+c. <span style="color:deepskyblue">shoma</span> ketab <span style="color:orange">mixun</span>id
+
+d. <span style="color:deepskyblue">shoma</span> ketab nexundid
+
+e. <span style="color:red">maen</span> ketab xundaem
+
+f. <span style="color:red">maen</span> nexundaemesh
+]
+.pull-right[
+‘<span style="color:red">I</span> am reading.’
+
+‘<span style="color:red">I</span> am not reading a book.’
+
+‘<span style="color:deepskyblue">You</span> are reading a book.’
+
+‘<span style="color:deepskyblue">You</span> did not read a book.’
+
+‘<span style="color:red">I</span> read (past tense) a book.’
+
+‘<span style="color:red">I</span> did not read it.’
+]
+
+___
+
+.pull-left[
+**step 3**, compare all sentences with <span style="color:red">maen</span> and all sentences with <span style="color:deepskyblue">shoma</span> <br>
+
+**result**: now we know <span style="color:red">maen</span> is <b>*I*</b> and <span style="color:deepskyblue">shoma</span> is <b>*you*</b> <br>
+]
+
+.pull-right[
+**step 4**, compare:
+  - a. maen <span style="color:orange">mixun</span>aem
+  - c. shoma ketab <span style="color:orange">mixun</span>id <br>
+
+**result**: now we know <span style="color:orange">mixun</span> is <b>*am/are reading*</b>
+]
+
+---
+## **Part 1, Homework 2**
+<br>
+.pull-left[
+a. maen <span style="color:cornflowerblue">mi</span><span style="color:orange">xun</span>aem
+
+b. maen ketab ne<span style="color:cornflowerblue">mi</span><span style="color:orange">xun</span>aem
+
+c. shoma ketab mixunid
+
+d. shoma ketab nexundid
+
+e. maen ketab <span style="color:orange">xun</span><span style="color:cornflowerblue">d</span>aem
+
+f. maen ne<span style="color:orange">xun</span><span style="color:cornflowerblue">d</span>aem**esh**
+]
+.pull-right[
+‘I am reading.’
+
+‘I am not reading a book.’
+
+‘You are reading a book.’
+
+‘You did not read a book.’
+
+‘I read (past tense) a book.’
+
+‘I did not read it.’
+]
+
+___
+
+.pull-left[
+**step 5**, compare:
+  - a. maen <span style="color:cornflowerblue">mi</span><span style="color:orange">xun</span>aem
+  - e. maen ketab <span style="color:orange">xun</span><span style="color:cornflowerblue">d</span>aem <br>
+
+**result 1**: now we know <span style="color:cornflowerblue">mi</span><span style="color:orange">xun</span> is <b>*am/are reading*</b> and <span style="color:orange">xun</span><span style="color:cornflowerblue">d</span> is <b>*read (past_tense)*</b><br>
+
+**result 2**: we also know that <span style="color:orange">xun</span> is <b>*read*</b>, <span style="color:cornflowerblue">mi</span> is <b>*present progressive tense*</b> and <span style="color:cornflowerblue">d</span> is is <b>*past tense*</b>
+]
+
+.pull-right[
+**step 6**, compare:
+  - b. maen ketab ne<span style="color:cornflowerblue">mi</span><span style="color:orange">xun</span>aem
+  - f. maen ne<span style="color:orange">xun</span><span style="color:cornflowerblue">d</span>aem**esh**
+  
+<br>
+
+**result**: the only difference now tells us that **esh** is <b>*it*</b>
+]
+
+---
+## **Part 1, Homework 2**
+<br>
+.pull-left[
+a. <span style="color:red">maen</span> <span style="color:cornflowerblue">mi</span><span style="color:orange">xun</span><b><u>aem</b></u>
+
+b. <span style="color:red">maen</span> <span style="color:green">ketab</span> <span style="color:blue">ne</span><span style="color:cornflowerblue">mi</span><span style="color:orange">xun</span><b><u>aem</b></u>
+
+c. <span style="color:purple">shoma</span> <span style="color:green">ketab</span> <span style="color:cornflowerblue">mi</span><span style="color:orange">xun</span><b><u>id</b></u>
+
+d. <span style="color:purple">shoma</span> <span style="color:green">ketab</span> <span style="color:blue">ne</span><span style="color:orange">xun</span><span style="color:cornflowerblue">d</span><b><u>id</b></u>
+
+e. <span style="color:red">maen</span> <span style="color:green">ketab</span> <span style="color:orange">xun</span><span style="color:cornflowerblue">d</span><b><u>aem</b></u>
+
+f. <span style="color:red">maen</span> <span style="color:blue">ne</span><span style="color:orange">xun</span><span style="color:cornflowerblue">d</span><b><u>aem</b></u>**esh**
+]
+.pull-right[
+‘I am reading.’
+
+‘I am not reading a book.’
+
+‘You are reading a book.’
+
+‘You did not read a book.’
+
+‘I read (past tense) a book.’
+
+‘I did not read it.’
+]
+___
+
+**step 7**: check whether what we currently assume is working <br><br>
+
+- **yet do we finish everything?** nope, we still have <b><u>aem</b></u> and <b><u>id</b></u> to figure out<br><br>
+
+- it seems they are not **tense**-related, since in **a** and **e** (or **c** and **d**), <b><u>aem</b></u> (or <b><u>id</b></u>) can occur either in *present progressive tense* or in *past tense*<br><br>
+
+But we find that <b><u>aem</b></u> only occurs together with <span style="color:red">maen</span>, and <b><u>id</b></u> only with <span style="color:purple">shoma</span>, so they are also **person**-related
+
+---
+## **Part 1, Homework 2**
+<br>
+.pull-left[
+a. <span style="color:red">maen</span> <span style="color:cornflowerblue">mi</span><span style="color:orange">xun</span><b><u>aem</b></u>
+
+b. <span style="color:red">maen</span> <span style="color:green">ketab</span> <span style="color:blue">ne</span><span style="color:cornflowerblue">mi</span><span style="color:orange">xun</span><b><u>aem</b></u>
+
+c. <span style="color:purple">shoma</span> <span style="color:green">ketab</span> <span style="color:cornflowerblue">mi</span><span style="color:orange">xun</span><b><u>id</b></u>
+
+d. <span style="color:purple">shoma</span> <span style="color:green">ketab</span> <span style="color:blue">ne</span><span style="color:orange">xun</span><span style="color:cornflowerblue">d</span><b><u>id</b></u>
+
+e. <span style="color:red">maen</span> <span style="color:green">ketab</span> <span style="color:orange">xun</span><span style="color:cornflowerblue">d</span><b><u>aem</b></u>
+
+f. <span style="color:red">maen</span> <span style="color:blue">ne</span><span style="color:orange">xun</span><span style="color:cornflowerblue">d</span><b><u>aem</b></u>**esh**
+]
+.pull-right[
+‘I am reading.’
+
+‘I am not reading a book.’
+
+‘You are reading a book.’
+
+‘You did not read a book.’
+
+‘I read (past tense) a book.’
+
+‘I did not read it.’
+]
+
+___
+
+.pull-left[
+.pull-left[
+1.	‘read’<br>
+2.	‘book’<br>
+3.	negation (‘not’)<br>
+4.	1st person (‘I’)<br>
+5.	2nd person (‘you’)<br>
+6.	‘it’<br>
+7.	pres. progressive<br>
+8.	past<br>
+]
+.pull-right[
+<span style="color:orange">xun</span><br>
+<span style="color:green">ketab</span><br>
+<span style="color:blue">ne-</span><br>
+<span style="color:red">maen</span> & <b><u>-aem</b></u><br>
+<span style="color:purple">shoma</span> & <b><u>-id</b></u><br>
+**-esh**<br>
+<span style="color:cornflowerblue">mi-</span><br>
+<span style="color:cornflowerblue">-id</span><br>
+]
+]
+.pull-right[
+i.	‘I am reading a book.’<br>
+<span style="color:white">i.</span><span style="color:red">maen</span> <span style="color:green">ketab</span> <span style="color:cornflowerblue">mi-</span><span style="color:orange">xun</span><b><u>-aem</b></u><br>
+ii.	‘I am not reading.’<br>
+<span style="color:white">i.</span><span style="color:red">maen</span> <span style="color:blue">ne-</span><span style="color:cornflowerblue">mi-</span><span style="color:orange">xun</span><b><u>-aem</b></u><br>
+iii.	‘You read (past tense) a book.’<br>
+<span style="color:white">i.</span><span style="color:purple">shoma</span> <span style="color:green">ketab</span> <span style="color:orange">xun</span><span style="color:cornflowerblue">-d</span><u>-id</b></u><br>
+iv.	‘You are reading it.’<br>
+<span style="color:white">i.</span><span style="color:purple">shoma</span> <span style="color:cornflowerblue">mi-</span><span style="color:orange">xun</span><b><u>-id</b></u>**-esh**
+]
+---
+class: center, middle
+**HOMEWORK III** is due this Sunday<br><br>
+**Mid-term**: next Friday 10:20 - 11:40 am, Oct 10, 2025 at [**ED-025B**](https://dcs.rutgers.edu/classrooms/graduate-school-education-room-025b) (clickable)<br><br>
+<img src="../pic/0919/fine.jpeg" width="70%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).

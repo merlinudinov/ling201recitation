@@ -40,8 +40,8 @@ Homework 1 due: <u>11:59 p.m., Sep 21, 2025</u>
 Homework 2 due: <u>11:59 p.m., Sep 28, 2025</u>
 <br><br>
 
-#### **Week 05**: Syntax II (Oct 03)
-Homework 3
+#### **Week 05**: [Syntax II](https://merlinudinov.github.io/ling201recitation/20251003) (Oct 03)
+Homework 3 due: <u>11:59 p.m., Oct 05, 2025</u>
 <br><br>
 
 #### **Week 06**: Review & Exam (Oct 10)
