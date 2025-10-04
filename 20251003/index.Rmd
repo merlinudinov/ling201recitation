@@ -16,17 +16,6 @@ output:
       countIncrementalSlides: false
 
 ---
-## Some Quick Notes
-<br><br>
-<h3>1. slides uploaded again for the class on <b><span style="color:red">Sept 26</span></b></h3>
-<br><br>
-<h3>2. Homework 3 is due <b><span style="color:red">this Sunday</span></b></h3>
-<br><br>
-<h3>3. If you have any questions, come to the office hour <b><span style="color:red">next Wednesday (1-2 pm)</span></b></h3>
-<br><br>
-<h3>4. Any question concerning the <b><span style="color:red">mid-term</span></b>?</h3>
-
----
 ## **Previously on 201**
 ### Movement test
 <br>
@@ -41,8 +30,8 @@ output:
 ]
 .pull-left[
 - She <b><u><span style="color:green">bought a brand</span></u></b> new car.<br><br>
-  - **Clefting**: **\* **<b><span style="color:orange">It was</span></b> <b><u><span style="color:green">bought a brand new car</span></u></b> that she...
-  - **Preposing**: **\* **<b><u><span style="color:green">Bought a brand new car</span></u></b> <b><span style="color:orange">was what</span></b> she...
+  - **Clefting**: **\* **<b><span style="color:orange">It was</span></b> <b><u><span style="color:green">bought a brand</span></u></b> that she (did) new car...
+  - **Preposing**: **\* **<b><u><span style="color:green">Bought a brand</span></u></b> <b><span style="color:orange">was what</span></b> she (did) new car...
 ]
 
 ---
@@ -181,27 +170,70 @@ In **g** does *with the flat tire* modify 'the man' or 'the car'? What about *in
 .pull-right[
 <img src="../pic/1003/psr.png" width="100%">]
 <br><br>
---
-<img src="../pic/1003/c.png" width="22%" style="margin-right:30px;">
---
-<img src="../pic/1003/d.png" width="18%" style="margin-right:30px;">
---
-<img src="../pic/1003/e.png" width="24%" style="margin-right:30px;">
---
-<img src="../pic/1003/f.png" width="16%" style="margin-right:30px;">
+.pull-left[
+.pull-left[
+<img src="../pic/1003/c.png" width="90%">
+]
+.pull-right[
+<img src="../pic/1003/d.png" width="90%">
+]
+]
+.pull-right[
+.pull-left[
+<img src="../pic/1003/e.png" width="90%">
+]
+.pull-right[
+<img src="../pic/1003/f.png" width="90%">
+]
+]
 <br><br>
+.pull-left[
+.pull-left[
+c. '*into the building*'
+]
+.pull-right[
+d. '*peas in a pod*'
+]
+]
+.pull-right[
+.pull-left[
+e. '*wonderfully fresh bread*'
+]
+.pull-right[
+f. '*really slowly*'
+]
+]
+---
+.pull-left[
+## **Practice**
+### NP, PP, AdjP, AdvP
+<br>
+**g. the man in the car with the flat tire**
+<br><br>
+<img src="../pic/1003/hard1.png" width="70%">
+]
+.pull-right[
+<img src="../pic/1003/psr.png" width="100%">
+<br><br>
+<img src="../pic/1003/hard2.png" width="80%">
+]
+<br><br>
+Think about why it is the tree on the **left**, not the one on the **right** (both trees are correct according to PSRs).
 
 ---
 ## Quick Notes
-<br><br>
+<br>
+**h. I throw a ball to the dog with a collar in the park.**
 1. draw an AdjP for **each** adjective, an AdvP for **each** adverb <br><br>
 2. if X modifies Y, X must be a child of the same parent as Y <br><br>
 .pull-left[
-<img src="../pic/1003/ndog.png" width="90%">
+<img src="../pic/1003/ndog.png" width="80%">
 ]
 .pull-right[
-<img src="../pic/1003/vdog.png" width="90%">
+<img src="../pic/1003/vdog.png" width="80%">
 ]
+<br>
+- So here on the **LEFT**, PP is under a NP, which means this PP modifies the **head N** (dog) in the NP (dog is in the park);and on the **RIGHT**, PP is under a VP, which means this PP modifies the **head V** (threw) in the VP (thowing happens in the park). This is where sometimes there is **AMBIGUITY**! It is because of PP can be under either an NP or a VP according to our **phrase structure rules**.
 
 
 ---
@@ -244,6 +276,76 @@ f. The duck quickly led her ducklings across the street.<br><br>
 <img src="../pic/1003/psr.png" width="100%">
 <br><br><br><br><br><br><br><br>
 **challenge**: The irritable bluejay noisily warned the other small birds about the very large circling hawk in the clear sky.]
+
+---
+## **Practice**
+### VP, TP
+<br><br>
+.pull-left[
+<img src="../pic/1003/v1.png" width="90%">
+]
+.pull-right[
+<img src="../pic/1003/v2.png" width="90%">
+]
+<br><br>
+.pull-left[
+a. '*The robin caught a worm*.'
+]
+.pull-right[
+b. '*The mockingbird was singing loudly*.'
+]
+
+---
+## **Practice**
+### VP, TP
+<br><br>
+.pull-left[
+<img src="../pic/1003/v3.png" width="90%">
+]
+.pull-right[
+<img src="../pic/1003/v4.png" width="90%">
+]
+<br><br>
+.pull-left[
+c. '*The sparrow on the windowsill chirped loudly*.'
+]
+.pull-right[
+d. '*The osprey brought its hungry chicks a fish*.'
+]
+
+---
+## **Practice**
+### VP, TP
+<br><br>
+.pull-left[
+<img src="../pic/1003/v5.png" width="90%">
+]
+.pull-right[
+<img src="../pic/1003/v6.png" width="90%">
+]
+<br><br>
+.pull-left[
+e. '*The large owl lives in a nest in the barn*.'
+]
+.pull-right[
+f. '*The duck quickly led her ducklings across the street*.'
+]
+
+---
+## **Practice**
+### VP, TP
+<br>
+<img src="../pic/1003/cha1.png" width="90%">
+<br><br>
+**☆** '*The irritable bluejay noisily warned the other small birds about the very large circling hawk in the clear sky*.'
+
+---
+## **Practice**
+### VP, TP
+<br>
+<img src="../pic/1003/cha2.png" width="90%">
+<br><br>
+**☆** '*The irritable bluejay noisily warned the other small birds about the very large circling hawk in the clear sky*.'
 
 ---
 ### **Complementiser Phrases (CP)**
