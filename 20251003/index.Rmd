@@ -414,7 +414,7 @@ f. I want to go to California.<br><br>
 '*The dog I saw can run fast*.'
 ]
 .pull-right[
-<img src="../pic/1003/rain.png" width="90%"><br><br>
+<img src="../pic/1003/rains.png" width="90%"><br><br>
 '*I will take an umbrella if it rains*.'
 ]
 ---
