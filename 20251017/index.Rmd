@@ -33,10 +33,10 @@ output:
   - **Semantics** studies <u>*literal meaning*</u> in language <br><br>
   
 <span style="color:green"><b>implied meaning</b></span><br><br>
-  - <span style="color:green"><b>pragmatics</b></span> studies <u>*implied meaning*</u> in language <br><br>
+  - <span style="color:green"><b>Pragmatics</b></span> studies <u>*implied meaning*</u> in language <br><br>
   
 <span style="color:blue"><b>social meaning</b></span><br><br>
-  - <span style="color:blue"><b>Sociolinguistics</b></span> and <span style="color:green"><b>Linguistic Anthropology</b></span> study <u>*social meaning*</u>
+  - <span style="color:blue"><b>Sociolinguistics</b></span> and <span style="color:blue"><b>Linguistic Anthropology</b></span> study <u>*social meaning*</u>
 ]
 .pull-right[
 <img src="../pic/1017/seman1.jpg" width="85%">
