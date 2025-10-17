@@ -44,10 +44,10 @@ Homework 2 due: <u>11:59 p.m., Sep 28, 2025</u>
 Homework 3 due: <u>11:59 p.m., Oct 05, 2025</u>
 <br><br>
 
-#### **Week 06**: Review & Exam (Oct 10)
+#### **Week 06**: Midterm Exam (Oct 10)
 <br>
 
-#### **Week 07**: Semantics I (Oct 17)
+#### **Week 07**: [Semantics I](https://merlinudinov.github.io/ling201recitation/20251017) (Oct 17)
 <br>
 
 #### **Week 08**: Semantics II (Oct 24)
@@ -74,6 +74,7 @@ Wednesday recitation class, Thanksgiving adjustment
 <br><br>
 
 #### **Week 14**: Phonology III (Dec 05)
-<br>
+Homework 8
+<br><br>
 
 #### **Final Exam**: Friday, Dec. 19, 12:00 – 3:00 pm, ABE, Room 1180

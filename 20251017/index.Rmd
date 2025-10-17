@@ -1,0 +1,238 @@
+---
+title: "**Semantics I**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2025/10/17 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+## **Previously on 201**
+<br>
+### Midterm <br><br>
+### Semantics
+  - **Lexical Semantics**: the meaning of words (or lexical items)
+  - **Compositional Semantics**: the meaning beyond words (phrases, sentences, e.g.)<br><br>
+
+### **truth value**: if a proposition is **TRUE** or **FALSE** <br><br>
+### **possible worlds**: an alternative reality where we want to check on the proposition's **truth value**
+
+---
+## Different Meanings in Languages <br><br>
+.pull-left[
+**literal meaning**<br><br>
+  - **Semantics** studies <u>*literal meaning*</u> in language <br><br>
+  
+<span style="color:green"><b>implied meaning</b></span><br><br>
+  - <span style="color:green"><b>pragmatics</b></span> studies <u>*implied meaning*</u> in language <br><br>
+  
+<span style="color:blue"><b>social meaning</b></span><br><br>
+  - <span style="color:blue"><b>Sociolinguistics</b></span> and <span style="color:green"><b>Linguistic Anthropology</b></span> study <u>*social meaning*</u>
+]
+.pull-right[
+<img src="../pic/1017/seman1.jpg" width="85%">
+]
+
+---
+## **Semantic Relations**
+<br>
+.pull-left[
+- **synonym:** words that have the same reference / refer to the same set of things in the world
+  - <span style="color:green"><b>drinks</b></span> and <span style="color:green"><b>beverages</b></span><br><br>
+- **hypernym:** words whose reference is a **superset** of another words reference<br><br>
+  - <span style="color:green"><b>student</b></span> is a hypernym to <span style="color:green"><b>linguistics student</b></span><br><br>
+- **hyponym:** words whose reference is a **subset** of another words reference
+  - <span style="color:green"><b>dog</b></span> is a hyponym to <span style="color:green"><b>mammal</b></span><br><br>
+- **antonym:** words that have opposite meanings
+]
+.pull-right[
+<img src="../pic/1017/seman2.jpg" width="65%">
+]
+
+---
+## **Semantic Relations: Antonyms**
+<br>
+.pull-left[
+- **complementary pairs:** items that can't be in both categories
+  - <span style="color:green"><b>alive</b></span> vs. <span style="color:green"><b>dead</b></span><br><br>
+  
+- **gradable pairs:** opposite ends of a scale
+  - <span style="color:green"><b>young</b></span> vs. <span style="color:green"><b>old</b></span><br><br>
+  
+- **reverses:** opposite directions
+  - <span style="color:green"><b>up</b></span> vs. <span style="color:green"><b>down</b></span><br><br>
+  
+- **converses:** same action, different perspective
+  - <span style="color:green"><b>buy</b></span> vs. <span style="color:green"><b>sell</b></span><br><br>
+]
+.pull-right[
+<img src="../pic/1017/seman3.png" width="100%">
+]
+
+---
+## Practics: Semantic Relations
+<br>
+- Are the following word pairs **synonyms**, **antonyms**, or a **hypernym-hyponym pair**? If the last, which is the
+hypernym and which is the hyponym?<br><br>
+.pull-left[
+<br>
+<img src="../pic/1017/seman4.jpg" width="90%">
+]
+.pull-right[
+1. bird – avian<br><br>
+2. bird – sparrow<br><br>
+3. bird – animal<br><br>
+4. synonym - antonym (what type?)<br><br>
+5. hypernym - hyponym (what type?)<br><br>
+6. Rutgers - universities<br><br>
+7. Linguistics - Mathematics<br><br>
+8. **MORE**?
+]
+
+---
+class: middle, center
+
+## **ENTAILMENT** <br><br>
+
+### sentence **p** entails sentence **q** <span style="color:green"><b>iff</b></span> **q** is true <span style="color:green"><b>whenever</b></span> **p** is true.<br><br>
+
+### <span style="color:green"><b>iff</b></span>: if and only if
+### "<span style="color:green"><b>whenever</b></span>": it means you cannot find any possible world, 
+### where **q** is **false** while **p** is **true**
+
+---
+class: middle, center
+
+## **ENTAILMENT** <br><br>
+
+### sentence **p** entails sentence **q** <span style="color:green"><b>iff</b></span> **q** is true <span style="color:green"><b>whenever</b></span> **p** is true.<br><br>
+
+### <u>Merlin is a Linguistics student</u>. ***entails*** <u>Merlin is a student</u>. <br><br>
+### If Merlin is **NOT** a student, it means
+### there is **NO** possibility for Merlin to be a Linguistics student.
+  
+---
+.pull-left[
+## Practice I: Entailment
+]
+.pull.right[
+**Entailment**: Sentence **p** entails sentence **q** <span style="color:green"><b>iff</b></span><br>
+**q** is true whenever **p** is true.
+]
+<br>
+For each pair of sentences, which one entails the other one?<br><br>
+.pull-left[
+- **a**. Charles III is the King of the United Kingdom.<br>
+**b**. Queen Elizabeth II was Charles's mother.<br><br>
+- **a**. I am tired.<br>
+**b**. I am very very very very very very tired.<br><br>
+- **a**. Bob live above a restaurant on Ocean Avenue.<br>
+**b**. Bob and Linda lives above a restaurant on Ocean Avenue.<br><br>
+- **a**. The kids trick-or-treated on Halloween.<br>
+**b**. The kids trick-or-treated in scary costumes on Halloween.
+]
+.pull-right[
+<img src="../pic/1017/seman5.jpg" width="70%">
+]
+
+---
+.pull-left[
+## Practice II: Entailment
+]
+.pull.right[
+**Entailment**: Sentence **p** entails sentence **q** <span style="color:green"><b>iff</b></span><br>
+**q** is true whenever **p** is true.
+]
+<br>
+
+Work in <span style="color:red"><b>GROUP</b></span>, think of three sentences that are entailed by each of these sentences:<br><br>
+
+.pull-left[
+- **a**. <br>
+The spotted lanternfly is an insect that has spread invasively to New Jersey and can cause damage to forests and fruit crops.<br><br>
+- **b**. <br>
+The starship Enterprise explored strange new worlds, sought out new life and new civilizations, and boldly went where no one had gone before.<br><br>
+]
+.pull-right[
+<img src="../pic/1017/entail2.png" width="60%">
+]
+
+---
+.pull-left[
+## Practice II: Entailment
+]
+.pull.right[
+**Entailment**: Sentence **p** entails sentence **q** <span style="color:green"><b>iff</b></span><br>
+**q** is true whenever **p** is true.
+]
+<br>
+
+Work in <span style="color:red"><b>GROUP</b></span>, think of three sentences that are entailed by each of these sentences:<br><br>
+.pull-left[
+- **c**. <br>
+Controversially, DeLa chose to eliminate herself from the competition after winning the lip-sync battle, which allowed Trixie, Kennedy, and Shangela to all stay in the competition.<br><br>
+- **d**. <br>
+Mario defeated Bowser, but then all he found in the dungeon was Toad, who told him that the princess was in another castle.
+]
+.pull-right[
+<br><br>
+<img src="../pic/1017/entail1.png" width="75%">
+]
+
+---
+## **Logical Entailment**<br><br>
+.pull-left[
+- **p** *entails* **q** for logical reasons, **regardless** of world knowledge or lexical meaning <br><br>
+**p**: <span style="color:green"><b>The cat sat on the mat.</b></span> <br>
+**q**: <span style="color:blue"><b>There is a cat/mat.</b></span> <br><br>
+**p**: <span style="color:green"><b>(a dog): I heard the can opener.</b></span> <br>
+**q**: <span style="color:blue"><b>(Therefore for the dog), FOOD EXISTS!.</b></span> <br><br>
+- We got the entailment relation between **p** and **q** by logical inferences
+]
+.pull-right[
+<img src="../pic/1017/entail1.png" width="75%">
+]
+
+---
+## **World-specific Entailment**<br><br>
+.pull-left[
+- **p** *entails* **q** due to <span style="color:green">world knowledge</span> or <span style="color:green">lexical meaning</span><br><br>
+**p**: <span style="color:green"><b>Charles III is the King of the United Kingdom.</b></span> <br>
+**q**: <span style="color:blue"><b>Queen Elizabeth II was Charles's mother.</b></span> <br><br>
+**p**: <span style="color:green"><b>Merlin is from Scotland. </b></span> <br>
+**q**: <span style="color:blue"><b>Merlin is from UK.</b></span> <br><br>
+- We got the entailment relation between **p** and **q** by making reference to how the world works, or to knowledge of lexical meaning
+]
+.pull-right[
+<img src="../pic/1017/entail3.png" width="75%">
+]
+
+---
+## **Mutual Entailment**<br><br>
+.pull-left[
+- **p** *entails* **q** <span style="color:green"><b>AND</b></span> **q** *entails* **p** as well.<br><br>
+**p**: <span style="color:green"><b>Merlin is a sorcerer.</b></span> <br>
+**q**: <span style="color:blue"><b>Merlin is a wizard.</b></span> <br><br>
+**p**: <span style="color:green"><b>Merlin is immortal </b></span> <br>
+**q**: <span style="color:blue"><b>Merlin is not capable of dying.</b></span> <br><br>
+]
+.pull-right[
+<img src="../pic/1017/entail4.png" width="75%">
+]
+
+---
+class: center, middle
+**no homework** is due this week, none until OCT 26!<br><br>
+continue reading for **SEMANTICS** [*Fromkin Ch7*] <br><br>
+<img src="../pic/1017/nohomework.gif" width="55%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).

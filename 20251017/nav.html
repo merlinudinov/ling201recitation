@@ -11,7 +11,7 @@
 
 
 
-<title>Introduction to Linguistic Theories</title>
+<title>nav.knit</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -252,7 +252,6 @@ if (window.hljs) {
 
 
 
-<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -349,93 +348,103 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Introduction to Linguistic Theories</h1>
-<h3 class="subtitle">(Recitation Sessions)</h3>
-<h4 class="date">Fall, 2025</h4>
 
 </div>
 
 
 <style>
-a {
-color: red;
-text-decoration: none;
+.infobox {
+position: fixed;
+z-index: 2147483647;
+background: rgba(255,255,255,.92);
+padding: 0 .8rem;
+height: 2.2rem;
+line-height: 2.2rem;
+border-radius: .5rem;
+box-shadow: 0 2px 6px rgba(0,0,0,.12);
+font-size: .9rem;
+font-family: inherit;
+white-space: nowrap;
 }
-a:hover {
-color: grey;
-text-decoration: underline;
+
+.navbox {
+bottom: 20px; left: 20px;
+font-weight: normal;
+color: #333333; 
+}
+.navbox a {
+margin-right: .75rem;
+position: relative;
+color: #333333; 
+text-decoration: none; 
+transition: color 0.2s ease;
+}
+.navbox a::after {
+content: "";
+position: absolute;
+left: 0; bottom: -2px;
+width: 100%; height: 2px;
+background-color: #aaaaaa; 
+transform: scaleX(0); 
+transform-origin: right;
+transition: transform 0.25s ease;
+}
+.navbox a:hover {
+color: #aaaaaa; 
+}
+.navbox a:hover::after {
+transform: scaleX(1); 
+transform-origin: left;
+}
+.navbox a:last-child { margin-right: 0; }
+
+.coursebar {
+top: 15px; right: 20px;
+font-size: 1.1rem;
+font-weight: bold;
+color: #333333; 
 }
 </style>
-<p>This is an R Markdown document serving as the directory. You could
-find links to the slides of the recitation sessions for the course
-<em>Introduction to Lingusitic Theories</em> (Fall, 2025).</p>
-<p><br><br></p>
-<div id="week-01-introduction-sept-05" class="section level4">
-<h4><strong>Week 01</strong>: <a href="https://merlinudinov.github.io/ling201recitation/20250905">Introduction</a>
-(Sept 05)</h4>
-<p><br></p>
+<div class="infobox navbox">
+<p><a id="go-first" href="#1">First</a>
+<a id="go-prev" href="#">Previous</a>
+<a id="go-dir" href="../index.html">Directory</a>
+<a id="go-next" href="#">Next</a> <a id="go-last" href="#">Last</a></p>
 </div>
-<div id="week-02-morphology-i-sep-12" class="section level4">
-<h4><strong>Week 02</strong>: <a href="https://merlinudinov.github.io/ling201recitation/20250912">Morphology
-I</a> (Sep 12)</h4>
-<p><br></p>
+<div class="infobox coursebar">
+<p>LING201 – Introduction to Linguistic Theories</p>
 </div>
-<div id="week-03-morphology-ii-sep-19" class="section level4">
-<h4><strong>Week 03</strong>: <a href="https://merlinudinov.github.io/ling201recitation/20250919">Morphology
-II</a> (Sep 19)</h4>
-<p>Homework 1 due: <u>11:59 p.m., Sep 21, 2025</u> <br><br></p>
-</div>
-<div id="week-04-syntax-i-sep-26" class="section level4">
-<h4><strong>Week 04</strong>: <a href="https://merlinudinov.github.io/ling201recitation/20250926">Syntax
-I</a> (Sep 26)</h4>
-<p>Homework 2 due: <u>11:59 p.m., Sep 28, 2025</u> <br><br></p>
-</div>
-<div id="week-05-syntax-ii-oct-03" class="section level4">
-<h4><strong>Week 05</strong>: <a href="https://merlinudinov.github.io/ling201recitation/20251003">Syntax
-II</a> (Oct 03)</h4>
-<p>Homework 3 due: <u>11:59 p.m., Oct 05, 2025</u> <br><br></p>
-</div>
-<div id="week-06-midterm-exam-oct-10" class="section level4">
-<h4><strong>Week 06</strong>: Midterm Exam (Oct 10)</h4>
-<p><br></p>
-</div>
-<div id="week-07-semantics-i-oct-17" class="section level4">
-<h4><strong>Week 07</strong>: <a href="https://merlinudinov.github.io/ling201recitation/20251017">Semantics
-I</a> (Oct 17)</h4>
-<p><br></p>
-</div>
-<div id="week-08-semantics-ii-oct-24" class="section level4">
-<h4><strong>Week 08</strong>: Semantics II (Oct 24)</h4>
-<p>Homework 4 <br><br></p>
-</div>
-<div id="week-09-pragmatics-oct-31" class="section level4">
-<h4><strong>Week 09</strong>: Pragmatics (Oct 31)</h4>
-<p>Homework 5 <br><br></p>
-</div>
-<div id="week-10-phonetics-i-nov-07" class="section level4">
-<h4><strong>Week 10</strong>: Phonetics I (Nov 07)</h4>
-<p><br></p>
-</div>
-<div id="week-11-phonetics-ii-nov-14" class="section level4">
-<h4><strong>Week 11</strong>: Phonetics II (Nov 14)</h4>
-<p>Homework 6 <br><br></p>
-</div>
-<div id="week-12-phonology-i-nov-21" class="section level4">
-<h4><strong>Week 12</strong>: Phonology I (Nov 21)</h4>
-<p>Homework 7 <br><br></p>
-</div>
-<div id="week-13-phonology-ii-nov-26" class="section level4">
-<h4><strong>Week 13</strong>: Phonology II (Nov 26)</h4>
-<p>Wednesday recitation class, Thanksgiving adjustment <br><br></p>
-</div>
-<div id="week-14-phonology-iii-dec-05" class="section level4">
-<h4><strong>Week 14</strong>: Phonology III (Dec 05)</h4>
-<p>Homework 8 <br><br></p>
-</div>
-<div id="final-exam-friday-dec.-19-1200-300-pm-abe-room-1180" class="section level4">
-<h4><strong>Final Exam</strong>: Friday, Dec. 19, 12:00 – 3:00 pm, ABE,
-Room 1180</h4>
-</div>
+<script>
+(function () {
+  function ready(fn){
+    if (document.readyState !== 'loading') fn();
+    else document.addEventListener('DOMContentLoaded', fn);
+  }
+  ready(function initNav(){
+    var tries = 0, iv = setInterval(function(){
+      tries++;
+      var ss = window.slideshow;
+      if (ss && (ss.gotoNextSlide || ss.next)) {
+        clearInterval(iv);
+
+        // Set Last link
+        if (ss.getSlideCount) {
+          document.getElementById('go-last').href = '#' + ss.getSlideCount();
+        }
+
+        // Wire Prev/Next
+        document.getElementById('go-prev').addEventListener('click', function(e){
+          e.preventDefault(); (ss.gotoPreviousSlide || ss.prev).call(ss);
+        });
+        document.getElementById('go-next').addEventListener('click', function(e){
+          e.preventDefault(); (ss.gotoNextSlide || ss.next).call(ss);
+        });
+      }
+      if (tries > 200) clearInterval(iv);
+    }, 50);
+  });
+})();
+</script>
 
 
 
