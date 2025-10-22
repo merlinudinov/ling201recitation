@@ -1,0 +1,279 @@
+---
+title: "**Semantics II**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2025/10/24 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+## **Previously on 201**
+<br>
+.pull-left[
+- different meanings in languages<br><br>
+- semantic relations <br><br>
+  1. synonym<br><br>
+  2. antonym<br><br>
+  3. hypernym<br><br>
+  4. hyponym
+]
+.pull-right[
+- entailment<br><br>
+  - sentence **p** entails sentence **q** <span style="color:green"><b>iff</b></span> **q** is true <span style="color:green"><b>whenever</b></span> **p** is true.<br><br>
+  - world-specific entailment<br><br>
+  - logical entailment<br><br>
+  - mutual entailment
+]
+
+---
+## **SET**
+<br>
+.pull-left[
+A word's **reference** is the <span style="color:green"><b>SET</b></span> of entities (referents) that the word refers to.
+<br><br>
+A <span style="color:green"><b>SET</b></span> is <u>a collection/list of items<br><br>
+- In mathematics, a set also needs to be well-defined;
+  {Legitmate, 3x=5, OIIAI cat.PNG, never-gonna-give-you-up.mp3}
+]
+
+---
+class: center, middle
+
+<video id="myvideo"
+       src="./pic/1024/never.mp4"
+       type="video/mp4"
+       autoplay
+       muted
+       playsinline
+       controls
+       style="height:100vh; width:auto;">
+</video>
+
+<script>
+// Autoplay muted version
+const vid = document.getElementById("myvideo");
+
+// Unmute on first click anywhere
+document.addEventListener("click", function unmuteOnce() {
+  vid.muted = false;
+  vid.play();
+  document.removeEventListener("click", unmuteOnce);
+});
+
+// Pause when leaving slide (arrow keys)
+document.addEventListener("keydown", e => {
+  if (["ArrowRight","PageDown","ArrowLeft","PageUp"].includes(e.key)) {
+    if (!vid.paused) vid.pause();
+  }
+});
+
+// Pause if window/tab not visible
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden && !vid.paused) vid.pause();
+});
+</script>
+
+---
+## Topics to cover
+<br>
+- This week, practice set theory applications to semantics:
+  - Defining sets in terms of list and predicate notation
+  - Evaluating set expressions that involve membership and cardinality
+  - Evaluating set expressions that involve set relations: subset, proper subset, identity
+  - Defining the reference of nouns, adjectives, and verbs in terms of sets
+  - Evaluating set expressions that involve set operations: union, intersection, difference, complement
+  - Translating sentences into set theory expressions
+    - Start with fairly simple sentence structures like Name is NOUN, Name is ADJ, Name VERBs, Name is ADJ NOUN, NOUN is NOUN, NOUN is ADJ, NOUN VERBs, ADJ NOUN VERBs, ADJ NOUN is ADJ NOUN
+    - We may not have time to cover quantifiers, so save them for the end if you have time.
+    
+---
+## **Practice with Sets**
+<br>
+.pull-left[
+Answer the following questions based on this universe:<br><br>
+1. Define the following sets using both list notation and predicate notation:<br><br>
+  1. M, the set of characters with mustaches
+  2. P, the set of characters who are/wear pink
+  3. C, the set of characters with crowns
+  4. G, the set of characters who are ghosts<br><br>
+2. True or false? Why? <br><br>
+  1. Mario ∈ M
+  2. Peach ∉ C
+  3. | C | = 3
+  4. {Daisy, Birdo, Luigi} = {Luigi, Daisy, Birdo}
+  5. | { x | x has a name that starts with 'W' } | = {Wario, Waluigi}<br><br>
+3. Are any of the sets defined in questions 1 singletons? Which one(s)?
+]
+.pull-right[
+<img src="../pic/1024/mario.png" width="88%">
+<br><br>
+Let *U* = universe of Mario Kart characters
+]
+
+---
+## **Practice with Relations**
+<br>
+.pull-left[
+Using the sets defined on the lower right, determine if each of these expressions is true or false.<br><br>
+1. M ⊂ H
+2. R ⊆ F
+3. H = N
+4. N ⊆ M
+5. R ⊄ N
+6. F ⊈ M<br><br>
+
+  1. A = B: equality/identity
+  2. A ⊆ B: subset
+  3. A ⊂ B: proper subset
+  4. A ≠ B: not equal/identical
+  5. A ⊈ B: not a subset
+  6. A ⊄ B: not a proper subset
+]
+.pull-right[
+Let *U* = universe of Mario Kart characters
+<br><br>
+<img src="../pic/1024/mario.png" width="88%">
+<br><br>
+M = { x | x has a mustache} = {Mario, Luigi, Wario, Waluigi}
+
+H = { x | x has a hat} = {Mario, Luigi, Baby Mario, Baby Luigi, Wario, Waluigi}
+
+N = { x | x is a human} = {Mario, Luigi, Baby Mario, Baby Luigi, Peach, Daisy, Wario, Waluigi}
+
+R = { x | x is a princess} = {Peach, Daisy}
+
+F = { x | x is a female human} = {Peach, Daisy}
+]
+
+---
+## **Practice**
+<br>
+.pull-left[
+Write out the lexical meaning of these words using predicate notation. You can assign them variable names like L, W, B, M, S, F:<br><br>
+1. lion				[[lion]] = L = { x | x is lion }
+2. warthog			[[scary]] = K = { x | x is scary }
+3. brown				[[eat]] = E = { x | x eats }
+4. meerkat		
+5. smile
+6. ferocious
+]
+.pull-right[
+<img src="../pic/1024/simba.png" width="85%">
+]
+
+---
+## **Practice**
+<br>
+.pull-left[
+Write out the compositional meaning of these sentences using set theory. Are they true or false? <br><br>
+1. Timon is a warthog. 				
+2. Simba is brown.
+3. Meerkats are ferocious.
+4. Pumbaa smiles.
+5. Lions are not meerkats.
+]
+.pull-right[
+<img src="../pic/1024/simba.png" width="85%">
+]
+
+---
+## **Practice with Sets**
+<br>
+.pull-left[
+Given these sets, calculate the following and describe the resulting set in words:<br><br>
+1. C ∪ P = {Peach, Daisy, King Boo, Birdo, Toadette}
+2. H ∩ O
+3. H – M
+4. P ′
+5. C ∩ S
+6. | F ∪ S |
+7. | C ∩ P |
+8. O – H
+9. ( C ∩ F ) ∪ M
+10. ( F ∪ H )′
+11. True or False: F ∩ S = S ∩ F
+12. True or False: F – S = S – F
+]
+.pull-right[
+Let *U* = universe of Mario Kart characters
+<br><br>
+<img src="../pic/1024/mario.png" width="88%">
+<br><br>
+M = { x | x has a mustache} = {Mario, Luigi, Wario, Waluigi}
+
+H = { x | x has a hat} = {Mario, Luigi, Baby Mario, Baby Luigi, Wario, Waluigi}
+
+C = { x | x has a crown} = {Peach, Daisy, King Boo}
+
+F = { x | x has fangs} = {Bowser, Petey Piranha, King Boo}
+
+P = { x | x is/wears pink} = {Peach, Birdo, Toadette}
+
+S = { x | x has spots} = {Toad, Toadette, Petey Piranha}
+
+O = { x | x's name ends in "o" } = { Mario, Baby Mario, Wario, Birdo, King Boo }
+]
+
+---
+## **Practice**
+<br>
+.pull-left[
+Use set notation to specify the meaning of each of the following sentences:<br><br>
+1. Simba is a cute lion.
+2. Lions are ferocious creatures.
+3. Pumbaa is smelly.
+4. Adult lions roar.
+5. Young lions are adorable animals.
+6. Pumbaa is not a sarcastic meerkat. (how do you do negation?)
+7. Timon and Pumbaa are friendly. (how do you define a set of two elements?)
+8. Lions and warthogs are ferocious. (what set operator would you use?)
+]
+.pull-right[
+<img src="../pic/1024/simba.png" width="85%">
+]
+
+---
+## **Practice**
+<br>
+.pull-left[
+Given the definitions to the right, express the meaning of the following sentences using set theory:<br><br>
+1. Abigail is a villager.
+2. Mr. Qi does not live in Pelican Town.
+3. Every farmer grows crops.
+4. Some villagers raise chickens.
+5. Only one farmer lives in Pelican Town.
+6. Most villagers live in Pelican Town.
+7. Marnie and Shane both raise chickens.
+8. Neither Robin nor Abigail grow crops.
+]
+.pull-right[
+[[Marnie]] = m<br>
+[[Shane]] = s<br>
+[[Mr. Qi]] = q<br>
+[[Robin]] = r<br>
+[[Abigail]] = a<br><br>
+[[villager]] = { x | x is a villager } = V<br>
+[[farmer]] = { x | x is a farmer } = F<br>
+[[grow crops]] = { x | x grows crops } = G<br>
+[[raise chickens]] = { x | x raises chickens } = C<br>
+[[live in Pelican Town]] = { x | x lives in Pelican Town } = P
+]
+
+
+---
+class: center, middle
+**Homework IV** is due this week<br><br>
+**reading materials** before Wednesday class<br>
+Chapter 8: Pragmatics, Griffiths & Cummins' (2017) *An Introduction to English Semantics and Pragmatics*<br><br>
+<img src="../pic/1024/fine.jpeg" width="55%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
