@@ -14,7 +14,6 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-    seal: false
 ---
 ## **Previously on 201**
 <br>
