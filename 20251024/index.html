@@ -10,39 +10,38 @@
   </head>
   <body>
     <textarea id="source">
-class: center, middle, inverse, title-slide
-
-.title[
-# <strong>Semantics II</strong>
-]
-.author[
-### Merlin Balkhash
-]
-.institute[
-### Department of Linguistics, Rutgers University
-]
-.date[
-### 2025/10/24 (updated: 2025-10-22)
-]
-
----
 
 ## **Previously on 201**
 &lt;br&gt;
 .pull-left[
-- different meanings in languages&lt;br&gt;&lt;br&gt;
-- semantic relations &lt;br&gt;&lt;br&gt;
-  1. synonym&lt;br&gt;&lt;br&gt;
-  2. antonym&lt;br&gt;&lt;br&gt;
-  3. hypernym&lt;br&gt;&lt;br&gt;
-  4. hyponym
+- **different meanings in languages**&lt;br&gt;&lt;br&gt;
+  1. literal meaning (semantics)&lt;br&gt;&lt;br&gt;
+  2. implied meaning (pragmatics)&lt;br&gt;&lt;br&gt;
+  3. social meaning (sociolinguistics)&lt;br&gt;&lt;br&gt;
+- **semantic relations** &lt;br&gt;&lt;br&gt;
+  1. synonym *&lt;u&gt;drinks&lt;/u&gt;* vs. *&lt;u&gt;beverages&lt;/u&gt;*&lt;br&gt;&lt;br&gt;
+  2. hypernym *&lt;u&gt;universities&lt;/u&gt;* to *&lt;u&gt;Rutgers&lt;/u&gt;*&lt;br&gt;&lt;br&gt;
+  3. hyponym *&lt;u&gt;jeans&lt;/u&gt;* to *&lt;u&gt;pants&lt;/u&gt;* &lt;br&gt;&lt;br&gt;
+  4. antonym
+
 ]
 .pull-right[
-- entailment&lt;br&gt;&lt;br&gt;
-  - sentence **p** entails sentence **q** &lt;span style="color:green"&gt;&lt;b&gt;iff&lt;/b&gt;&lt;/span&gt; **q** is true &lt;span style="color:green"&gt;&lt;b&gt;whenever&lt;/b&gt;&lt;/span&gt; **p** is true.&lt;br&gt;&lt;br&gt;
-  - world-specific entailment&lt;br&gt;&lt;br&gt;
-  - logical entailment&lt;br&gt;&lt;br&gt;
+- **entailment**: sentence **p** entails sentence **q** &lt;span style="color:green"&gt;&lt;b&gt;iff&lt;/b&gt;&lt;/span&gt; **q** is true &lt;span style="color:green"&gt;&lt;b&gt;whenever&lt;/b&gt;&lt;/span&gt; **p** is true.&lt;br&gt;&lt;br&gt;
+  - world-specific entailment (**q** entails **p**)
+  
+  &lt;span style="color:green"&gt;&lt;b&gt;*p*&lt;/b&gt;&lt;/span&gt;: The water is &lt;span style="color:blue"&gt;&lt;b&gt;hot&lt;/b&gt;&lt;/span&gt; &lt;u&gt;now&lt;/u&gt;.
+  
+  &lt;span style="color:green"&gt;&lt;b&gt;*q*&lt;/b&gt;&lt;/span&gt;: The water is &lt;span style="color:blue"&gt;&lt;b&gt;boiled&lt;/b&gt;&lt;/span&gt; &lt;u&gt;now&lt;/u&gt;&lt;br&gt;&lt;br&gt;
+  - logical entailment  (**p** entails **q**)
+  
+  &lt;span style="color:green"&gt;&lt;b&gt;*p*&lt;/b&gt;&lt;/span&gt;: He finished &lt;span style="color:blue"&gt;&lt;b&gt;all&lt;/b&gt;&lt;/span&gt; his homework.
+  
+  &lt;span style="color:green"&gt;&lt;b&gt;*q*&lt;/b&gt;&lt;/span&gt;: He finished &lt;span style="color:blue"&gt;&lt;b&gt;some of&lt;/b&gt;&lt;/span&gt; his homework.&lt;br&gt;&lt;br&gt;
   - mutual entailment
+  
+  &lt;span style="color:green"&gt;&lt;b&gt;*p*&lt;/b&gt;&lt;/span&gt;: Mary is &lt;span style="color:blue"&gt;&lt;b&gt;older&lt;/b&gt;&lt;/span&gt; than John.
+  
+  &lt;span style="color:green"&gt;&lt;b&gt;*q*&lt;/b&gt;&lt;/span&gt;: John is &lt;span style="color:blue"&gt;&lt;b&gt;younger&lt;/b&gt;&lt;/span&gt; than Mary.&lt;br&gt;&lt;br&gt;
 ]
 
 ---
@@ -52,156 +51,445 @@ class: center, middle, inverse, title-slide
 A word's **reference** is the &lt;span style="color:green"&gt;&lt;b&gt;SET&lt;/b&gt;&lt;/span&gt; of entities (referents) that the word refers to.
 &lt;br&gt;&lt;br&gt;
 A &lt;span style="color:green"&gt;&lt;b&gt;SET&lt;/b&gt;&lt;/span&gt; is &lt;u&gt;a collection/list of items&lt;br&gt;&lt;br&gt;
-- In mathematics, a set also needs to be well-defined;
-  {Legitmate, 3x=5, OIIAI cat.PNG, never-gonna-give-you-up.mp3}
+In **mathematics**:
+
+- a &lt;span style="color:green"&gt;&lt;b&gt;SET&lt;/b&gt;&lt;/span&gt; needs to be **well-defined**
+- meaning there is at least one **commonality** among all items.&lt;br&gt;&lt;br&gt;
+
+- {2, 4, 6, 8, 10,...} [the set of even numbers]&lt;br&gt;&lt;br&gt;
+
+Yet in **semantics**:
+
+- a **list** is also considered a &lt;span style="color:green"&gt;&lt;b&gt;SET&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+- {legitmate, 3x=5, OIIAI-cat.GIF, *never-gonna-give-you-up.MP4*}
+]
+.pull-right[
+&lt;br&gt;&lt;br&gt;
+&lt;img src="../pic/1024/oiiai.gif" width="45%"&gt;
+&lt;img src="../pic/1024/stress.gif" width="45%"&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;img src="../pic/1024/kiss.gif" width="90%"&gt;
 ]
 
 ---
-class: center, middle
+class: center, middle, video-slide
 
-&lt;video id="myvideo"
-       src="./pic/1024/never_web.mp4"
-       type="video/mp4"
-       autoplay
-       muted
-       playsinline
-       controls
-       style="height:100vh; width:auto;"&gt;
+&lt;style&gt;
+.video-slide .remark-slide-content {
+  background: black !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+}
+
+.video-slide video {
+  width: 80%;   /* adjust this number for size (e.g., 70% or 90%) */
+  height: auto;
+  border: none;
+  border-radius: 8px;  /* optional soft corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* subtle shadow */
+}
+&lt;/style&gt;
+
+&lt;video id="vid"
+  src="https://merlinudinov.github.io/ling201recitation/pic/1024/never_web.mp4"
+  type="video/mp4"
+  autoplay
+  muted
+  controls     &lt;!-- ✅ adds play/pause + volume/unmute --&gt;
+  playsinline&gt;
 &lt;/video&gt;
 
 &lt;script&gt;
-// Autoplay muted version
-const vid = document.getElementById("myvideo");
+const v = document.getElementById("vid");
 
-// Unmute on first click anywhere
-document.addEventListener("click", function unmuteOnce() {
-  vid.muted = false;
-  vid.play();
-  document.removeEventListener("click", unmuteOnce);
+// Allow manual unmute via click
+v.addEventListener("click", () =&gt; {
+  if (v.muted) v.muted = false;
 });
 
-// Pause when leaving slide (arrow keys)
+// Pause when leaving the slide
 document.addEventListener("keydown", e =&gt; {
-  if (["ArrowRight","PageDown","ArrowLeft","PageUp"].includes(e.key)) {
-    if (!vid.paused) vid.pause();
+  if (["ArrowRight","ArrowLeft","PageUp","PageDown"].includes(e.key)) {
+    if (!v.paused) v.pause();
   }
-});
-
-// Pause if window/tab not visible
-document.addEventListener("visibilitychange", () =&gt; {
-  if (document.hidden &amp;&amp; !vid.paused) vid.pause();
 });
 &lt;/script&gt;
 
 ---
-## Topics to cover
-&lt;br&gt;
-- This week, practice set theory applications to semantics:
-  - Defining sets in terms of list and predicate notation
-  - Evaluating set expressions that involve membership and cardinality
-  - Evaluating set expressions that involve set relations: subset, proper subset, identity
-  - Defining the reference of nouns, adjectives, and verbs in terms of sets
-  - Evaluating set expressions that involve set operations: union, intersection, difference, complement
-  - Translating sentences into set theory expressions
-    - Start with fairly simple sentence structures like Name is NOUN, Name is ADJ, Name VERBs, Name is ADJ NOUN, NOUN is NOUN, NOUN is ADJ, NOUN VERBs, ADJ NOUN VERBs, ADJ NOUN is ADJ NOUN
-    - We may not have time to cover quantifiers, so save them for the end if you have time.
-    
----
-## **Practice with Sets**
+## **Set Theory**
 &lt;br&gt;
 .pull-left[
-Answer the following questions based on this universe:&lt;br&gt;&lt;br&gt;
-1. Define the following sets using both list notation and predicate notation:&lt;br&gt;&lt;br&gt;
-  1. M, the set of characters with mustaches
-  2. P, the set of characters who are/wear pink
-  3. C, the set of characters with crowns
-  4. G, the set of characters who are ghosts&lt;br&gt;&lt;br&gt;
-2. True or false? Why? &lt;br&gt;&lt;br&gt;
-  1. Mario ∈ M
-  2. Peach ∉ C
-  3. | C | = 3
-  4. {Daisy, Birdo, Luigi} = {Luigi, Daisy, Birdo}
-  5. | { x | x has a name that starts with 'W' } | = {Wario, Waluigi}&lt;br&gt;&lt;br&gt;
-3. Are any of the sets defined in questions 1 singletons? Which one(s)?
+1. in a set, **order** of items &lt;span style="color:green"&gt;&lt;b&gt;does not&lt;/b&gt;&lt;/span&gt; matter
+  - {a, b, c} = {a, c, b} = {b, a, c} = {b, c, a} = {c, a, b} = {c, b, a} 
+&lt;br&gt;&lt;br&gt;
+2. **repetitions** of items &lt;span style="color:green"&gt;&lt;b&gt;do not&lt;/b&gt;&lt;/span&gt; count as 'separate' items.
+  - {a, b, c} = {a, a, a, b, c} = {a, b, b, c, c}
+&lt;br&gt;&lt;br&gt;
+3. An &lt;span style="color:green"&gt;&lt;b&gt;ITEM&lt;/b&gt;&lt;/span&gt; in a set is called the **MEMEBER** of that set
+  - and we use symbol **∈** to describe membership relation &lt;br&gt;&lt;br&gt;
+  - a **∈** {a, b, c}
+  - a **is in** / &lt;span style="color:green"&gt;&lt;b&gt;belongs to&lt;/b&gt;&lt;/span&gt; / &lt;span style="color:green"&gt;&lt;b&gt;is an element of&lt;/b&gt;&lt;/span&gt; the set {a, b, c}
 ]
 .pull-right[
-&lt;img src="../pic/1024/mario.png" width="88%"&gt;
+&lt;img src="../pic/1024/natural.jpg" width="70%"&gt;
+]
+
+## **∈ ∉**
+---
+## **Set Theory**
+&lt;br&gt;
+.pull-left[
+### **List Notation**
+&lt;br&gt;
+The **list notation** specifies a set by &lt;span style="color:green"&gt;listing its members&lt;/span&gt;  between {curly brackets}&lt;br&gt;&lt;br&gt;
+  - The set &lt;span style="color:green"&gt;*T*&lt;/span&gt; is characters in ***Tom and Jerry***
+  - &lt;span style="color:green"&gt;*T*&lt;/span&gt; = {Tom, Jerry, Tuffy, Spike, Tyke, Butch, Quacker, Cuckoo...}
 &lt;br&gt;&lt;br&gt;
-Let *U* = universe of Mario Kart characters
+
+&lt;img src="../pic/1024/tom.gif" width="22%"&gt;&lt;img src="../pic/1024/jerry.gif" width="22%"&gt;&lt;img src="../pic/1024/spike.gif" width="22%"&gt;&lt;img src="../pic/1024/tyke.gif" width="22%"&gt;
+]
+
+.pull-right[
+### **Predicate Notation**
+&lt;br&gt;
+The **predicate notation** specifies a set by &lt;span style="color:green"&gt;listing its members&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+- &lt;span style="color:green"&gt;*S*&lt;/span&gt; = { x **|** x is a sorcerer }
+- "&lt;span style="color:green"&gt;*S*&lt;/span&gt; equals the set of elements &lt;span style="color:blue"&gt;&lt;b&gt;*x*&lt;/b&gt;&lt;/span&gt;, such that **every** &lt;span style="color:blue"&gt;&lt;b&gt;*x*&lt;/b&gt;&lt;/span&gt; is a sorcerer"
+- normal words: "the set of all sorcerers"
+- **|** stands for "*&lt;u&gt;such that&lt;/u&gt;*" 
+&lt;br&gt;&lt;br&gt;
+
+&lt;div style="text-align:center;"&gt;
+  &lt;img src="../pic/1024/sor.gif" width="30%"&gt;
+&lt;/div&gt;
 ]
 
 ---
-## **Practice with Relations**
+## **Set Theory**: relations between two sets
+.pull-left[
+### **subset (⊆)**:
+- A is a subset of B if **every** element of A is **also** an element of B
+  - {a, b} **⊆** {a, b, c}
+  - {a, b} **⊆** {a, b}
+  - **~~a ⊆ {a, b, c}~~**, this is **WRONG**, because **a** is not a set
+
+### **proper subset (⊂)**:
+- A is a proper subset of B if A is a **subset** of B and they are not **identical**
+  - {a, b} **⊆** {a, b, c}
+
+### **identity (=)**:
+- two sets are identical/equal if they have **exactly the same** elements
+  - {a, b} **=** {b, a}
+]
+.pull-right[
+  &lt;img src="../pic/1024/set.jpg" width="85%"&gt;
+]
+
+---
+## **Set Operations: (∪&lt;span style="color:white"&gt;aa&lt;/span&gt;∩&lt;span style="color:white"&gt;aa&lt;/span&gt;-&lt;span style="color:white"&gt;aa&lt;/span&gt;')**
+&lt;br&gt;
+
+--
+
+### &lt;span style="color:green"&gt;&lt;b&gt;union (∪)&lt;/b&gt;&lt;/span&gt;
+- produces a new set which contains &lt;span style="color:green"&gt;&lt;b&gt;all elements&lt;/b&gt;&lt;/span&gt; that belong to &lt;span style="color:green"&gt;&lt;b&gt;both sets&lt;/b&gt;&lt;/span&gt; (including elements in both sets)&lt;br&gt;&lt;br&gt;
+
+--
+
+### &lt;span style="color:blue"&gt;&lt;b&gt;intersection (∩)&lt;/b&gt;&lt;/span&gt;
+- produces a new set that &lt;span style="color:blue"&gt;&lt;b&gt;only contains&lt;/b&gt;&lt;/span&gt; elements that belong to &lt;span style="color:blue"&gt;&lt;b&gt;BOTH&lt;/b&gt;&lt;/span&gt; sets&lt;br&gt;&lt;br&gt;
+
+--
+
+### &lt;span style="color:orange"&gt;&lt;b&gt;difference (-)&lt;/b&gt;&lt;/span&gt;
+- the difference of A and B is a new set which contains all elements that &lt;span style="color:orange"&gt;&lt;b&gt;belong to A&lt;/b&gt;&lt;/span&gt;, but &lt;span style="color:orange"&gt;&lt;b&gt;NOT B&lt;/b&gt;&lt;/span&gt;
+- A - B is &lt;span style="color:orange"&gt;&lt;b&gt;not&lt;/b&gt;&lt;/span&gt; equal to B - A in most cases&lt;br&gt;&lt;br&gt;
+
+--
+
+### **complement (')**
+- produces a new set which contains all elements in the **relevant universe** that are **NOT** in the set
+
+---
+## **Set Theory**: relations between two sets
 &lt;br&gt;
 .pull-left[
-Using the sets defined on the lower right, determine if each of these expressions is true or false.&lt;br&gt;&lt;br&gt;
-1. M ⊂ H
-2. R ⊆ F
-3. H = N
-4. N ⊆ M
-5. R ⊄ N
+### **cardinality**: the number of elements in a set
+&lt;br&gt;
+- if A = {a, b, c}
+
+  then the **cardinality** of the set A, **|A|** = 3
+  
+  also, **|A|** = **|{a, b, c}|**&lt;br&gt;&lt;br&gt;
+- &lt;span style="color:green"&gt;&lt;b&gt;singleton set&lt;/b&gt;&lt;/span&gt;: a set with cardinality = 1
+- &lt;span style="color:green"&gt;&lt;b&gt;null set&lt;/b&gt;&lt;/span&gt; &lt;span style="color:green"&gt;&lt;b&gt;empty set&lt;/b&gt;&lt;/span&gt;: a set with cardinality = 0
+  - {} = **Ø** "empty set"
+]
+.pull-right[
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+  &lt;img src="../pic/1024/card.jpg" width="85%"&gt;
+]
+&lt;br&gt;&lt;br&gt;
+when talking about the **meaning** of a word, and not its structure, use:
+
+### **[[double brackets]]**
+
+---
+class: middle, center
+
+# **BACK** &lt;span style="color:green"&gt;&lt;b&gt;TO&lt;/b&gt;&lt;/span&gt; &lt;span style="color:BLUE"&gt;LANGUAGES&lt;b&gt;&lt;/b&gt;&lt;/span&gt;
+
+---
+## **Lexicon**: how parts of speech are defined
+&lt;br&gt;
+.pull-left[
+
+### &lt;span style="color:green"&gt;&lt;b&gt;proper nouns&lt;/b&gt;&lt;/span&gt;
+- [[Merlin]] &lt;span style="color:white"&gt;&lt;b&gt;aaaa&lt;/b&gt;&lt;/span&gt;(*Merlin is an element*) &lt;br&gt;&lt;br&gt;
+
+### &lt;span style="color:blue"&gt;&lt;b&gt;common nouns&lt;/b&gt;&lt;/span&gt;
+- [[sorcerer]] = { x | x is a sorcerer } &lt;br&gt;&lt;br&gt;
+
+### &lt;span style="color:orange"&gt;&lt;b&gt;adjectives nouns&lt;/b&gt;&lt;/span&gt;
+- [[desperate]] = { x | x is desperate } &lt;br&gt;&lt;br&gt;
+
+### **verbs**
+- [[run]] = { x | x runs }
+]
+.pull-right[
+  &lt;img src="../pic/1024/part.jpg" width="85%"&gt;
+]
+
+---
+## Practice I
+&lt;br&gt;
+**define the reference in terms of sets**&lt;br&gt;
+.pull-left[
+### 1. &lt;span style="color:green"&gt;&lt;b&gt;[[sleep]]&lt;/b&gt;&lt;/span&gt;
+&lt;span style="color:white"&gt;[[sleep]] = { x | x sleeps }&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+
+### 2. &lt;span style="color:blue"&gt;&lt;b&gt;[[Arthur]]&lt;/b&gt;&lt;/span&gt;
+&lt;span style="color:white"&gt;[[Arthur]] = arthur&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+
+### 3. &lt;span style="color:orange"&gt;&lt;b&gt;[[happy]]&lt;/b&gt;&lt;/span&gt;
+&lt;span style="color:white"&gt;[[happy]] = { x | x is happy }&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+
+### 4. **[[king]]**
+&lt;span style="color:white"&gt;[[king]] = { x | x is a king }&lt;/b&gt;&lt;/span&gt;
+]
+.pull-right[
+  &lt;img src="../pic/1024/part2.jpg" width="95%"&gt;
+]
+
+---
+## Practice I
+&lt;br&gt;
+**define the reference in terms of sets**&lt;br&gt;
+.pull-left[
+### 1. &lt;span style="color:green"&gt;&lt;b&gt;[[sleep]]&lt;/b&gt;&lt;/span&gt;
+[[sleep]] = { x | x sleeps }&lt;br&gt;&lt;br&gt;
+
+### 2. &lt;span style="color:blue"&gt;&lt;b&gt;[[Arthur]]&lt;/b&gt;&lt;/span&gt;
+[[Arthur]] = arthur &lt;br&gt;&lt;br&gt;
+
+### 3. &lt;span style="color:orange"&gt;&lt;b&gt;[[happy]]&lt;/b&gt;&lt;/span&gt;
+[[happy]] = { x | x is happy }&lt;br&gt;&lt;br&gt;
+
+### 4. **[[king]]**
+[[king]] = { x | x is a king }
+]
+.pull-right[
+  &lt;img src="../pic/1024/part2.jpg" width="95%"&gt;
+]
+
+---
+## **Composition of meanings**
+### sentence type I (proper name subjects)
+&lt;br&gt;
+.pull-left[
+**"name is NOUN"**
+- [[name]] ∈ [[NOUN]]
+- "Arthur is a king."
+  - [[Arthur]] ∈ [[king]]
+&lt;br&gt;&lt;br&gt;
+
+&lt;span style="color:orange"&gt;&lt;b&gt;"name VERB"&lt;/b&gt;&lt;/span&gt;
+- [[name]] ∈ [[VERB]]
+- "Arthur sleeps."
+  - [[Arthur]] ∈ [[sleep]]
+&lt;br&gt;&lt;br&gt;
+
+&lt;span style="color:green"&gt;&lt;b&gt;"name is ADJECTIVE"&lt;/b&gt;&lt;/span&gt;
+- [[name]] ∈ [[ADJ]]
+- "Arthur is happy"
+  - [[Arthur]] ∈ [[happy]]
+]
+.pull-right[
+&lt;br&gt;&lt;br&gt;
+  &lt;img src="../pic/1024/rock.png" width="95%"&gt;
+]
+
+---
+## **Composition of meanings**
+### sentence type II (common noun subjects)
+&lt;br&gt;
+.pull-left[
+  &lt;img src="../pic/1024/verb.png" width="80%"&gt;
+]
+.pull-right[
+**"name is NOUN"**
+- [[NOUN]] ∈ [[NOUN]]
+- "sorcerers are winners."
+  - [[sorcerer]] ∈ [[winner]]
+&lt;br&gt;&lt;br&gt;
+
+&lt;span style="color:orange"&gt;&lt;b&gt;"name VERB"&lt;/b&gt;&lt;/span&gt;
+- [[NOUN]] ∈ [[VERB]]
+- "sorcerers giggle."
+  - [[sorcerer]] ⊆ [[giggle]]
+&lt;br&gt;&lt;br&gt;
+
+&lt;span style="color:green"&gt;&lt;b&gt;"name is ADJECTIVE"&lt;/b&gt;&lt;/span&gt;
+- [[NOUN]] ∈ [[ADJ]]
+- "sorcerers are evil"
+  - [[sorcerer]] ⊆ [[evil]]
+]
+
+---
+## **Composition of meanings**
+### sentence type III (complex sentences)
+&lt;br&gt;
+.pull-left[
+&lt;span style="color:orange"&gt;&lt;b&gt;"name is ADJECTIVE NOUN"&lt;/b&gt;&lt;/span&gt;
+- [[name]] **∈** [[ADJ]] **∩** [[NOUN]]
+- "Arthur is a famous king."
+  - [[Arthur]] **∈** [[famous]] **∩** [[king]]
+&lt;br&gt;&lt;br&gt;
+
+&lt;span style="color:green"&gt;&lt;b&gt;"ADJECTIVE NOUNs are ADJECTIVE"&lt;/b&gt;&lt;/span&gt;
+- [[ADJ]] **∩** [[NOUN]] **⊆** [[NOUN]]
+- "Evil sorcerers are terrible"
+  - [[evil]] **∩** [[sorcerer]] **⊆** [[terrible]]
+]
+.pull-right[
+  &lt;img src="../pic/1024/comb.png" width="75%"&gt;
+]
+
+---
+## Practice II
+&lt;br&gt;
+**Translate sentences into set theory expressions.**&lt;br&gt;&lt;br&gt;
+.pull-left[
+1. Music is beautiful.&lt;br&gt;&lt;br&gt;
+2. Beautiful fish swim.&lt;br&gt;&lt;br&gt;
+3. Arthur is an ancient figure. &lt;br&gt;&lt;br&gt;
+4. Arthur and Merlin are good friends. &lt;br&gt;&lt;br&gt;
+5. Dark magic is a horrible thing.&lt;br&gt;&lt;br&gt;
+6. Big old dogs are friendly.
+]
+.pull-right[
+  &lt;img src="../pic/1024/catcomma.png" width="95%"&gt;
+]
+
+---
+class: middle, center
+
+# **MORE** &lt;span style="color:green"&gt;&lt;b&gt;PRACTICE&lt;/b&gt;&lt;/span&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+## &lt;span style="color:brown"&gt;&lt;b&gt;MARIO UNIVERSE&lt;/b&gt;&lt;/span&gt;
+   
+---
+## **Practice with Sets: Mario Universe**
+### list notation and predicate notation&lt;br&gt;&lt;br&gt;
+**Define the following sets using both list notation and predicate notation:**&lt;br&gt;&lt;br&gt;
+.pull-left[
+1. M, the set of characters with mustaches&lt;br&gt;&lt;br&gt;
+2. P, the set of characters who are/wear pink&lt;br&gt;&lt;br&gt;
+3. C, the set of characters with crowns&lt;br&gt;&lt;br&gt;
+4. G, the set of characters who are ghosts&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+Are any of the sets defined above **singletons**? Which one(s)?
+]
+.pull-right[
+&lt;u&gt;***U*** = universe of Mario Kart characters&lt;/u&gt;&lt;br&gt;&lt;br&gt;
+&lt;img src="../pic/1024/mario.png" width="95%"&gt;
+]
+
+---
+## **Practice with Sets: Mario Universe**
+### &lt;span style="color:white"&gt;&lt;b&gt;A&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+**True or false? Why?**&lt;br&gt;&lt;br&gt;
+.pull-left[
+1. Mario ∈ M&lt;br&gt;&lt;br&gt;
+2. Peach ∉ C&lt;br&gt;&lt;br&gt;
+3. | C | = 3&lt;br&gt;&lt;br&gt;
+4. {Daisy, Birdo, Luigi} = {Luigi, Daisy, Birdo}&lt;br&gt;&lt;br&gt;
+5. | { x | x has a name that starts with 'W' } | = {Wario, Waluigi}
+]
+.pull-right[
+&lt;u&gt;***U*** = universe of Mario Kart characters&lt;/u&gt;&lt;br&gt;&lt;br&gt;
+&lt;img src="../pic/1024/mario.png" width="95%"&gt;
+]
+
+---
+## **Practice with Relations: Mario Universe**
+&lt;br&gt;
+**Using the sets defined on the lower right, determine if each of these expressions is true or false.**&lt;br&gt;&lt;br&gt;
+.pull-left[
+1. M ⊂ H&lt;br&gt;&lt;br&gt;
+2. R ⊆ F&lt;br&gt;&lt;br&gt;
+3. H = N&lt;br&gt;&lt;br&gt;
+4. N ⊆ M&lt;br&gt;&lt;br&gt;
+5. R ⊄ N&lt;br&gt;&lt;br&gt;
 6. F ⊈ M&lt;br&gt;&lt;br&gt;
 
-  1. A = B: equality/identity
-  2. A ⊆ B: subset
-  3. A ⊂ B: proper subset
-  4. A ≠ B: not equal/identical
-  5. A ⊈ B: not a subset
-  6. A ⊄ B: not a proper subset
+.pull-left[
+&lt;small&gt;&lt;small&gt;&lt;small&gt;
+A **=** B: equality/identity
+
+A **⊆** B: subset
+
+A **⊂** B: proper subset
+&lt;/small&gt;&lt;/small&gt;&lt;/small&gt;
 ]
 .pull-right[
-Let *U* = universe of Mario Kart characters
+&lt;small&gt;&lt;small&gt;&lt;small&gt;
+A **≠** B: not equal/identical
+
+A **⊈** B: not a subset
+
+A **⊄** B: not a proper subset
+&lt;/small&gt;&lt;/small&gt;&lt;/small&gt;
+]
+]
+.pull-right[
+&lt;u&gt; ***U*** = universe of Mario Kart characters&lt;/u&gt;
 &lt;br&gt;&lt;br&gt;
 &lt;img src="../pic/1024/mario.png" width="88%"&gt;
-&lt;br&gt;&lt;br&gt;
-M = { x | x has a mustache} = {Mario, Luigi, Wario, Waluigi}
+&lt;br&gt;
+&lt;small&gt;&lt;small&gt;&lt;small&gt;&lt;i&gt;
+**M** = { x | x has a mustache} = {Mario, Luigi, Wario, Waluigi}
 
-H = { x | x has a hat} = {Mario, Luigi, Baby Mario, Baby Luigi, Wario, Waluigi}
+**H** = { x | x has a hat} = {Mario, Luigi, Baby Mario, Baby Luigi, Wario, Waluigi}
 
-N = { x | x is a human} = {Mario, Luigi, Baby Mario, Baby Luigi, Peach, Daisy, Wario, Waluigi}
+**N** = { x | x is a human} = {Mario, Luigi, Baby Mario, Baby Luigi, Peach, Daisy, Wario, Waluigi}
 
-R = { x | x is a princess} = {Peach, Daisy}
+**R** = { x | x is a princess} = {Peach, Daisy}
 
-F = { x | x is a female human} = {Peach, Daisy}
+**F** = { x | x is a female human} = {Peach, Daisy}
+&lt;/i&gt;&lt;/small&gt;&lt;/small&gt;&lt;/small&gt;
 ]
 
 ---
-## **Practice**
+## **Practice with Sets: Mario Universe**
 &lt;br&gt;
 .pull-left[
-Write out the lexical meaning of these words using predicate notation. You can assign them variable names like L, W, B, M, S, F:&lt;br&gt;&lt;br&gt;
-1. lion				[[lion]] = L = { x | x is lion }
-2. warthog			[[scary]] = K = { x | x is scary }
-3. brown				[[eat]] = E = { x | x eats }
-4. meerkat		
-5. smile
-6. ferocious
-]
-.pull-right[
-&lt;img src="../pic/1024/simba.png" width="85%"&gt;
-]
-
----
-## **Practice**
-&lt;br&gt;
-.pull-left[
-Write out the compositional meaning of these sentences using set theory. Are they true or false? &lt;br&gt;&lt;br&gt;
-1. Timon is a warthog. 				
-2. Simba is brown.
-3. Meerkats are ferocious.
-4. Pumbaa smiles.
-5. Lions are not meerkats.
-]
-.pull-right[
-&lt;img src="../pic/1024/simba.png" width="85%"&gt;
-]
-
----
-## **Practice with Sets**
-&lt;br&gt;
-.pull-left[
-Given these sets, calculate the following and describe the resulting set in words:&lt;br&gt;&lt;br&gt;
-1. C ∪ P = {Peach, Daisy, King Boo, Birdo, Toadette}
+**Given these sets, calculate the following and describe the resulting set in words:**&lt;br&gt;&lt;br&gt;
+1. C ∪ P
 2. H ∩ O
 3. H – M
 4. P ′
@@ -212,77 +500,138 @@ Given these sets, calculate the following and describe the resulting set in word
 9. ( C ∩ F ) ∪ M
 10. ( F ∪ H )′
 11. True or False: F ∩ S = S ∩ F
-12. True or False: F – S = S – F
+12. True or False: F – S = S – F &lt;br&gt;&lt;br&gt;
+
+.pull-left[
+&lt;small&gt;&lt;small&gt;&lt;small&gt;
+&lt;i&gt;A **∪** B&lt;/i&gt;: union
+
+&lt;i&gt;A **∩** B&lt;/i&gt;: intersection
+&lt;/small&gt;&lt;/small&gt;&lt;/small&gt;
 ]
 .pull-right[
-Let *U* = universe of Mario Kart characters
+&lt;small&gt;&lt;small&gt;&lt;small&gt;
+&lt;i&gt;A **-** B&lt;/i&gt;: difference
+
+&lt;i&gt;A**'**&lt;/i&gt;: complement
+&lt;/small&gt;&lt;/small&gt;&lt;/small&gt;
+]
+]
+
+.pull-right[
+&lt;u&gt; ***U*** = universe of Mario Kart characters&lt;/u&gt;
 &lt;br&gt;&lt;br&gt;
 &lt;img src="../pic/1024/mario.png" width="88%"&gt;
-&lt;br&gt;&lt;br&gt;
-M = { x | x has a mustache} = {Mario, Luigi, Wario, Waluigi}
+&lt;br&gt;
+&lt;small&gt;&lt;small&gt;&lt;small&gt;&lt;i&gt;
+**M** = { x | x has a mustache} = {Mario, Luigi, Wario, Waluigi}
 
-H = { x | x has a hat} = {Mario, Luigi, Baby Mario, Baby Luigi, Wario, Waluigi}
+**H** = { x | x has a hat} = {Mario, Luigi, Baby Mario, Baby Luigi, Wario, Waluigi}
 
-C = { x | x has a crown} = {Peach, Daisy, King Boo}
+**C** = { x | x has a crown} = {Peach, Daisy, King Boo}
 
-F = { x | x has fangs} = {Bowser, Petey Piranha, King Boo}
+**F** = { x | x has fangs} = {Bowser, Petey Piranha, King Boo}
 
-P = { x | x is/wears pink} = {Peach, Birdo, Toadette}
+**P** = { x | x is/wears pink} = {Peach, Birdo, Toadette}
 
-S = { x | x has spots} = {Toad, Toadette, Petey Piranha}
+**S** = { x | x has spots} = {Toad, Toadette, Petey Piranha}
 
-O = { x | x's name ends in "o" } = { Mario, Baby Mario, Wario, Birdo, King Boo }
+**O** = { x | x's name ends in "o" } = { Mario, Baby Mario, Wario, Birdo, King Boo }
+&lt;/i&gt;&lt;/small&gt;&lt;/small&gt;&lt;/small&gt;
 ]
 
 ---
-## **Practice**
+class: middle, center
+
+# **MORE** &lt;span style="color:green"&gt;&lt;b&gt;MORE&lt;/b&gt;&lt;/span&gt; &lt;span style="color:blue"&gt;&lt;b&gt;PRACTICE&lt;/b&gt;&lt;/span&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+## &lt;span style="color:brown"&gt;&lt;b&gt;LION KING UNIVERSE&lt;/b&gt;&lt;/span&gt;
+
+---
+## **Practice: Lion King Universe**
 &lt;br&gt;
+**Write out the lexical meaning of these words using predicate notation.**&lt;br&gt;&lt;br&gt;
 .pull-left[
-Use set notation to specify the meaning of each of the following sentences:&lt;br&gt;&lt;br&gt;
-1. Simba is a cute lion.
-2. Lions are ferocious creatures.
-3. Pumbaa is smelly.
-4. Adult lions roar.
-5. Young lions are adorable animals.
-6. Pumbaa is not a sarcastic meerkat. (how do you do negation?)
-7. Timon and Pumbaa are friendly. (how do you define a set of two elements?)
-8. Lions and warthogs are ferocious. (what set operator would you use?)
+1. lion				
+  [[lion]] = L = { x | x is lion } &lt;br&gt;&lt;br&gt;
+2. warthog&lt;br&gt;&lt;br&gt;
+3. brown&lt;br&gt;&lt;br&gt;
+4. meerkat&lt;br&gt;&lt;br&gt;
+5. smile&lt;br&gt;&lt;br&gt;
+6. ferocious
 ]
 .pull-right[
 &lt;img src="../pic/1024/simba.png" width="85%"&gt;
 ]
 
 ---
-## **Practice**
+## **Practice: Lion King Universe**
 &lt;br&gt;
+**Write out the compositional meaning of these sentences using set theory. Are they true or false?** &lt;br&gt;&lt;br&gt;
 .pull-left[
-Given the definitions to the right, express the meaning of the following sentences using set theory:&lt;br&gt;&lt;br&gt;
-1. Abigail is a villager.
-2. Mr. Qi does not live in Pelican Town.
-3. Every farmer grows crops.
-4. Some villagers raise chickens.
-5. Only one farmer lives in Pelican Town.
-6. Most villagers live in Pelican Town.
-7. Marnie and Shane both raise chickens.
+1. Timon is a warthog.
+
+  [[Timon]] ∈ [[warthog]] &lt;br&gt;&lt;br&gt;			
+2. Simba is brown.&lt;br&gt;&lt;br&gt;
+3. Meerkats are ferocious.&lt;br&gt;&lt;br&gt;
+4. Pumbaa smiles.&lt;br&gt;&lt;br&gt;
+5. Lions are not meerkats.&lt;br&gt;&lt;br&gt;
+]
+.pull-right[
+&lt;img src="../pic/1024/simba.png" width="85%"&gt;
+]
+
+---
+## **Practice: Lion King Universe**
+&lt;br&gt;
+**Use set notation to specify the meaning of each of the following sentences:**&lt;br&gt;&lt;br&gt;
+.pull-left[
+1. Simba is a cute lion.&lt;br&gt;&lt;br&gt;
+2. Lions are ferocious creatures.&lt;br&gt;&lt;br&gt;
+3. Pumbaa is smelly.&lt;br&gt;&lt;br&gt;
+4. Adult lions roar.&lt;br&gt;&lt;br&gt;
+5. Young lions are adorable animals.&lt;br&gt;&lt;br&gt;
+6. Pumbaa is not a sarcastic meerkat.&lt;br&gt;&lt;br&gt;
+7. Timon and Pumbaa are friendly.&lt;br&gt;&lt;br&gt;
+8. Lions and warthogs are ferocious.&lt;br&gt;&lt;br&gt;
+6-8 are **tricky**!
+]
+.pull-right[
+&lt;img src="../pic/1024/simba.png" width="85%"&gt;
+]
+
+---
+## **Practice: Stardew Valley universe**
+&lt;br&gt;
+**Given the definitions to the right, express the meaning of the following sentences using set theory:**&lt;br&gt;&lt;br&gt;
+.pull-left[
+1. Abigail is a villager.&lt;br&gt;&lt;br&gt;
+2. Mr. Qi does not live in Pelican Town.&lt;br&gt;&lt;br&gt;
+3. Every farmer grows crops.&lt;br&gt;&lt;br&gt;
+4. Some villagers raise chickens.&lt;br&gt;&lt;br&gt;
+5. Only one farmer lives in Pelican Town.&lt;br&gt;&lt;br&gt;
+6. Most villagers live in Pelican Town.&lt;br&gt;&lt;br&gt;
+7. Marnie and Shane both raise chickens.&lt;br&gt;&lt;br&gt;
 8. Neither Robin nor Abigail grow crops.
 ]
 .pull-right[
-[[Marnie]] = m&lt;br&gt;
-[[Shane]] = s&lt;br&gt;
-[[Mr. Qi]] = q&lt;br&gt;
-[[Robin]] = r&lt;br&gt;
-[[Abigail]] = a&lt;br&gt;&lt;br&gt;
-[[villager]] = { x | x is a villager } = V&lt;br&gt;
-[[farmer]] = { x | x is a farmer } = F&lt;br&gt;
-[[grow crops]] = { x | x grows crops } = G&lt;br&gt;
-[[raise chickens]] = { x | x raises chickens } = C&lt;br&gt;
-[[live in Pelican Town]] = { x | x lives in Pelican Town } = P
+[[Marnie]] = *m*&lt;br&gt;
+[[Shane]] = *s*&lt;br&gt;
+[[Mr. Qi]] = *q*&lt;br&gt;
+[[Robin]] = *r*&lt;br&gt;
+[[Abigail]] = *a*&lt;br&gt;&lt;br&gt;
+[[villager]] = { x | x is a villager } = *V*&lt;br&gt;
+[[farmer]] = { x | x is a farmer } = *F*&lt;br&gt;
+[[grow crops]] = { x | x grows crops } = *G*&lt;br&gt;
+[[raise chickens]] = { x | x raises chickens } = *C*&lt;br&gt;
+[[live in Pelican Town]] = { x | x lives in Pelican Town } = *P*
 ]
 
 
 ---
 class: center, middle
-**Homework IV** is due this week&lt;br&gt;&lt;br&gt;
+**Homework IV** is due this Sunday (**Oct 26**)&lt;br&gt;&lt;br&gt;
+**Homework V** will be published this week which is due next Sunday (**Nov 2**)&lt;br&gt;&lt;br&gt;
 **reading materials** before Wednesday class&lt;br&gt;
 Chapter 8: Pragmatics, Griffiths &amp; Cummins' (2017) *An Introduction to English Semantics and Pragmatics*&lt;br&gt;&lt;br&gt;
 &lt;img src="../pic/1024/fine.jpeg" width="55%"&gt;
