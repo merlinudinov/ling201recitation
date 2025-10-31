@@ -170,7 +170,7 @@ Although they're worded like commands, the maxims are intended to describe how p
 <br><br>
 .pull-left[
 - We **DO** have cases where people <span style="color:green"><b>violate</b></span> or <span style="color:green"><b>ignore</b></span> the **maxims** <br><br>
-- **lying** and **claiming without evidence** would be <span style="color:green"><b>violating</b></span> **maxim of quality <br><br>
+- **lying** and **claiming without evidence** would be <span style="color:green"><b>violating</b></span> maxim of quality <br><br>
 - sometimes, **flouting** a maxim is done to convey additional message for sarcastic or comedic effect <br><br>
   - – <span style="color:orange">*My TA gave me 59 as the final grade intentionally just to fail me*!</b></span> <br>
   – <span style="color:blue">*What a lovely and responsible TA he is!*</b></span><br><br>
@@ -396,7 +396,8 @@ Arthur: <span style="color:blue">Aliens took it while I was asleep.</span>
 - **cancelling** and **reinforcing** are important tests for literal **vs.** implied meaning <br><br>
   - <span style="color:green"><b>literal meaning</b></span> **CANNOT** be cancelled or reinforced<br><br>
   - but <span style="color:green"><b>implicatures</b></span> **CAN** be <br><br>
-- <span style="color:blue">*Merlin speaks English, Kazakh, and Mandarin*.</span><br><br>
+- If we try to cancell the <span style="color:green"><b>literal meaning</b></span><br>
+<span style="color:blue">*Merlin speaks English, Kazakh, and Mandarin*.</span><br><br>
   - <span style="color:green">*but he does not speak Kazakh*.</span><br>
   **cancelling → contradiction**<br><br>
   - <span style="color:orange">*and he speaks Kazakh*.</span><br>
