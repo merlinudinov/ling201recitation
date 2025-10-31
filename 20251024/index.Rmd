@@ -346,19 +346,19 @@ class: middle, center
 ]
 .pull-right[
 **"name is NOUN"**
-- [[NOUN]] ∈ [[NOUN]]
+- [[NOUN]] ⊆ [[NOUN]]
 - "sorcerers are winners."
-  - [[sorcerer]] ∈ [[winner]]
+  - [[sorcerer]] ⊆ [[winner]]
 <br><br>
 
 <span style="color:orange"><b>"name VERB"</b></span>
-- [[NOUN]] ∈ [[VERB]]
+- [[NOUN]] ⊆ [[VERB]]
 - "sorcerers giggle."
   - [[sorcerer]] ⊆ [[giggle]]
 <br><br>
 
 <span style="color:green"><b>"name is ADJECTIVE"</b></span>
-- [[NOUN]] ∈ [[ADJ]]
+- [[NOUN]] ⊆ [[ADJ]]
 - "sorcerers are evil"
   - [[sorcerer]] ⊆ [[evil]]
 ]
