@@ -22,7 +22,7 @@ a:hover {
 }
 </style>
 
-This is an R Markdown document serving as the directory. You could find links to the slides of the recitation sessions for the course *Introduction to Lingusitic Theories* (Fall, 2025).
+This is an R Markdown document serving as the directory. You could find links to the slides of the <b>recitation sessions</b> for the course *Introduction to Lingusitic Theories* (Fall, 2025). Dates listed for in each line are for recitation sessions and lecture sessions are two days before those days in the same week.
 
 <br><br>
 
@@ -45,7 +45,8 @@ Homework 3 due: <u>11:59 p.m., Oct 05, 2025</u>
 <br><br>
 
 #### **Week 06**: Midterm Exam (Oct 10)
-<br>
+Midterm info: Oct 10, 10:20 am - 11:40 pm ([ED-025B](https://dcs.rutgers.edu/classrooms/graduate-school-education-room-025b))
+<br><br>
 
 #### **Week 07**: [Semantics I](https://merlinudinov.github.io/ling201recitation/20251017) (Oct 17)
 <br>
@@ -56,13 +57,14 @@ Homework 4 due: <u>11:59 p.m., Oct 26, 2025</u>
 
 #### **Week 09**: [Pragmatics](https://merlinudinov.github.io/ling201recitation/20251031) (Oct 31)
 Homework 5 due: <u>11:59 p.m., Nov 02, 2025</u>
+<br><br>
 
-#### **Week 10**: Phonetics I (Nov 07)
-<br>
+#### **Week 10**: [Phonetics I](https://merlinudinov.github.io/ling201recitation/20251107) (Nov 07)
+Homework 6 due: <u>11:59 p.m., Nov 09, 2025</u>
+<br><br>
 
 #### **Week 11**: Phonetics II (Nov 14)
-Homework 6
-<br><br>
+<br>
 
 #### **Week 12**: Phonology I (Nov 21)
 Homework 7

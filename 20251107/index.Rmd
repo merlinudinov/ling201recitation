@@ -1,0 +1,541 @@
+---
+title: "**Phonetics I**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2025/11/07 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+## **Previously on 201**
+<br>
+.pull-left[
+<br><br>
+<img src="../pic/1107/choice.jpg" width="90%"> <br><br>
+]
+.pull-right[
+**Pragmatics**<br>
+- the study of how **context** contributes to meaning or it is the study of <span style="color:green"><b>implied meaning</b></span><br><br>
+
+**presuppositions**<br> 
+- background information that is taken for granted or in the <span style="color:green"><b>common ground</b></span> for an utterance to make sense<br><br> 
+
+**conversational implicatures**<br>
+- meaning arises from our understanding of <span style="color:green"><b>how people behave</b></span> in conversation<br><br> 
+
+**Gricean Maxims**<br>
+- quality, <span style="color:green"><b>quantity</b></span>, relevance, <span style="color:green"><b>manner</b></span>
+]
+
+---
+background-image: url("../pic/1107/heart.png")
+background-size: 100% 100%
+background-position: center
+background-repeat: no-repeat
+
+class: center, middle
+
+<br><br>
+## <span style="color:green"><b>NEVER EVER</b></span><br>
+## <span style="color:purple"><b>BE FRIGHTENED BY</b></span> <br>
+## **PHONETICS** <br>
+## <span style="color:blue"><b>AT ALL</b></span>
+
+---
+## **Phonetics and Phonology**
+<br>
+.pull-left[<br><br><img src="../pic/1107/read.png" width="90%">]
+.pull-right[
+Now we're looking at the smallest element of language: **sounds**<br><br>
+Phonetics and Phonology studies the **sounds** of language<br><br>
+- **Phonetics**: study of speech sounds as a physical phenomenon<br><br>
+- **Phonology**: study of how languages organize speech sounds into a system (pattern)
+]
+
+
+---
+## **Vowels**
+<br>
+.pull-left[
+**vowels** vs. <span style="color:green"><b>consonants</b></span> vs. <span style="color:blue"><b>glides</b></span><br>
+- whether airflow is obstructed somewhere
+  - **vowels** - no obstruction
+  - <span style="color:green"><b>consonants</b></span> - with obstruction
+  - <span style="color:blue"><b>glides</b></span> - somewhere between **vowels** and <span style="color:green"><b>consonants</b></span> <br><br>
+
+**vowel articulation**
+- tongue <span style="color:green"><b>height</b></span>
+  - high, mid, low
+- tongue <span style="color:green"><b>backness</b></span>
+  - front, central, back
+- lip <span style="color:green"><b>roundness</b></span>
+  - rounded, unrounded
+- tense and lax (**lax**: relaxed tongue))
+]
+.pull-right[<br><br><img src="../pic/1107/avowels.png" width="95%">]
+
+---
+## **Other Vowel Features**
+.pull-left[
+<br><br>
+<img src="../pic/1107/morning.jpeg" width="95%">
+]
+.pull-right[
+**nasalization**: articulated by lowering the velum/soft palate, so that air flows through both the **nasal** and **oral** cavity
+
+- <span style="color:green"><b>English</b></span><br>
+<span style="color:blue"><b>æ</b></span>t '*at*' **vs.** <span style="color:blue"><b>æ̃</b></span>nt '*ant*'<br><br>
+
+**length**: long vowels **contrast** with short vowels
+- <span style="color:green"><b>Mongolian</b></span><br>
+[t͡s<span style="color:blue"><b>ɑ</b></span>ˈsɯn] '*snow*' **vs.** [t͡s<span style="color:blue"><b>ɑɑ</b></span>ˈsɯn] '*paper*'
+- since adding or removing the **length feature** changes the meaning completely, we say that length is **contrastive** in mongolian
+<br><br>
+
+**pitch**: tonal languages **contrast** pitch
+- <span style="color:green"><b>Mandarin Chinese</b></span><br>
+ma<sup><span style="color:blue"><b>55</b></span></sup>
+<span style="color:white"><b>----</b></span>
+ma<sup><span style="color:blue"><b>35</b></span></sup>
+<span style="color:white"><b>----</b></span>
+ma<sup><span style="color:blue"><b>214</b></span></sup>
+<span style="color:white"><b>----</b></span>
+ma<sup><span style="color:blue"><b>51</b></span></sup><br>
+'*mom*'<span style="color:white"><b>--</b></span>
+'*numb*'<span style="color:white"><b>--</b></span>
+'*horse*'<span style="color:white"><b>----</b></span>
+'*scold*'
+]
+
+---
+.pull-left[
+## **Identify the Vowel**
+<br>
+In this **MRI** (Magnetic Resonance Imaging), the speaker is saying **5** vowels: <br><br>
+  - **[i]** as in *bee*<br>
+  - **[e]** as in *bay*<br>
+  - **[a]** as in *baa*<br>
+  - **[o]** as in *bow*<br>
+  - **[u]** as in *boo*<br><br>
+
+1. What is the tongue **height** in each image?<br>
+2. What is the tongue **backness** in each image?<br>
+3. How are lips (**roundness**) acting in each image?<br>
+4. What **vowel** is being said in each image?
+]
+.pull-right[
+<br>
+<div style="text-align: center;">
+<img src="../pic/1107/v1.png" width="35%"><br>
+<span style="color:white"><b>[a]</b></span><br><br>
+<img src="../pic/1107/v2.png" width="35%">
+<span style="color:white">_____</span>
+<img src="../pic/1107/v4.png" width="35%"><br>
+<span style="color:white"><b>[u]</b></span>
+<span style="color:white">_____________________</span>
+<span style="color:white"><b>[e]</b></span><br><br>
+<img src="../pic/1107/v3.png" width="35%">
+<span style="color:white">_____</span>
+<img src="../pic/1107/v5.png" width="35%"><br>
+<span style="color:white"><b>[o]</b></span>
+<span style="color:white">_____________________</span>
+<span style="color:white"><b>[i]</b></span>
+</div>
+]
+
+---
+.pull-left[
+## **Identify the Vowel**
+<br>
+In this **MRI** (Magnetic Resonance Imaging), the speaker is saying **5** vowels: <br><br>
+  - **[i]** as in *bee*<br>
+  - **[e]** as in *bay*<br>
+  - **[a]** as in *baa*<br>
+  - **[o]** as in *bow*<br>
+  - **[u]** as in *boo*<br><br>
+
+1. What is the tongue **height** in each image?<br>
+2. What is the tongue **backness** in each image?<br>
+3. How are lips (**roundness**) acting in each image?<br>
+4. What **vowel** is being said in each image?
+]
+.pull-right[
+<br>
+<div style="text-align: center;">
+<img src="../pic/1107/v1.png" width="35%"><br>
+<span style="color:green"><b>[a]</b></span><br><br>
+<img src="../pic/1107/v2.png" width="35%">
+<span style="color:white">_____</span>
+<img src="../pic/1107/v4.png" width="35%"><br>
+<span style="color:green"><b>[u]</b></span>
+<span style="color:white">_____________________</span>
+<span style="color:green"><b>[e]</b></span><br><br>
+<img src="../pic/1107/v3.png" width="35%">
+<span style="color:white">_____</span>
+<img src="../pic/1107/v5.png" width="35%"><br>
+<span style="color:green"><b>[o]</b></span>
+<span style="color:white">_____________________</span>
+<span style="color:green"><b>[i]</b></span>
+</div>
+]
+
+---
+## **Identify the Vowel**
+.pull-left[
+<br>
+(1) identify which **vowels** are in the following words, (2) give the **IPA** symbol for them, and (3) define them using the big three **features**
+<br><br>
+<div style="text-align:center;">
+<img src="../pic/1107/avowels.png" width="95%">
+</div>
+]
+.pull-right[
+1. cat<br><br>
+2. kit<br><br>
+3. red<br><br>
+4. reed<br><br>
+5. pot<br><br>
+6. boot<br><br>
+7. cut<br><br>
+8. should<br><br>
+9. fork
+]
+
+---
+## **Identify the Vowel**
+.pull-left[
+<br>
+(1) identify which **vowels** are in the following words, (2) give the **IPA** symbol for them, and (3) define them using the big three **features**
+<br><br>
+<div style="text-align:center;">
+<img src="../pic/1107/avowels.png" width="95%">
+</div>
+]
+.pull-right[
+1. cat **æ**<span style="color:white">--------</span>[-high, +low, -back, -round]<br><br>
+2. kit **ɪ**<span style="color:white">----------</span><span style="color:green">[+high, -low, -back, -round]</span><br><br>
+3. red **ɛ**<span style="color:white">---------</span>[-high, -low, -back, -round]<br><br>
+4. reed **i**<span style="color:white">--------</span><span style="color:green">[+high, -low, -back, -round]</span><br><br>
+5. pot **ɑ**<span style="color:white">---------</span>[-high, +low, +back, -round]<br><br>
+6. boot **u**<span style="color:white">--------</span><span style="color:blue">[+high, -low, +back, +round]</span><br><br>
+7. cut **ʌ**<span style="color:white">----------</span>[-high, +low, +back, -round]<br><br>
+8. should **ʊ**<span style="color:white">------</span><span style="color:blue">[+high, -low, +back, +round]</span><br><br>
+9. fork **ɔ**<span style="color:white">---------</span>[-high, -low, +back, +round]
+]
+
+---
+## **Sounds vs. Spellings**
+<br>
+.pull-left[
+- **spelling** (orthography) has a problem: one sound doesn't always equal one letter <br><br>
+
+- two letters, one sound
+  - *<span style="color:green"><b>th</b></span>* and *<span style="color:green"><b>ng</b></span>* in *<span style="color:green"><b>th</b></span>i<span style="color:green"><b>ng</b></span>*
+- one letter, two sounds
+  - *<span style="color:orange"><b>x</b></span>* in *ta<span style="color:orange"><b>x</b></span>*
+- one letter, no sound
+  - *<span style="color:red"><b>k</b></span>*, *<span style="color:red"><b>g</b></span>*, and *<span style="color:red"><b>h</b></span>* in *<span style="color:red"><b>k</b></span>ni<span style="color:red"><b>gh</b></span>t* 
+- one sound, many spellings
+  - *ru<span style="color:pink"><b>sh</b></span>*, *no<span style="color:pink"><b>t</b></span>ion*, *o<span style="color:pink"><b>c</b></span>ean*, *ni<span style="color:pink"><b>ch</b></span>e*, *i<span style="color:pink"><b>ss</b></span>ue*, *<span style="color:pink"><b>sch</b></span>lep*, *fu<span style="color:pink"><b>chs</b></span>ia*
+- one spelling, many sounds
+  - *thr<span style="color:blue"><b>ou</b></span>gh* ≠ *pl<span style="color:blue"><b>ou</b></span>gh* ≠ *<span style="color:blue"><b>ou</b></span>ght* ≠ *r<span style="color:blue"><b>ou</b></span>gh* ≠ *c<span style="color:blue"><b>ou</b></span>gh* ≠ *th<span style="color:blue"><b>ou</b></span>gh*
+]
+.pull-right[
+<br><br><br>
+<img src="../pic/1107/fish.jpg" width="90%">
+]
+
+---
+## **Sounds vs. Spellings**
+.pull-left[
+<br><br>
+<img src="../pic/1107/ex.jpg" width="95%">
+]
+.pull-right[
+- no language has a writing system that can **perfectly** represent its speech sounds<br><br>
+- pronunciation **changes over time**; writing doesn't always reflect these changes<br>*knight*, *time*
+- pronunciation **varies by place and social group**; writing doesn't usually reflect this<br>*schedule*, *cot*/*caught*
+- **loanwords** (words borrowed from another language) often have spellings that reflect the pronunciation in the source language, not target language<br>*zucchini*, *psychology*<br><br>
+- this becomes a problem when we want to talk precisely about **phonetics**, and we want to accurately represent the **pronunciation**
+]
+
+
+
+---
+## an easy cryptographic game
+<br>
+.pull-left[
+.pull-left[
+<span style="color:green"><b>A</b></span>: **I**<br>
+<span style="color:green"><b>B</b></span>: **II** <br>
+<span style="color:green"><b>C</b></span>: **III** <br>
+<span style="color:green"><b>D</b></span>: **IV** <br>
+<span style="color:green"><b>E</b></span>: **V** <br>
+<span style="color:green"><b>F</b></span>: **VI** <br>
+<span style="color:green"><b>G</b></span>: **VII** <br>
+<span style="color:green"><b>H</b></span>: **VIII** <br>
+<span style="color:green"><b>I</b></span>: **IX** <br>
+<span style="color:green"><b>J</b></span>: **X** <br>
+<span style="color:green"><b>K</b></span>: **XI** <br>
+<span style="color:green"><b>L</b></span>: **XII** <br>
+<span style="color:green"><b>M</b></span>: **XIII** <br>
+]
+.pull-right[
+<span style="color:green"><b>N</b></span>: **XIV** <br>
+<span style="color:green"><b>O</b></span>: **XV** <br>
+<span style="color:green"><b>P</b></span>: **XVI** <br>
+<span style="color:green"><b>Q</b></span>: **XVII** <br>
+<span style="color:green"><b>R</b></span>: **XVIII** <br>
+<span style="color:green"><b>S</b></span>: **XIX** <br>
+<span style="color:green"><b>T</b></span>: **XX** <br>
+<span style="color:green"><b>U</b></span>: **XXI** <br>
+<span style="color:green"><b>V</b></span>: **XXII** <br>
+<span style="color:green"><b>W</b></span>: **XXIII** <br>
+<span style="color:green"><b>X</b></span>: **XXIV** <br>
+<span style="color:green"><b>Y</b></span>: **XXV** <br>
+<span style="color:green"><b>Z</b></span>: **XXVI** <br>
+]
+]
+.pull-right[
+<div style="text-align: center;">
+<span style="color:red"><b>IX XVI I</b></span><br><br>
+<span style="color:green"><b>XVIII XXI XII XIX</b></span> <br><br>
+<span style="color:blue"><b>XXI XIX</b></span>
+</div>
+<br><br>
+]
+
+---
+## an easy cryptographic game
+<br>
+.pull-left[
+.pull-left[
+<span style="color:green"><b>A</b></span>: **I**<br>
+<span style="color:green"><b>B</b></span>: **II** <br>
+<span style="color:green"><b>C</b></span>: **III** <br>
+<span style="color:green"><b>D</b></span>: **IV** <br>
+<span style="color:green"><b>E</b></span>: **V** <br>
+<span style="color:green"><b>F</b></span>: **VI** <br>
+<span style="color:green"><b>G</b></span>: **VII** <br>
+<span style="color:green"><b>H</b></span>: **VIII** <br>
+<span style="color:green"><b>I</b></span>: **IX** <br>
+<span style="color:green"><b>J</b></span>: **X** <br>
+<span style="color:green"><b>K</b></span>: **XI** <br>
+<span style="color:green"><b>L</b></span>: **XII** <br>
+<span style="color:green"><b>M</b></span>: **XIII** <br>
+]
+.pull-right[
+<span style="color:green"><b>N</b></span>: **XIV** <br>
+<span style="color:green"><b>O</b></span>: **XV** <br>
+<span style="color:green"><b>P</b></span>: **XVI** <br>
+<span style="color:green"><b>Q</b></span>: **XVII** <br>
+<span style="color:green"><b>R</b></span>: **XVIII** <br>
+<span style="color:green"><b>S</b></span>: **XIX** <br>
+<span style="color:green"><b>T</b></span>: **XX** <br>
+<span style="color:green"><b>U</b></span>: **XXI** <br>
+<span style="color:green"><b>V</b></span>: **XXII** <br>
+<span style="color:green"><b>W</b></span>: **XXIII** <br>
+<span style="color:green"><b>X</b></span>: **XXIV** <br>
+<span style="color:green"><b>Y</b></span>: **XXV** <br>
+<span style="color:green"><b>Z</b></span>: **XXVI** <br>
+]
+]
+.pull-right[
+<div style="text-align: center;">
+<span style="color:red"><b>IX XVI I</b></span><br><br>
+<span style="color:green"><b>XVIII XXI XII XIX</b></span> <br><br>
+<span style="color:blue"><b>XXI XIX</b></span>
+<br><br>
+<img src="../pic/1107/rules.png" width="70%">
+<br><br>
+<i>'IPA rules us.' (not U-S)</i>
+</div>
+]
+
+---
+class: center, middle
+<br>
+.pull-left[
+# **International**
+# **Phonetic** 
+# **Alphabet**
+# **(IPA)**
+]
+.pull-right[
+<img src="../pic/1107/beer.jpg" width="90%">
+]
+
+---
+## **International Phonetic Alphabet (IPA)**<br>
+### [ˌɪnəɹˈnæʃənəl fəˈnɛɾɪk ˈælfəˌbɛt]
+<br>
+.pull-left[
+- to **accurately** represent speech sounds, we use the **International Phonetic Alphabet (IPA)**
+  - one symbol **=** one sound<br><br>
+- same symbols for **all** spoken languages – all languages use some **subset** of these symbols (plus additional symbols on the full IPA chart)<br><br>
+- many IPA symbols represent roughly the same sounds as the corresponding English letter
+  - [p, t, k, b, d, g, f, v, s, z, h, m, n, l]<br><br>
+- some IPA symbols do not
+  - IPA [**j**] = English y, *yes* [jɛs]
+  - [**c**, **q**, **x**] & most vowels ≠ English letters
+]
+.pull-right[
+<br><br><br>
+<img src="../pic/1107/ipa.png" width="100%">
+]
+
+---
+## **International Phonetic Alphabet (IPA)**<br>
+.pull-left[
+<br>
+[<span style="color:brown"><b>ˌ</b></span>ɪnəɹ<span style="color:brown"><b>ˈ</b></span>næʃənəl fə<span style="color:brown"><b>ˈ</b></span>nɛɾɪk <span style="color:brown"><b>ˈ</b></span>ælfə<span style="color:brown"><b>ˌ</b></span>bɛt]
+<br><br>
+<img src="../pic/1107/schwa.jpg" width="80%">
+]
+.pull-right[
+IPA is used for **phonetic transcription** – writing the exact sounds of a speech sample <br><br>
+
+some **conventions**
+- phonetic transcriptions are put between **square brackets [</b></span>**bə.ˈnæ.nə**]**
+- spelling (orthography) is written in *<span style="color:green"><b>italics</b></span>* or <span style="color:green"><b>angle brackets</b></span>: *banana*, <span style="color:green"><b>&lt;b&gt;</b></span>
+- <span style="color:blue"><b>all</b></span> sounds and <span style="color:blue"><b>only</b></span> sounds are written:
+<br><br>
+  - no silent letters<br>
+  <span style="color:blue"><b>ph</b></span>on<span style="color:blue"><b>e</b></span> [ˈfown]; throu<span style="color:blue"><b>gh</b></span> [ˈθɹu]
+  - write out actually pronounced sounds<br>
+  ne<span style="color:blue"><b>x</b></span>t [ˈnɛkst], e<span style="color:blue"><b>x</b></span>am [əɡ.ˈzæm]
+<br><br>
+- a dot (.) indicates <span style="color:orange"><b>syllable divisions</b></span>: pronunciation [prə<span style="color:orange"><b>.</b></span>ˌnʌn<span style="color:orange"><b>.</b></span>si<span style="color:orange"><b>.</b></span>ˈej<span style="color:orange"><b>.</b></span>ʃən]
+- <span style="color:brown"><b>primary</b></span> and <span style="color:brown"><b>secondary</b></span> stress are indicated with <span style="color:brown"><b>ˈ</b></span> and <span style="color:brown"><b>ˌ</b></span> <span style="color:brown"><b>before</b></span> the stressed syllable
+
+]
+
+---
+## **Practice: IPA to English**
+<br>
+.pull-left[
+What **English words** do the following **phonetic transcriptions** represent?<br><br>
+1. [ˈkæ.lən.dɹ]<br><br>
+2. [ˈbɹɪŋ.ɪŋ]<br><br>
+3. [ˈtɛl.ə.ˌvɪʒ.n]<br><br>
+4. [ˈðiz]<br><br>
+5. [ˈθɪŋk]<br><br>
+6. [ˈʃæk]<br><br>
+7. [ˈnʌ.θɪŋ]
+]
+.pull-right[
+<img src="../pic/1107/engipa.png" width="90%">
+]
+
+---
+## **Practice: English to IPA**
+<br>
+.pull-left[
+<img src="../pic/1107/engipa.png" width="90%">
+]
+.pull-right[
+Represent the following **English words** each with a **phonetic transcription**.<br><br>
+1. camera<br><br>
+2. cotton<br><br>
+3. decision<br><br>
+4. length<br><br>
+5. weather<br><br>
+6. judge<br><br>
+7. visionary
+]
+
+---
+## **Practice: IPA to English (Complex)**
+<br>
+.pull-left[
+What **English words** do the following **phonetic transcriptions** represent?<br><br>
+1. [ˈel.bow]<br><br>
+2. [vaj.əˈlɪn]<br><br>
+3. [ˈaɪ.lənd]<br><br>
+4. [ˈpi.pl]<br><br>
+5. [jɪ.ər]<br><br>
+6. [ˈdejn.dʒə.rəs]<br><br>
+7. [jʌŋ]<br><br>
+8. [ɡrejps]<br><br>
+]
+.pull-right[
+<img src="../pic/1107/engipa.png" width="90%">
+]
+
+---
+## **Practice: IPA to English (Complex)**
+<br>
+.pull-left[
+What **English words** do the following **phonetic transcriptions** represent?<br><br>
+1. [ˈel.bow] **elbow**<br><br>
+2. [vaj.əˈlɪn] **violin**<br><br>
+3. [ˈaɪ.lənd] **island**<br><br>
+4. [ˈpi.pl] **people**<br><br>
+5. [jɪ.ər] **year**<br><br>
+6. [ˈdejn.dʒə.rəs] **year**<br><br>
+7. [jʌŋ] **young**<br><br>
+8. [ɡrejps] **grapes**<br><br>
+]
+.pull-right[
+<img src="../pic/1107/engipa.png" width="90%">
+]
+
+---
+## **Practice: IPA to English (Complex)**
+<br>
+.pull-left[
+What **English words** do the following **phonetic transcriptions** represent?<br><br>
+1. [ˈbʌ.tər.flaj]<br><br>
+2. [ˈʌŋ.kl]<br><br>
+3. [ˈrʌ.bər]<br><br>
+4. [rajt]<br><br>
+5. [ˈeə.pɔːt]<br><br>
+6. [ˈɔ.ɡəst]<br><br>
+7. [ɡə.ˈrɪ.lə]<br><br>
+8. [məs.ˈki.tow]<br><br>
+]
+.pull-right[
+<img src="../pic/1107/engipa.png" width="90%">
+]
+
+---
+## **Practice: IPA to English (Complex)**
+<br>
+.pull-left[
+What **English words** do the following **phonetic transcriptions** represent?<br><br>
+1. [ˈbʌ.tər.flaj] **butterfly**<br><br>
+2. [ˈʌŋ.kl] **uncle**<br><br>
+3. [ˈrʌ.bər] **rubber**<br><br>
+4. [rajt] **right**<br><br>
+5. [ˈeə.pɔːt] **airport**<br><br>
+6. [ˈɔ.ɡəst] **August**<br><br>
+7. [ɡə.ˈrɪ.lə] **gorilla**<br><br>
+8. [məs.ˈki.tow] **mosquito**<br><br>
+]
+.pull-right[
+<img src="../pic/1107/engipa.png" width="90%">
+]
+
+---
+class: center, middle
+<img src="../pic/1107/ipas.png" width="95%">
+
+---
+class: center, middle
+**Homework VI** is due this Sunday (**Nov 9th**)<br><br>
+**NO** new homework next week, a new homework will be posted **end of next Sunday**<br><br>
+**reading materials**: continue reading<br>
+Phonetics in O'Grady et al.'s *Contemprary Linguistics: An Introduction*<br><br>
+<img src="../pic/1107/fine.jpg" width="55%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
