@@ -51,7 +51,7 @@ output:
 - <span style="color:green"><b>consonants</b></span> - with complete obstruction
 - <span style="color:blue"><b>glides</b></span> - with partial obstruction <br><br>
 
-**consonantal features**
+**categories to differentiate consonants**
 - **voicing**
   - <b>whether</b> the vocal cords vibrate or not
 - <span style="color:green"><b>place</b></span>
@@ -96,18 +96,19 @@ Fill in the blanks with the appropriate **anatomical term** for each **articulat
 </div>
 
 ---
-## **Consonant Features**
+## **Categories to Differentiate Consonants**
 <br>
 <div style="text-align:center;">
 <img src="../pic/1114/ipacons.png" width="70%">
 </div>
 <br>
-**columns** - <span style="font-variant: small-caps; color:green">place</span> - where the obstruction of airflow in the vocal tract is<br><br>
-**row** - <span style="font-variant: small-caps; color:green">manner</span> - what type of obstruction of airflow occurs<br><br>
-in a **single cell** - <span style="font-variant: small-caps; color:green">voicing</span> - whether the vocal cords vibrate or not (the right is *voiced*)<br><br>
+
+<span style="color:deeppink"><b>columns</b></span> - <span style="font-variant: small-caps; color:green">place</span> - where the obstruction of airflow in the vocal tract is<br><br>
+<span style="color:deeppink"><b>row</b></span> - <span style="font-variant: small-caps; color:green">manner</span> - what type of obstruction of airflow occurs<br><br>
+in a <span style="color:deeppink"><b>single cell</b></span> - <span style="font-variant: small-caps; color:green">voicing</span> - whether the vocal cords vibrate or not (the right is <i>voiced</i>)<br><br>
 
 <div style="text-align:center;">
-  <a href="https://www.ipachart.com"><span style="color:green"><b>IPA clickable chart</b></span></a>
+  <a href="https://www.ipachart.com"><span style="color:deeppink"><b>IPA clickable chart</b></span></a>
 </div>
 
 ---
@@ -204,7 +205,7 @@ airflow blocked in **one part** of the vocal tract but flow through **a differen
 ]
 .pull-right[
 further grouping into **sound class**<br><br>
-- <span style="color:deeppink">rhotics</span>: **<i>r</i>**-like sounds<br><br>
+- <span style="color:deeppink">rhotics</span>: **<i>r</i>**-like sounds **[ɹ, ɻ, r, ʀ, ɾ, ɽ, ʁ...]**<br><br>
 - <span style="color:deeppink">liquids</span>: <span style="color:green">rhotics</span> and <span style="color:green">laterals</span><br><br>
 - <span style="color:deeppink">obstruents</span>
   - consonants with **more** obstruction
