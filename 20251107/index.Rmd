@@ -79,7 +79,7 @@ Phonetics and Phonology studies the **sounds** of language<br><br>
   - front, central, back
 - lip <span style="color:green"><b>roundness</b></span>
   - rounded, unrounded
-- tense and lax (**lax**: relaxed tongue))
+- tense and lax (**lax**: relaxed tongue)
 ]
 .pull-right[<br><br><img src="../pic/1107/avowels.png" width="95%">]
 
@@ -426,7 +426,7 @@ some **conventions**
 What **English words** do the following **phonetic transcriptions** represent?<br><br>
 1. [ˈkæ.lən.dɹ]<br><br>
 2. [ˈbɹɪŋ.ɪŋ]<br><br>
-3. [ˈtɛl.ə.ˌvɪʒ.n]<br><br>
+3. [ˈtɛ.lə.ˌvɪ.ʒn]<br><br>
 4. [ˈðiz]<br><br>
 5. [ˈθɪŋk]<br><br>
 6. [ˈʃæk]<br><br>

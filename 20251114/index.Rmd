@@ -1,0 +1,405 @@
+---
+title: "**Phonetics II**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2025/11/14 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+## **Previously on 201**
+<br>
+.pull-left[
+**vowels** vs. <span style="color:green"><b>consonants</b></span> vs. <span style="color:blue"><b>glides</b></span><br>
+- **vowels** - no obstruction
+- <span style="color:green"><b>consonants</b></span> - with complete obstruction
+- <span style="color:blue"><b>glides</b></span> - with partial obstruction <br><br>
+
+**vowel articulation**
+- tongue <span style="color:green"><b>height</b></span> (high, mid, low)
+- tongue <span style="color:green"><b>backness</b></span> (front, central, back)
+- lip <span style="color:green"><b>roundness</b></span> (rounded, unrounded)<br><br>
+
+**other vowel features**
+- <span style="color:orange"><b>nasalisation</b></span>
+- <span style="color:orange"><b>vowel length</b></span>
+- <span style="color:orange"><b>pitch</b></span> (tone, etc)
+]
+.pull-right[
+<br><img src="../pic/1114/beer.jpg" width="95%">
+]
+
+---
+## **Previously on 201**
+<br>
+.pull-left[
+<img src="../pic/1114/ipacons.png" width="100%">
+<br><br><img src="../pic/1114/voiceless.png" width="90%">
+]
+.pull-right[
+**vowels** vs. <span style="color:green"><b>consonants</b></span> vs. <span style="color:blue"><b>glides</b></span><br>
+- **vowels** - no obstruction
+- <span style="color:green"><b>consonants</b></span> - with complete obstruction
+- <span style="color:blue"><b>glides</b></span> - with partial obstruction <br><br>
+
+**consonantal features**
+- **voicing**
+  - <b>whether</b> the vocal cords vibrate or not
+- <span style="color:green"><b>place</b></span>
+  - <b>where</b> the obstruction of airflow in the vocal tract is
+- <span style="color:blue"><b>manner</b></span>
+  - <b>what type</b> of obstruction of airflow occurs<br><br>
+- there is some sort of obstruction of airflow (complete or partial), for sure
+]
+
+---
+.pull-left[
+## **Vocal Tract Anatomy**
+]
+.pull-right[
+<div style="text-align:center;">
+<img src="../pic/1114/answer.png" width="90%">
+</div>
+]
+
+<br>
+Fill in the blanks with the appropriate **anatomical term** for each **articulator** from the box. <u>#5, 9, 10</u> refer to **cavities** (open spaces), not structures. (You may consult the reading, page 22)
+<br><br>
+<div style="text-align:center;">
+<img src="../pic/1114/anatomy.png" width="80%">
+</div>
+
+---
+.pull-left[
+## **Vocal Tract Anatomy**
+]
+.pull-right[
+<div style="text-align:center;">
+<img src="../pic/1114/answer.png" width="90%">
+</div>
+]
+
+<br>
+Fill in the blanks with the appropriate **anatomical term** for each **articulator** from the box. <u>#5, 9, 10</u> refer to **cavities** (open spaces), not structures. (You may consult the reading, page 22)
+<br><br>
+<div style="text-align:center;">
+<img src="../pic/1114/anatomyanswer.png" width="80%">
+</div>
+
+---
+## **Consonant Features**
+<br>
+<div style="text-align:center;">
+<img src="../pic/1114/ipacons.png" width="70%">
+</div>
+<br>
+**columns** - <span style="font-variant: small-caps; color:green">place</span> - where the obstruction of airflow in the vocal tract is<br><br>
+**row** - <span style="font-variant: small-caps; color:green">manner</span> - what type of obstruction of airflow occurs<br><br>
+in a **single cell** - <span style="font-variant: small-caps; color:green">voicing</span> - whether the vocal cords vibrate or not (the right is *voiced*)<br><br>
+
+<div style="text-align:center;">
+  <a href="https://www.ipachart.com"><span style="color:green"><b>IPA clickable chart</b></span></a>
+</div>
+
+---
+## **Place of Articulation**
+### (where the obstruction is in the vocal tract)
+<br>
+.pull-left[
+- **labials**: lips
+  - <span style="color:blue">bilabials</span>: both <span style="color:green">lips</span> **[b, p]**
+  - <span style="color:blue">labio-dentals</span>: the <span style="color:green">lower lip</span> and <span style="color:green">upper teeth</span> **[f, v]**<br><br>
+- **coronals**: between the tongue tip/blade and the **front** part of the mouth
+  - <span style="color:blue">dentals</span>: tongue and <span style="color:green">teeth</span> **[θ, ð]**
+  - <span style="color:blue">alveolars</span>: tongue and <span style="color:green">alveolar ridge</span> **[t, d]**
+  - <span style="color:blue">post-alveolars</span>: tongue and the space right behind <span style="color:green">alveolar ridge</span> **[ʃ, ʒ]** <br><br>
+- **retroflexes**: the <span style="color:green">tongue tip</span> is arched backward **[ʈ, ɖ]**
+]
+.pull-right[
+<div style="text-align:center">
+<img src="../pic/1114/th.jpg" width="90%">
+</div>
+]
+
+---
+## **Place of Articulation**
+### (where the obstruction is in the vocal tract)
+<br>
+.pull-left[
+<div style="text-align:center">
+<img src="../pic/1114/glottal.jpg" width="90%">
+</div>]
+.pull-right[
+- **palatals**: tongue body raised against the <span style="color:green">hard palate</span> **[j]**<br><br>
+- **velars**: tongue back against the <span style="color:green">soft palate (velum)</span><br>**[k, g]**<br><br>
+- **guttrals**: pronounced in the very back of the mouth (around the <span style="color:green"> throat</span> area)
+  - <span style="color:blue">uvulars</span>: tongue back against the <span style="color:green">uvula</span><br>**[q, ʀ]**
+  - <span style="color:blue">pharyngeals</span>: root of tongue obstructing the <span style="color:green">pharynx</span> **[ħ,ʕ]**
+  - <span style="color:blue">glottals</span>: <span style="color:green">vocal folds</span> close the <span style="color:green">glottis</span> **[ʔ]** <br><br>
+
+]
+
+---
+## **Manner of Articulation**
+### (what type of obstruction of airflow occurs)
+<br>
+.pull-left[
+**complete blockage of airflow**<br><br>
+- <span style="color:green">stops/plosives</span> **[p/b, t/d, k/g]**
+  - stops can be **aspirated** (with a [h] sound after the obstruction is released) 
+  - **[p<sup>h</sup>, p]** ([p<sup>h</sup>ejs], [spejs]) <br><br>
+- <span style="color:green">trills, taps/flaps</span> **[r, ʀ, ɾ]**
+  - obstruction doesn't last long enough to cause a **release of pressure** at the end <br><br>
+]
+.pull-right[
+<img src="../pic/1114/manner.jpg" width="75%">
+]
+
+---
+## **Manner of Articulation**
+### (what type of obstruction of airflow occurs)
+<br>
+.pull-left[
+**partial blockage of airflow**<br><br>
+- <span style="color:blue">fricatives/plosives</span> **[ʃ, ʒ]**<br><br>
+- <span style="color:blue">approximants/plosives</span> **[ɹ]**
+  - less obstruction than **fricatives**<br><br>
+- <span style="color:blue">laterals/plosives</span> **[l]**
+  - obstruction in the center, but air flows past the tongue on the side(s)
+]
+.pull-right[
+<img src="../pic/1114/manner2.jpeg" width="100%">
+]
+
+---
+## **Manner of Articulation**
+### (what type of obstruction of airflow occurs)
+<br>
+.pull-left[
+airflow blocked in **one part** of the vocal tract but flow through **a different part**<br><br>
+- <span style="color:orange">affricates</span> **[t͡ʃ, d͡ʒ]** ???[d͡ʃ]
+  - a combination between stops and fricatives<br><br>
+- <span style="color:orange">nasals</span> **[m, n, ŋ]**
+  - complete obstruction through the oral cavity but air is **redirected** to flow through the nasal cavity
+]
+.pull-right[
+<img src="../pic/1114/empty.jpeg" width="80%">
+]
+
+---
+## **Manner of Articulation**
+### (what type of obstruction of airflow occurs)
+<br>
+.pull-left[
+<img src="../pic/1114/101.jpg" width="90%">
+]
+.pull-right[
+further grouping into **sound class**<br><br>
+- <span style="color:deeppink">rhotics</span>: **<i>r</i>**-like sounds<br><br>
+- <span style="color:deeppink">liquids</span>: <span style="color:green">rhotics</span> and <span style="color:green">laterals</span><br><br>
+- <span style="color:deeppink">obstruents</span>
+  - consonants with **more** obstruction
+  - <span style="color:orange">stops</span>, <span style="color:orange">fricatives</span>, <span style="color:orange">affricates</span><br><br>
+- <span style="color:deeppink">sonorants</span>
+  - consonants with **less** obstruction
+  - <span style="color:blue">nasals</span>, <span style="color:blue">liquids</span>, <span style="color:blue">approximants</span>
+]
+
+---
+class: center, middle
+## **Voicing**
+### (whether vocal cords vibrate or not)
+<br>
+<img src="../pic/1114/voicing.jpg" width="60%">
+
+---
+## **Practice: Identifying Consonants**
+<br>
+Give a full description for **voicing**, <span style="color:green"><b>place</b></span>, and <span style="color:blue"><b>manner</b></span> of **each consonant** in the following words and give the corresponding **IPA** symbol: <br><br>
+.pull-left[
+move<br><br>
+cloth<br><br>
+gosh<br>
+]
+.pull-right[
+hide<br><br>
+stove<br><br>
+bank<br>
+]
+<div style="text-align:center;">
+<img src="../pic/1114/ipacons.png" width="70%">
+</div>
+
+---
+## **Practice: Identifying Consonants**
+<br>
+Give a full description for **voicing**, <span style="color:green"><b>place</b></span>, and <span style="color:blue"><b>manner</b></span> of **each consonant** in the following words and give the corresponding **IPA** symbol: <br><br>
+.pull-left[
+move<span style="color:white">-----</span><b>[m]</b>: **voiced** <span style="color:green"><b>bilabial</b></span> <span style="color:blue"><b>nasal</b></span><br>
+<span style="color:white">move-----</span><b>[v]</b>: **voiced** <span style="color:green"><b>labio-dental</b></span> <span style="color:blue"><b>fricative</b></span><br><br>
+cloth<span style="color:white">------</span><b>[k]</b>: **voiceless** <span style="color:green"><b>velar</b></span> <span style="color:blue"><b>stop</b></span><br>
+<span style="color:white">cloth------</span><b>[l]</b>: **voiced** <span style="color:green"><b>alveolar</b></span> <span style="color:blue"><b>lateral approximant</b></span><br>
+<span style="color:white">cloth------</span><b>[θ]</b>: **voiceless** <span style="color:green"><b>dental</b></span> <span style="color:blue"><b>fricative</b></span><br><br>
+gosh<span style="color:white">------</span><b>[g]</b>: **voiced** <span style="color:green"><b>velar</b></span> <span style="color:blue"><b>stop</b></span><br>
+<span style="color:white">gosh------</span><b>[ʃ]</b>: **voiceless** <span style="color:green"><b>post-alveolar</b></span> <span style="color:blue"><b>fricative</b></span><br><br>
+]
+.pull-right[
+hide<span style="color:white">------</span><b>[h]</b>: **voiceless** <span style="color:green"><b>glottal</b></span> <span style="color:blue"><b>fricative</b></span><br>
+<span style="color:white">hide------</span><b>[d]</b>: **voiced** <span style="color:green"><b>bilabial</b></span> <span style="color:blue"><b>stop</b></span><br><br>
+stove<span style="color:white">-----</span><b>[s]</b>: **voiceless** <span style="color:green"><b>alveolar</b></span> <span style="color:blue"><b>fricative</b></span><br>
+<span style="color:white">stove-----</span><b>[t]</b>: **voiceless** <span style="color:green"><b>alveolar</b></span> <span style="color:blue"><b>stop</b></span><br>
+<span style="color:white">stove-----</span><b>[v]</b>: **voiced** <span style="color:green"><b>labio-dental</b></span> <span style="color:blue"><b>fricative</b></span><br><br>
+bank<span style="color:white">------</span><b>[b]</b>: **voiced** <span style="color:green"><b>bilabial</b></span> <span style="color:blue"><b>stop</b></span><br>
+<span style="color:white">bank------</span><b>[ŋ]</b>: **voiced** <span style="color:green"><b>velar</b></span> <span style="color:blue"><b>nasal</b></span><br>
+<span style="color:white">bank------</span><b>[k]</b>: **voiceless** <span style="color:green"><b>velar</b></span> <span style="color:blue"><b>stop</b></span><br><br>
+]
+
+---
+## **Practice: Identifying Consonants**
+<br>
+Give a full description for **voicing**, <span style="color:green"><b>place</b></span>, and <span style="color:blue"><b>manner</b></span> of **each consonant** in the following words and give the corresponding **IPA** symbol: <br><br>
+<div style="text-align:center;">
+<img src="../pic/1114/ipacons1.png" width="70%">
+</div>
+<br><br>
+**CHANLLANGE**: Write a phonetic transcription of your name. How would you describe each vowel and consonant?
+
+---
+## **Practice: Reading IPA**
+<br>
+.pull-left[
+What **English words** do these **phonetic transcriptions** correspond to?<br><br>
+1. [ˈel.bow]<br><br>
+2. [vaj.əˈlɪn]<br><br>
+3. [ˈaɪ.lənd]<br><br>
+4. [ˈpi.pl]<br><br>
+5. [jɪ.ər]<br><br>
+6. [ˈdejn.dʒə.rəs]<br><br>
+7. [jʌŋ]<br><br>
+8. [ɡrejps]<br><br>
+]
+.pull-right[
+<br><br>
+<img src="../pic/1114/speaking.jpg" width="90%">
+<br><br>
+'*phonetically speaking, ...*'
+]
+
+---
+## **Practice: Reading IPA**
+<br>
+.pull-left[
+What **English words** do these **phonetic transcriptions** correspond to?<br><br>
+1. [ˈel.bow] **elbow**<br><br>
+2. [vaj.əˈlɪn] **violin**<br><br>
+3. [ˈaɪ.lənd] **island**<br><br>
+4. [ˈpi.pl] **people**<br><br>
+5. [jɪ.ər] **year**<br><br>
+6. [ˈdejn.dʒə.rəs] **year**<br><br>
+7. [jʌŋ] **young**<br><br>
+8. [ɡrejps] **grapes**<br><br>
+]
+.pull-right[
+<br><br>
+<img src="../pic/1114/lover.jpg" width="90%">
+<br><br>
+'*cat and linguistics lover*'
+]
+
+---
+## **Practice: Reading IPA**
+<br>
+.pull-left[
+<br><br>
+<img src="../pic/1114/learn.jpg" width="90%">
+<br><br>
+'*I WILL LEARN PHONETICS.*'
+]
+.pull-right[
+What **English words** do these **phonetic transcriptions** correspond to?<br><br>
+1. [ˈbʌ.tər.flaj]<br><br>
+2. [ˈʌŋ.kl]<br><br>
+3. [ˈrʌ.bər]<br><br>
+4. [rajt]<br><br>
+5. [ˈeə.pɔːt]<br><br>
+6. [ˈɔ.ɡəst]<br><br>
+7. [ɡə.ˈrɪ.lə]<br><br>
+8. [məs.ˈki.tow]<br><br>
+]
+
+---
+## **Practice: Reading IPA**
+<br>
+.pull-left[
+<br><br>
+<img src="../pic/1114/survive.jpg" width="80%">
+<br><br>
+'*I survived phonetics class*'
+]
+.pull-right[
+What **English words** do these **phonetic transcriptions** correspond to?<br><br>
+1. [ˈbʌ.tər.flaj] **butterfly**<br><br>
+2. [ˈʌŋ.kl] **uncle**<br><br>
+3. [ˈrʌ.bər] **rubber**<br><br>
+4. [rajt] **right**<br><br>
+5. [ˈeə.pɔːt] **airport**<br><br>
+6. [ˈɔ.ɡəst] **August**<br><br>
+7. [ɡə.ˈrɪ.lə] **gorilla**<br><br>
+8. [məs.ˈki.tow] **mosquito**<br><br>
+]
+
+---
+## **Practice: Writing with IPA**
+<br>
+.pull-left[
+Represent the following **English words** each with a **phonetic transcription**.<br><br>
+1. camera<br><br>
+2. cotton<br><br>
+3. decision<br><br>
+4. length<br><br>
+5. weather<br><br>
+6. judge<br><br>
+7. visionary
+]
+.pull-right[
+<br><br>
+<img src="../pic/1114/stroke.jpg" width="90%">
+]
+
+---
+## **Practice: Writing with IPA**
+<br>
+.pull-left[
+Represent the following **English words** each with a **phonetic transcription**.<br><br>
+1. camera <span style="color:pink"><b>[ˈkæ.m(ə).ɹə/]</b></span><br><br>
+2. cotton <span style="color:pink"><b>[ˈkɑ.ʔn̩]</b></span><br><br>
+3. decision <span style="color:pink"><b>[dɪ.ˈsɪ.ʒən]</b></span><br><br>
+4. length <span style="color:pink"><b>[lɛŋθ]</b></span><br><br>
+5. weather <span style="color:pink"><b>[ˈwɛ.ðər]</b></span><br><br>
+6. judge <span style="color:pink"><b>[d͡ʒʌd͡ʒ]</b></span><br><br>
+7. visionary <span style="color:pink"><b>[ˈvɪ.ʒəˌnɛ.ɹi]</b></span>
+]
+.pull-right[
+<br><br>
+<img src="../pic/1114/pacific.jpg" width="90%">
+]
+
+---
+class: center, middle
+**Homework VII** will be posted this Sunday and it is due next Sunday (**Nov 23rd**)<br><br>
+<b>reading materials</b>: <br><br>
+**Phonology: The Function and Patterning of Sounds**<br><br>
+in O'Grady et al.'s *Contemprary Linguistics: An Introduction*<br><br>
+<img src="../pic/1114/fine.jpg" width="52.5%"> &nbsp;&nbsp;&nbsp;&nbsp; <img src="../pic/1114/survive.jpg" width="27.5%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
