@@ -63,7 +63,7 @@ Homework 5 due: <u>11:59 p.m., Nov 02, 2025</u>
 Homework 6 due: <u>11:59 p.m., Nov 09, 2025</u>
 <br><br>
 
-#### **Week 11**: [Phonetics II]((https://merlinudinov.github.io/ling201recitation/20251114)) (Nov 14)
+#### **Week 11**: [Phonetics II](https://merlinudinov.github.io/ling201recitation/20251114) (Nov 14)
 <br>
 
 #### **Week 12**: Phonology I (Nov 21)
