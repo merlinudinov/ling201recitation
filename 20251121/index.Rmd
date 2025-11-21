@@ -60,7 +60,6 @@ output:
 <br><br><img src="../pic/1121/hulk.jpeg" width="70%">
 </div>
 ]
-]
 
 ---
 ## **Contrastive and Complementary Distribution**
