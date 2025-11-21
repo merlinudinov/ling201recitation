@@ -154,18 +154,6 @@ If a language has the sounds on the <span style="color:green"><b>right</b></span
 ]
 
 ---
-## Recitation Topics
-<br>
-- Review concepts of phonemes and allophones and contrastive/complementary distribution
-- Practice identifying minimal pairs (and remind students we use minimal pairs to find evidence that two sounds are phonemes)
-  - Give students word pairs and ask them to identify which are minimal pairs
-  - Give students two contrasting phonemes in English and ask them to come up with a minimal pair that illustrates the contrast
-- Practice identifying the phonetic environment a sound occurs in
-- Practice identifying whether sounds are in complementary or contrastive distribution and therefore whether they are two separate phonemes or allophones of the same phoneme
-  - I’m attaching two datasets you can work through with students, or you can use other datasets – make sure whatever dataset you use is fairly straightforward
-  - I recommend asking students to write out the phonetic environment and look for patterns based on that
-
----
 .pull-left[
 ## **Prac.: Minimal Pairs I**
 ]
