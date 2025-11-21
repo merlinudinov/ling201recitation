@@ -1,0 +1,619 @@
+---
+title: "**Phonology I**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2025/11/21 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+## **Previously on 201**
+<br>
+.pull-left[<br><img src="../pic/1121/english.jpg" width="90%">]
+.pull-right[
+**vowel articulation**
+- tongue <span style="color:green"><b>height</b></span> (high, mid, low)
+- tongue <span style="color:green"><b>backness</b></span> (front, central, back)
+- lip <span style="color:green"><b>roundness</b></span> (rounded, unrounded)
+- <span style="color:orange"><b>nasalisation</b></span>
+- <span style="color:orange"><b>vowel length</b></span>
+- <span style="color:orange"><b>pitch</b></span> (tone, etc)<br><br>
+
+**categories to differentiate consonants**
+- **voicing**
+  - <b>whether</b> the vocal cords vibrate or not
+- <span style="color:green"><b>place</b></span>
+  - <b>where</b> the obstruction of airflow in the vocal tract is
+- <span style="color:blue"><b>manner</b></span>
+  - <b>what type</b> of obstruction of airflow occurs
+]
+
+---
+.pull-left[
+## **Some Terms**
+<br>
+**Phonetics**: study of speech sounds as a physical phenomenon<br><br>
+**Phonology**: study of how languages organize speech sounds into a **system** (pattern)<br><br>
+**phoneme**: a set of sounds that speakers of a language treat as being the same
+- writen in a pair of slahses: <span style="color:green"><b>/b/</b></span>, <span style="color:green"><b>/d/</b></span>, <span style="color:green"><b>/g/</b></span><br><br>
+
+**allophone**: each individual possible sound that a <span style="color:blue"><b>phoneme</b></span> could surface as<br><br>
+**Phonotactics**: <span style="color:green"><b>rules</b></span> for how we combine sounds to form words
+- English doesn't allow the velar nasal (**[ŋ]**) at the beginning of a word, but Shanghainese does
+]
+.pull-right[
+<br>
+<div style="text-align:center">
+<span style="color:red"><b>/SUPERMAN/</b></span>
+<br><br><img src="../pic/1121/superman.png" width="70%">
+<br><br>
+<span style="color:red"><b>/HULK/</b></span>
+<br><br><img src="../pic/1121/hulk.jpeg" width="70%">
+</div>
+]
+]
+
+---
+## **Contrastive and Complementary Distribution**
+.pull-left[
+<br><br>
+**contrastive distribution**: when switching out one phoneme for another results in a different meaning
+- these word pairs are called <span style="color:green"><b>minimal pairs</b></span>
+- they detect which sounds are <span style="color:blue"><b>phonemes</b></span>
+- [**ð**æt] ('*that*') vs. [**m**æt] ('*mat*')<br><br>
+
+**complementary distribution**: when switching a sound out for another sound does not change the meaning
+- these sounds are allophones of the **same** phoneme
+- different environments cause the sound to <span style="color:green"><b>change</b></span>, but in the minds of speakers they are still considered <span style="color:blue"><b>one</b></span> sound
+- [**p**ejs] ('*pace*') vs. [s**p<sup>h</sup>**ejs] ('*space*')
+]
+.pull-right[
+<br>
+<div style="text-align:center">
+<span style="color:blue"><b>/p/</b></span><br><br>
+<span style="color:red"><b>/SUPERMAN/</b></span>
+<br><br><img src="../pic/1121/superman.png" width="75%">
+</div>
+<br>
+.pull-left[
+<div style="text-align:center">
+<span style="color:green">[<i>Clark Kent</i>]</span><br><br>
+<span style="color:blue">[<i>p</i>]</span> in <span style="color:orange">[s</span><span style="color:blue">p</span><span style="color:orange">ejs]</span>
+</div>
+]
+.pull-right[
+<div style="text-align:center">
+<span style="color:green">[<i>superman</i>]</span><br><br>
+<span style="color:blue">[<i>p<sup>h</sup></i>]</span> in <span style="color:blue">[p<sup>h</sup></span><span style="color:orange">ejs]</span>
+</div>
+]
+]
+
+---
+## **"Common" Sounds**
+<br>
+.pull-left[<br><br><img src="../pic/1121/dog.png" width="90%">]
+.pull-right[
+Different languages **contrast** different sounds, but, there are some **common trends**
+<br><br>
+<div style="text-align:center">
+<table style="width:70%; border-collapse: collapse; margin:auto; font-size:20px;">
+  <tr>
+    <th style="border: 1px solid #555; padding:10px; text-align:center;"><span style="color:blue"><b>more common</b></span></th>
+    <th style="border: 1px solid #555; padding:10px; text-align:center;"><span style="color:green"><b>less common</b></span></th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #555; padding:20px; text-align:center; vertical-align:top;">
+      [a]<br>
+      [k] *or* [s]<br>
+      [t]<br>
+      [p, t, k]<br>
+      [d] *or* [z]<br>
+      [k]<br>
+    </td>
+    <td style="border: 1px solid #555; padding:20px; text-align:center; vertical-align:top;">
+      [ǎ] (nasalised)<br>
+      [x]<br>
+      [s]<br>
+      [b, d, g]<br>
+      [ð]<br>
+      [q]<br>
+    </td>
+  </tr>
+</table>
+</div>
+<br>
+If a language has the sounds on the <span style="color:green"><b>right</b></span> of each row, then it will also have the corresponding sound on the <span style="color:blue"><b>left</b></span>
+]
+
+---
+## **<i>Phoneme</i> or <i>Allophone</i>?**
+<br>
+.pull-left[
+**[step 1]** for each word, write the <span style="color:green"><b>preceding</b></span> and <span style="color:blue"><b>following</b></span> segment for **the sound** you're testing<br><br>
+**[step 2]** write down each different environment (again, looking at both the <span style="color:green"><b>preceding</b></span> and <span style="color:blue"><b>following</b></span> sounds)<br><br>
+**[step 3]** see if there are any **common environments** that both potential phonemes share<br><br>
+<span style="color:orange"><b>notes</b></span>
+- **minimal pairs** are used to find evidence that two sounds are **phonemes**
+- **\#**: word boundary, **_**: the sound being tested<br><br>
+[<span style="color:green"><b>\#</b></span>\_<span style="color:blue"><b>æ</b></span>t] ('*that*') **&** [<span style="color:green"><b>\#</b></span>\_<span style="color:blue"><b>æ</b></span>t] ('*mat*') -- **phoneme**<br><br> 
+[<span style="color:green"><b>\#</b></span>\_<span style="color:blue"><b>ej</b></span>s] ('*pace*') **&** 
+[<span style="color:green"><b>s</b></span>\_<span style="color:blue"><b>ej</b></span>s] ('*space*') -- **allophone**
+]
+.pull-right[
+<br><img src="../pic/1121/horse.jpg" width="80%">
+]
+
+---
+## Recitation Topics
+<br>
+- Review concepts of phonemes and allophones and contrastive/complementary distribution
+- Practice identifying minimal pairs (and remind students we use minimal pairs to find evidence that two sounds are phonemes)
+  - Give students word pairs and ask them to identify which are minimal pairs
+  - Give students two contrasting phonemes in English and ask them to come up with a minimal pair that illustrates the contrast
+- Practice identifying the phonetic environment a sound occurs in
+- Practice identifying whether sounds are in complementary or contrastive distribution and therefore whether they are two separate phonemes or allophones of the same phoneme
+  - I’m attaching two datasets you can work through with students, or you can use other datasets – make sure whatever dataset you use is fairly straightforward
+  - I recommend asking students to write out the phonetic environment and look for patterns based on that
+
+---
+.pull-left[
+## **Prac.: Minimal Pairs I**
+]
+.pull-right[
+### focus on the **sounds**
+### not the **spelling**
+]
+<br>
+.pull-left[
+Are the following pairs of words **minimal pairs**? If they are, what **phonemic contrast** do they illustrate?<br><br>
+1. wait, date<br><br>
+2. top, tap<br><br>
+3. fine, line<br><br>
+4. frog, log<br><br>
+5. boot, lute<br><br>
+6. might, fright<br><br>
+7. jeep, peace
+]
+.pull-right[
+<br><br>
+<img src="../pic/1121/rhyme.jpg" width="95%">
+]
+
+---
+.pull-left[
+## **Prac.: Minimal Pairs I**
+]
+.pull-right[
+### focus on the **sounds**
+### not the **spelling**
+]
+<br>
+.pull-left[
+Are the following pairs of words **minimal pairs**? If they are, what **phonemic contrast** do they illustrate?<br><br>
+.pull-left[
+1. wait, date<br><br>
+2. top, tap<br><br>
+3. fine, line<br><br>
+4. frog, log<br><br>
+5. boot, lute<br><br>
+6. might, fright<br><br>
+7. jeep, peace
+]
+.pull-right[
+<span style="color:green"><b>yes</b></span> <span style="color:blue"><b>[w]</b></span> *and* <span style="color:blue"><b>[d]</b></span><br><br>
+<span style="color:green"><b>yes</b></span> <span style="color:blue"><b>[ɔ]</b></span> *and* <span style="color:blue"><b>[æ]</b></span><br><br>
+<span style="color:green"><b>yes</b></span> <span style="color:blue"><b>[f]</b></span> *and* <span style="color:blue"><b>[l]</b></span><br><br>
+<span style="color:green"><b>yes</b></span> <span style="color:blue"><b>[r]</b></span> *and* <span style="color:blue"><b>[l]</b></span><br><br>
+<span style="color:green"><b>yes</b></span> <span style="color:blue"><b>[b]</b></span> *and* <span style="color:blue"><b>[æ]</l></span><br><br>
+<span style="color:green"><b>yes</b></span> <span style="color:blue"><b>[ɔ]</b></span> *and* <span style="color:blue"><b>[æ]</b></span><br><br>
+<span style="color:green"><b>no</b></span>
+]
+]
+.pull-right[
+<br><br><br><br>
+<img src="../pic/1121/rose.png" width="95%">
+]
+
+---
+## **Practice: Minimal Pairs II**
+<br>
+.pull-left[
+Find a **minimal pair** to illustrate the following contrasts (the phonemes do not need to be at the beginning of the word):
+<br><br>
+1. /f/ – /v/ <br><br>
+2. /b/ – /p/ <br><br>
+3. /θ/ – /ð/ <br><br>
+4. /n/ – /ŋ/ <br><br>
+5. /a/ – /u/ <br><br>
+6. /ʃ/ – /t͡ʃ/<br><br>
+7. /t/ - /θ/
+]
+.pull-right[
+<br><br>
+<img src="../pic/1121/toad.jpg" width="95%">
+]
+
+---
+## **Practice: Sindhi**
+<br>
+Examine the distribution of the sounds **[p]**, **[p<sup>h</sup>]**, **[b]** in these words from <span style="color:green"><b>Sindhi</b></span>, an Indo-European language spoken in Pakistan and India. Do you notice any **minimal pairs**? <br><br>
+If so, what does that mean for these sounds – are they in **contrastive** or **complementary** distribution? Are they separate **phonemes** or are they **allophones** of the same phoneme?<br><br>
+.pull-left[
+1. [pənu] 'leaf' <br><br>
+2. [vədʒu] 'opportunity' <br><br>
+3. [ʃeki] 'suspicious' <br><br>
+4. [gədo] 'dull' <br><br>
+5. [dəru] 'door' <br><br>
+6. [p<sup>h</sup>ənu] 'hood of snake'
+]
+.pull-right[
+<ol start="7">
+  <li>[təru] 'bottom'</li> <br>
+  <li>[k<sup>h</sup>əto] 'sour'</li> <br>
+  <li>[bədʒu] 'run'</li> <br>
+  <li>[bənu] 'forest'</li> <br>
+  <li>[bətʃu] 'be safe'</li> <br>
+  <li>[dʒədʒu] 'judge'</li>
+</ol>
+]
+
+---
+## **Practice: Sindhi**
+<br>
+Examine the distribution of the sounds **[p]**, **[p<sup>h</sup>]**, **[b]** in these words from <span style="color:green"><b>Sindhi</b></span>, an Indo-European language spoken in Pakistan and India. Do you notice any **minimal pairs**? <br><br>
+If so, what does that mean for these sounds – are they in **contrastive** or **complementary** distribution? Are they separate **phonemes** or are they **allophones** of the same phoneme?<br><br>
+.pull-left[
+1. <span style="color:green"><b>[pənu]</b></span> 'leaf' <br><br>
+2. [vədʒu] 'opportunity' <br><br>
+3. [ʃeki] 'suspicious' <br><br>
+4. [gədo] 'dull' <br><br>
+5. [dəru] 'door' <br><br>
+6. <span style="color:green"><b>[p<sup>h</sup>ənu]</b></span> 'hood of snake'
+]
+.pull-right[
+<ol start="7">
+  <li>[təru] 'bottom'</li> <br>
+  <li>[k<sup>h</sup>əto] 'sour'</li> <br>
+  <li>[bədʒu] 'run'</li> <br>
+  <li><span style="color:green"><b>[bənu]</b></span> 'forest'</li> <br>
+  <li>[bətʃu] 'be safe'</li> <br>
+  <li>[dʒədʒu] 'judge'</li>
+</ol>
+]
+
+---
+## **Practice: Sindhi**
+<br>
+Examine the distribution of the sounds **[p]**, **[p<sup>h</sup>]**, **[b]** in these words from <span style="color:green"><b>Sindhi</b></span>, an Indo-European language spoken in Pakistan and India. Do you notice any **minimal pairs**? <br><br>
+If so, what does that mean for these sounds – are they in **contrastive** or **complementary** distribution? Are they separate **phonemes** or are they **allophones** of the same phoneme?<br><br>
+.pull-left[
+1. [pənu] 'leaf' <br><br>
+2. <span style="color:blue"><b>[vədʒu]</b></span> 'opportunity' <br><br>
+3. [ʃeki] 'suspicious' <br><br>
+4. [gədo] 'dull' <br><br>
+5. [dəru] 'door' <br><br>
+6. [p<sup>h</sup>ənu] 'hood of snake'
+]
+.pull-right[
+<ol start="7">
+  <li>[təru] 'bottom'</li> <br>
+  <li>[k<sup>h</sup>əto] 'sour'</li> <br>
+  <li><span style="color:blue"><b>[bədʒu]</b></span> 'run'</li> <br>
+  <li>[bənu] 'forest'</li> <br>
+  <li>[bətʃu] 'be safe'</li> <br>
+  <li><span style="color:blue"><b>[dʒədʒu]</b></span> 'judge'</li>
+</ol>
+]
+
+---
+## **Practice: Sindhi**
+<br>
+Examine the distribution of the sounds **[p]**, **[p<sup>h</sup>]**, **[b]** in these words from <span style="color:green"><b>Sindhi</b></span>, an Indo-European language spoken in Pakistan and India. Do you notice any **minimal pairs**? <br><br>
+If so, what does that mean for these sounds – are they in **contrastive** or **complementary** distribution? Are they separate **phonemes** or are they **allophones** of the same phoneme?<br><br>
+.pull-left[
+1. [pənu] 'leaf' <br><br>
+2. [vədʒu] 'opportunity' <br><br>
+3. [ʃeki] 'suspicious' <br><br>
+4. [gədo] 'dull' <br><br>
+5. [dəru] 'door' <br><br>
+6. [p<sup>h</sup>ənu] 'hood of snake'
+]
+.pull-right[
+<ol start="7">
+  <li>[təru] 'bottom'</li> <br>
+  <li>[k<sup>h</sup>əto] 'sour'</li> <br>
+  <li><span style="color:orange"><b>[bədʒu]</b></span> 'run'</li> <br>
+  <li><span style="color:orange"><b>[bənu]</b></span> 'forest'</li> <br>
+  <li><span style="color:orange"><b>[bətʃu]</b></span> 'be safe'</li> <br>
+  <li>[dʒədʒu] 'judge'</li>
+</ol>
+]
+
+---
+## **Practice: Sindhi**
+<br>
+Examine the distribution of the sounds **[p]**, **[p<sup>h</sup>]**, **[b]** in these words from <span style="color:green"><b>Sindhi</b></span>, an Indo-European language spoken in Pakistan and India. Do you notice any **minimal pairs**? <br><br>
+If so, what does that mean for these sounds – are they in **contrastive** or **complementary** distribution? Are they separate **phonemes** or are they **allophones** of the same phoneme?<br><br>
+.pull-left[
+1. [pənu] 'leaf' <br><br>
+2. [vədʒu] 'opportunity' <br><br>
+3. [ʃeki] 'suspicious' <br><br>
+4. [gədo] 'dull' <br><br>
+5. <span style="color:red"><b>[dəru]</b></span> 'door' <br><br>
+6. [p<sup>h</sup>ənu] 'hood of snake'
+]
+.pull-right[
+<ol start="7">
+  <li><span style="color:red"><b>[təru]</b></span> 'bottom'</li> <br>
+  <li>[k<sup>h</sup>əto] 'sour'</li> <br>
+  <li>[bədʒu] 'run'</li> <br>
+  <li>[bənu] 'forest'</li> <br>
+  <li>[bətʃu] 'be safe'</li> <br>
+  <li>[dʒədʒu] 'judge'</li>
+</ol>
+]
+---
+## **Practice: Sindhi**
+<br>
+Examine the distribution of the sounds **[p]**, **[p<sup>h</sup>]**, **[b]** in these words from <span style="color:green"><b>Sindhi</b></span>, an Indo-European language spoken in Pakistan and India. Do you notice any **minimal pairs**? <br><br>
+If so, what does that mean for these sounds – are they in **contrastive** or **complementary** distribution? Are they separate **phonemes** or are they **allophones** of the same phoneme?<br><br>
+.pull-left[
+1. [pənu] 'leaf' <br><br>
+2. [vədʒu] 'opportunity' <br><br>
+3. [ʃeki] 'suspicious' <br><br>
+4. <span style="color:deeppink"><b>[gədo]</b></span> 'dull' <br><br>
+5. [dəru] 'door' <br><br>
+6. [p<sup>h</sup>ənu] 'hood of snake'
+]
+.pull-right[
+<ol start="7">
+  <li>[təru] 'bottom'</li> <br>
+  <li><span style="color:deeppink"><b>[k<sup>h</sup>əto]</b></span> 'sour'</li> <br>
+  <li>[bədʒu] 'run'</li> <br>
+  <li>[bənu] 'forest'</li> <br>
+  <li>[bətʃu] 'be safe'</li> <br>
+  <li>[dʒədʒu] 'judge'</li>
+</ol>
+]
+
+---
+## **Practice: Quechua**
+<br>
+Examine the sounds <span style="color:orange"><b>[u]</b></span> and <span style="color:blue"><b>[o]</b></span> in this data from **Quechua**. Write down **all** of the environments in which each sound occurs. Do you notice any patterns?<br>
+Does the pattern suggest the sounds are in **contrastive** or **complementary** distribution? Are they separate <span style="color:deeppink"><b>phonemes</b></span> or <span style="color:deeppink"><b>allophones</b></span> of the same phoneme?
+<br><br>
+.pull-left[
+.pull-left[
+1. [k<span style="color:orange"><b>u</b></span>sa] 'nice'<br><br>
+2. [q<span style="color:blue"><b>o</b></span>mer] 'green'<br><br>
+3. [tiŋk<span style="color:orange"><b>u</b></span>] 'meeting'<br><br>
+4. [p<span style="color:orange"><b>u</b></span>ka] 'red'<br><br>
+5. [q<span style="color:blue"><b>o</b></span>sa] 'husband'
+]
+.pull-right[
+<ol start="6">
+  <li>[p<span style="color:orange"><b>u</b></span>ŋk<span style="color:orange"><b>u</b></span>] 'door'</li> <br>
+  <li>[aʎq<span style="color:blue"><b>o</b></span>] 'dog'</li> <br>
+  <li>[s<span style="color:orange"><b>u</b></span>wa] 'thief'</li> <br>
+  <li>[q<span style="color:blue"><b>o</b></span>sq<span style="color:blue"><b>o</b></span>] 'Cusco'</li> <br>
+  <li>[q<span style="color:blue"><b>o</b></span>tʃa] 'lake'</li> <br>
+</ol>
+]
+<br>
+- <b>note</b>: [w] is not in IPA table, it is both bilabial and velar (co-articulation)
+]
+.pull-right[
+<table style="width:70%; border-collapse: collapse; margin:auto; font-size:24px;">
+  <tr>
+    <th style="border: 1px solid #555; padding:10px; text-align:center;"><span style="color:orange"><b>u</b></span></th>
+    <th style="border: 1px solid #555; padding:10px; text-align:center;"><span style="color:blue"><b>o</b></span></th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #555; padding:20px; text-align:center; vertical-align:top;">
+      k_s<br>
+      <span style="color:white">k_#</span><br>
+      <span style="color:white">p_k</span><br>
+      <span style="color:white">p_ŋ</span><br>
+      <span style="color:white">k_#</span><br>
+      <span style="color:white">s_w</span><br>
+    </td>
+    <td style="border: 1px solid #555; padding:20px; text-align:center; vertical-align:top;">
+      q_m<br>
+      <span style="color:white">q_s</span><br>
+      <span style="color:white">q_#</span><br>
+      <span style="color:white">q_s</span><br>
+      <span style="color:white">q_#</span><br>
+      <span style="color:white">q_tʃ</span><br>
+    </td>
+  </tr>
+</table>
+]
+
+---
+## **Practice: Quechua**
+<br>
+Examine the sounds <span style="color:orange"><b>[u]</b></span> and <span style="color:blue"><b>[o]</b></span> in this data from **Quechua**. Write down **all** of the environments in which each sound occurs. Do you notice any patterns?<br>
+Does the pattern suggest the sounds are in **contrastive** or **complementary** distribution? Are they separate <span style="color:deeppink"><b>phonemes</b></span> or <span style="color:deeppink"><b>allophones</b></span> of the same phoneme?
+<br><br>
+.pull-left[
+.pull-left[
+1. [k<span style="color:orange"><b>u</b></span>sa] 'nice'<br><br>
+2. [q<span style="color:blue"><b>o</b></span>mer] 'green'<br><br>
+3. [tiŋk<span style="color:orange"><b>u</b></span>] 'meeting'<br><br>
+4. [p<span style="color:orange"><b>u</b></span>ka] 'red'<br><br>
+5. [q<span style="color:blue"><b>o</b></span>sa] 'husband'
+]
+.pull-right[
+<ol start="6">
+  <li>[p<span style="color:orange"><b>u</b></span>ŋk<span style="color:orange"><b>u</b></span>] 'door'</li> <br>
+  <li>[aʎq<span style="color:blue"><b>o</b></span>] 'dog'</li> <br>
+  <li>[s<span style="color:orange"><b>u</b></span>wa] 'thief'</li> <br>
+  <li>[q<span style="color:blue"><b>o</b></span>sq<span style="color:blue"><b>o</b></span>] 'Cusco'</li> <br>
+  <li>[q<span style="color:blue"><b>o</b></span>tʃa] 'lake'</li> <br>
+</ol>
+]
+<br>
+- <b>note</b>: [w] is not in IPA table, it is both bilabial and velar (co-articulation)
+]
+.pull-right[
+<table style="width:70%; border-collapse: collapse; margin:auto; font-size:24px;">
+  <tr>
+    <th style="border: 1px solid #555; padding:10px; text-align:center;"><span style="color:orange"><b>u</b></span></th>
+    <th style="border: 1px solid #555; padding:10px; text-align:center;"><span style="color:blue"><b>o</b></span></th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #555; padding:20px; text-align:center; vertical-align:top;">
+      k_s<br>
+      k_#<br>
+      p_k<br>
+      p_ŋ<br>
+      k_#<br>
+      s_w<br>
+    </td>
+    <td style="border: 1px solid #555; padding:20px; text-align:center; vertical-align:top;">
+      q_m<br>
+      q_s<br>
+      q_#<br>
+      q_s<br>
+      q_#<br>
+      q_tʃ<br>
+    </td>
+  </tr>
+</table>
+]
+
+---
+## **Practice: Kazakh**
+<br>
+Examine the sounds <span style="color:orange"><b>[ɑ]</b></span> and <span style="color:blue"><b>[æ]</b></span> in this data from **Kazakh**.Do you notice any patterns?<br>
+Does the pattern suggest the sounds are in **contrastive** or **complementary** distribution? Are they separate <span style="color:deeppink"><b>phonemes</b></span> or <span style="color:deeppink"><b>allophones</b></span> of the same phoneme?
+<br><br>
+.pull-left[
+.pull-left[
+1. [q<span style="color:orange"><b>ɑ</b></span>r] 'snow'<br><br>
+2. [k<span style="color:blue"><b>æ</b></span>rɨ] 'old'<br><br>
+3. [<span style="color:orange"><b>ɑ</b></span>q] 'white'<br><br>
+4. [z<span style="color:orange"><b>ɑ</b></span>ɴʁ<span style="color:orange"><b>ɑ</b></span>r] a name<br><br>
+5. [<span style="color:blue"><b>æ</b></span>kelu] 'to bring'<br><br>
+6. [g<span style="color:blue"><b>æ</b></span>zet] 'newspaper'
+]
+.pull-right[
+<ol start="7">
+  <li>[ɨŋk<span style="color:blue"><b>æ</b></span>r] a name</li> <br>
+  <li>[<span style="color:blue"><b>æ</b></span>ke] 'father'</li> <br>
+  <li>[<span style="color:orange"><b>ɑ</b></span>ʁ<span style="color:orange"><b>a</b></span>] 'brother'</li> <br>
+  <li>[ʁ<span style="color:orange"><b>ɑ</b></span>lɯm] 'scholar'</li> <br>
+  <li>[g<span style="color:blue"><b>æ</b></span>lon] 'gallon'</li> <br>
+  <li>[q<span style="color:orange"><b>ɑ</b></span>zɯ] 'horse intestines'</li> <br>
+</ol>
+]
+<br>
+- <b>note</b>: [ɴ, ʁ, q] is <u>uvular</u> and [ŋ, g, k] is <u>velar</u>
+]
+.pull-right[
+<table style="width:70%; border-collapse: collapse; margin:auto; font-size:24px;">
+  <tr>
+    <th style="border: 1px solid #555; padding:10px; text-align:center;"><span style="color:orange"><b>ɑ</b></span></th>
+    <th style="border: 1px solid #555; padding:10px; text-align:center;"><span style="color:blue"><b>æ</b></span></th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #555; padding:40px; text-align:center; vertical-align:top;">
+      q_r<br>
+      <span style="color:white">#_q</span><br>
+      <span style="color:white">z_ɴ</span><br>
+      <span style="color:white">ʁ_r</span><br>
+      <span style="color:white">#_ʁ</span><br>
+      <span style="color:white">ʁ_#</span><br>
+      <span style="color:white">ʁ_l</span><br>
+      <span style="color:white">q_z</span><br>
+    </td>
+    <td style="border: 1px solid #555; padding:40px; text-align:center; vertical-align:top;">
+      <span style="color:white">k_r</span><br>
+      <span style="color:white">#_k</span><br>
+      <span style="color:white">g_z</span><br>
+      <span style="color:white">k_r</span><br>
+      <span style="color:white">#_k</span><br>
+      <span style="color:white">g_l</span><br>
+    </td>
+  </tr>
+</table>
+]
+
+---
+## **Practice: Kazakh**
+<br>
+Examine the sounds <span style="color:orange"><b>[ɑ]</b></span> and <span style="color:blue"><b>[æ]</b></span> in this data from **Kazakh**.Do you notice any patterns?<br>
+Does the pattern suggest the sounds are in **contrastive** or **complementary** distribution? Are they separate <span style="color:deeppink"><b>phonemes</b></span> or <span style="color:deeppink"><b>allophones</b></span> of the same phoneme?
+<br><br>
+.pull-left[
+.pull-left[
+1. [q<span style="color:orange"><b>ɑ</b></span>r] 'snow'<br><br>
+2. [k<span style="color:blue"><b>æ</b></span>rɨ] 'old'<br><br>
+3. [<span style="color:orange"><b>ɑ</b></span>q] 'white'<br><br>
+4. [z<span style="color:orange"><b>ɑ</b></span>ɴʁ<span style="color:orange"><b>ɑ</b></span>r] a name<br><br>
+5. [<span style="color:blue"><b>æ</b></span>kelu] 'to bring'<br><br>
+6. [g<span style="color:blue"><b>æ</b></span>zet] 'newspaper'
+]
+.pull-right[
+<ol start="7">
+  <li>[ɨŋk<span style="color:blue"><b>æ</b></span>r] a name</li> <br>
+  <li>[<span style="color:blue"><b>æ</b></span>ke] 'father'</li> <br>
+  <li>[<span style="color:orange"><b>ɑ</b></span>ʁ<span style="color:orange"><b>a</b></span>] 'brother'</li> <br>
+  <li>[ʁ<span style="color:orange"><b>ɑ</b></span>lɯm] 'scholar'</li> <br>
+  <li>[g<span style="color:blue"><b>æ</b></span>lon] 'gallon'</li> <br>
+  <li>[q<span style="color:orange"><b>ɑ</b></span>zɯ] 'horse intestines'</li> <br>
+</ol>
+]
+<br>
+- <b>note</b>: [ɴ, ʁ, q] is <u>uvular</u> and [ŋ, g, k] is <u>velar</u>
+]
+.pull-right[
+<table style="width:70%; border-collapse: collapse; margin:auto; font-size:24px;">
+  <tr>
+    <th style="border: 1px solid #555; padding:10px; text-align:center;"><span style="color:orange"><b>ɑ</b></span></th>
+    <th style="border: 1px solid #555; padding:10px; text-align:center;"><span style="color:blue"><b>æ</b></span></th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #555; padding:40px; text-align:center; vertical-align:top;">
+      q_r<br>
+      #_q<br>
+      z_ɴ<br>
+      ʁ_r<br>
+      #_ʁ<br>
+      ʁ_#<br>
+      ʁ_l<br>
+      q_z<br>
+    </td>
+    <td style="border: 1px solid #555; padding:40px; text-align:center; vertical-align:top;">
+      k_r<br>
+      #_k<br>
+      g_z<br>
+      k_r<br>
+      #_k<br>
+      g_l<br>
+    </td>
+  </tr>
+</table>
+]
+
+---
+class: center, middle
+**Homework VII** is due this Sunday (**Nov 23rd**)<br><br>
+<b>reading materials</b>: <br><br>
+**Phonology: The Function and Patterning of Sounds**<br><br>
+in O'Grady et al.'s *Contemprary Linguistics: An Introduction*<br><br>
+Thanksgiving week (the week of Nov 23), recitation will be **asynchronous** work<br><br>
+<img src="../pic/1121/fine.jpg" width="40%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+

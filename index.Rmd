@@ -45,7 +45,9 @@ Homework 3 due: <u>11:59 p.m., Oct 05, 2025</u>
 <br><br>
 
 #### **Week 06**: Midterm Exam (Oct 10)
-Midterm info: Oct 10, 10:20 am - 11:40 pm ([ED-025B](https://dcs.rutgers.edu/classrooms/graduate-school-education-room-025b))
+- <span style="color:red"><b>Date</b></span>: <u>October 10th, 2025 (Friday)</u> <br>
+- <span style="color:red"><b>Time</b></span>: <u>10:20 am – 11:40 am</u> <br>
+- <span style="color:red"><b>Venue</b></span>: <u>Graduate School of Education, Rm 025B</u> ([ED-025B](https://dcs.rutgers.edu/classrooms/graduate-school-education-room-025b))
 <br><br>
 
 #### **Week 07**: [Semantics I](https://merlinudinov.github.io/ling201recitation/20251017) (Oct 17)
@@ -66,16 +68,19 @@ Homework 6 due: <u>11:59 p.m., Nov 09, 2025</u>
 #### **Week 11**: [Phonetics II](https://merlinudinov.github.io/ling201recitation/20251114) (Nov 14)
 <br>
 
-#### **Week 12**: Phonology I (Nov 21)
+#### **Week 12**: [Phonology I](https://merlinudinov.github.io/ling201recitation/20251121) (Nov 21)
 Homework 7 due: <u>11:59 p.m., Nov 23, 2025</u>
 <br><br>
 
 #### **Week 13**: Phonology II (Nov 26)
-Wednesday recitation class, Thanksgiving adjustment
+Thanksgiving adjustment: recitation class on **Wednesday** 
 <br><br>
 
-#### **Week 14**: Phonology III (Dec 05)
-Homework 8
+#### **Week 14**: Course Wrap-up (Dec 05)
+Homework 8 due: <u>11:59 p.m., Dec 07, 2025</u>
 <br><br>
 
-#### **Final Exam**: Friday, Dec. 19, 12:00 – 3:00 pm, ABE, Room 1180
+#### **Week 16**: Final Exam (Dec 19)
+- <span style="color:red"><b>Date</b></span>: <u>December 19th, 2025 (Friday)</u> <br>
+- <span style="color:red"><b>Time</b></span>: <u>12:00 – 3:00 pm</u> <br>
+- <span style="color:red"><b>Venue</b></span>: <u>Academic Building, Rm 1180</u> ([ABE-1180](https://dcs.rutgers.edu/classrooms/rutgers-academic-building-east-wing-room-1180))

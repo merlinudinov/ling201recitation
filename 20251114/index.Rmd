@@ -171,10 +171,10 @@ in a <span style="color:deeppink"><b>single cell</b></span> - <span style="font-
 <br>
 .pull-left[
 **partial blockage of airflow**<br><br>
-- <span style="color:blue">fricatives/plosives</span> **[ʃ, ʒ]**<br><br>
-- <span style="color:blue">approximants/plosives</span> **[ɹ]**
+- <span style="color:blue">fricatives</span> **[ʃ, ʒ]**<br><br>
+- <span style="color:blue">approximants</span> **[ɹ]**
   - less obstruction than **fricatives**<br><br>
-- <span style="color:blue">laterals/plosives</span> **[l]**
+- <span style="color:blue">laterals</span> **[l]**
   - obstruction in the center, but air flows past the tongue on the side(s)
 ]
 .pull-right[
