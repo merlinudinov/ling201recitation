@@ -1,0 +1,395 @@
+---
+title: "**Phonology II**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2025/12/05 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+## **Previously on 201**
+<br>
+.pull-left[
+<div style="text-align:left">
+<span style="color:green">[sorcerer]</span> and <span style="color:green">[TA]</span><br>
+are two allophones of the same phoneme <span style="color:blue"><b>/Merlin/</b></span><br>
+<span style="color:blue"><b>/Merlin/</b></span> → <span style="color:green">[sorcerer]</span> / _ (when saving the world)<br>
+<span style="color:blue"><b>/Merlin/</b></span> → <span style="color:green">[TA]</span> / _ (in 201 classroom)
+<img src="../pic/1205/merlin1.png" width="50%">
+</div>
+<br>
+<div style="text-align:right">
+<img src="../pic/1205/merlin2.png" width="50%"><br>
+<span style="color:blue"><b>/Merlin/</b></span> and <span style="color:orange"><b>/Arthur/</b></span> are separate phonemes
+</div>
+]
+.pull-right[
+**phoneme**: a set of sounds that speakers of a language treat as being the same (<span style="color:blue"><b><i>/t/</i></b></span>)<br><br>
+
+**allophone**: each individual possible sound that a phoneme could surface as  (<span style="color:blue"><b><i>[t<sup>h</sup>]</i></b></span> and <span style="color:blue"><b><i>[t]</i></b></span>) <br><br>
+
+<span style="color:green"><b>contrastive distribution</b></span>: switching out one *phoneme* for another results in a different meaning
+- these word pairs are called **minimal pairs**
+- they detect which sounds are **phonemes**<br><br>
+
+<span style="color:green"><b>complementary distribution</b></span>: switching a sound out for another one *does not* change the meaning
+- they are **allophones** of the same phoneme
+]
+
+---
+## **Phonological Processes**
+<br>
+.pull-left[
+**assimilation**
+- a sound segment changes to become <span style="color:blue"><b>more similar</b></span> to another nearby sound segment
+- we can measure in terms of comparing their features
+- <b>English</b> plural /-s/ → [z] after a <span style="color:green"><b>voiced</b></span> stop
+  - [k<sup>h</sup>æt**s**], vs. [dɔg**z**]<br><br>
+
+**dissimilation**
+- a sound changes to become <span style="color:blue"><b>less similar</b></span> to another segment
+- <b>Latin</b> to <b>English</b> loanword
+  - [pe**r**eg**r**inu] → [pi<span style="color:green"><b>l</b></span>g**r**im]
+- The first **[r]** dissimilates to an <span style="color:green"><b>[l]</b></span> to become less like the second **[r]**<br><br>
+]
+.pull-right[
+<img src="../pic/1205/same.jpg" width="90%">
+<br><br>
+<img src="../pic/1205/red.jpg" width="90%">
+]
+
+---
+## **Phonological Processes**
+<br>
+.pull-left[
+<br>
+<div style="text-align:center";>
+<img src="../pic/1121/cat.jpg" width="75%">]
+</div>
+.pull-right[
+**insertion/epenthesis**
+- a sound segment is <span style="color:blue"><b>added</b></span> to a word
+- <b>English</b> glide insertion
+  - '*I am*', '*see it*', '*do it*', '*you and I*'<br><br>
+
+**deletion/elision:** 
+- a sound is <span style="color:blue"><b>removed</b></span> from a word
+- <b>English</b>
+  - rock <span style="color:green"><b>[ænd]</b></span> roll → rock <span style="color:green"><b>[n]</b></span> roll
+- <b>Kazakh</b> vowel hiatus resolution
+  - [sa.r**ɯ** **ɑ**r.ba] → [sa.r**ɑ**r.ba] ('yellow trolley')<br><br>
+
+**strengthening/weakening**
+- sound segments get <span style="color:green"><b>"*stronger*"</b></span> or <span style="color:orange"><b>"*weaker*"</b></span> in terms of the **Sonority Scale**</b></span>
+]
+
+---
+.pull-left[
+## **Sonority Scale**
+<br><br><br>
+<img src="../pic/1205/sonority.png" width="90%">
+<br><br>
+**voiced** sounds are **more sonorous** than voiceless sounds
+]
+.pull-right[
+<br><br>
+.pull-left[
+<div style="text-align:center;">
+<span style="color:red"><b>higher sonority</b></span><br>
+(<b><i>weaker</i></b>)<br><br>
+vowels<br><br>
+glides<br><br>
+liquids<br><br>
+nasals<br><br>
+fricatives<br><br>
+affricates<br><br>
+stops<br><br>
+<span style="color:red"><b>lower sonority</b></span><br>
+(<b><i>stronger</i></b>)
+</div>
+]
+.pullright[
+<br><br><br><br>
+<div style="text-align:center;">
+<svg width="60" height="120" viewBox="0 0 50 100">
+  <line x1="25" y1="0" x2="25" y2="80" stroke="black" stroke-width="6"/>
+  <polygon points="25,100 0,70 50,70" fill="black"/>
+</svg>
+</div>
+]
+]
+
+---
+## **Phonological Processes**
+<br>
+.pull-left[
+<div style="text-align:center";>
+<img src="../pic/1205/capy.jpg" width="80%">
+</div>]
+.pull-right[
+**strengthening**
+- sound segments get <span style="color:green"><b>"*stronger*"</b></span> in terms of the **Sonority Scale**</b></span>
+- in some varieties of <b>American English</b>
+  - [wɪ<span style="color:green"><b>θ</b></span>] → [wɪ<span style="color:blue"><b>t</b></span>] ('*with*')
+  - [<span style="color:green"><b>θ</b></span>ɛm] → [<span style="color:orange"><b>d</b></span>ɛm] ('*them*')
+  - (fricative → stop)<br><br>
+
+**weakening**
+- sound segments get <span style="color:orange"><b>"*weaker*"</b></span> in terms of the **Sonority Scale**</b></span>
+- again, in <b>American English</b>
+  - <span style="color:green"><b>/t/</b></span> → <span style="color:blue"><b>[ɾ]</b></span> in *butter*, *better*, *water*
+  - <span style="color:green"><b>/t/</b></span> becomes voiced and is no longer a stop
+]
+
+---
+## **Practice: Phonological Processes**
+<br>
+.pull-left[
+**What phonological processes do these examples exhibit? How can you tell?**<br><br>
+1. <b>English</b> speakers often pronounce <span style="color:green"><b>"hamster"</b></span> as <span style="color:green"><b>"hampster"</b></span><br><br>
+2. The prefix <b><i>in-</i></b> (‘not’) in <b>English</b> is pronounced:
+  - **[in]** in *indirect*, *intolerant*
+  - <span style="color:green"><b>[im]</b></span> in *impossible*, *imbalance* and
+  - <span style="color:blue"><b>[ɪŋ]</b></span> in *incredible, ingratitude*<br><br>
+3. "tsunami" is pronounced: , but  it is often pronounced 
+  - **[t͡sunami]** in <b>Japanese</b>, but
+  - <span style="color:green"><b>[sunami]</b></span> sometimes in <b>English</b>
+]
+.pull-right[
+<br><br>
+<img src="../pic/1205/cks.jpg" width="90%">
+]
+
+---
+## **Practice: Phonological Processes**
+<br>
+.pull-left[
+<br><br>
+<img src="../pic/1205/cks.jpg" width="90%">
+]
+.pull-right[
+**What phonological processes do these examples exhibit? How can you tell?**<br><br>
+1. <b>English</b>
+  - <span style="color:blue"><b>[t]</b></span> sound in *operate, create, mutate* becomes
+  - <span style="color:green"><b>[ʃ]</b></span> in *operation, creation, mutation*<br><br>
+2. <b>English</b> adjectival suffix <b><i>-al</i></b> is 
+  - "**al**" in *naval*, *vocal*, *capital*, *coronal*, and
+  - "<span style="color:green"><b>-ar</b></span>" in *solar*, *lunar*, *velar*, *angular*, but
+  - "**al**" in  *floral*, *lateral* (not \* *florar*, \**laterar*)<br><br>
+3. <b>English</b>
+  - <span style="color:blue"><b>[ɾ]</b></span> in *atom* [æɾəm], *metal* [mɛɾəl] becomes
+  - <span style="color:green"><b>[t<sup>h</sup>]</b></span> in *atomic* [ətʰɑmɪk], *metallic* [mətʰælik]
+]
+
+---
+## **Step-by-Step Phonological Analysis**
+<br>
+.pull-left[
+1. write the preceding and following segment (<span style="color:green"><b>environment</b></span>) for **the sound you're testing**<br><br>
+2. do they occur in the same or different environments?
+  - **same**: *contrastive* → separate phonemes
+  - **different**: *complementary* → allophones<br><br>
+3. consider the  <span style="color:blue"><b>commonality</b></span> of environments of allophones<br><br>
+4. <span style="color:orange"><b>simplify</b></span> the environments (*V_V*, *#_C*, etc.) <br><br>
+5. rewrite simplified environments as <span style="color:deeppink"><b>phonological rules</b></span>
+]
+.pull-right[<br>
+<table style="width:70%; border-collapse: collapse; margin:auto; font-size:24px;">
+  <tr>
+    <th style="border: 1px solid #555; padding:10px; text-align:center;"><span style="color:orange"><b>d</b></span></th>
+    <th style="border: 1px solid #555; padding:10px; text-align:center;"><span style="color:blue"><b>ð</b></span></th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #555; padding:20px; text-align:center; vertical-align:top;">
+      [#_a]<br>
+      [#_e]<br>
+      [#_a]<br>
+      [#_u]<br>
+      [#_e]<br>
+      [#_e]<br>
+    </td>
+    <td style="border: 1px solid #555; padding:20px; text-align:center; vertical-align:top;">
+      [o_o]<br>
+      [i_a]<br>
+      [o_o]<br>
+      [u_a]<br>
+      [a_o]<br>
+      [e_o]<br>
+    </td>
+  </tr>
+</table>
+<br><br>
+  - /d/ → d / #__
+  - /d/ → ð / V__V
+]
+
+---
+## **Practice: Phonological Analysis**
+<br>
+.pull-left[
+**Consider this data from Italian:** <br><br>
+For the pair of sounds <span style="color:orange">[i]</span>-<span style="color:blue">[ɛ]</span> and <span style="color:green">[n]</span>-<span style="color:deeppink">[ŋ]</span>: <br><br>
+- write the **phonetic environments** in which each sound occurs<br><br>
+- are the two sounds in complementary or contrastive **distribution**?<br><br>
+- are the two sounds separate **phonemes** or **allophones** of the same phoneme in Italian?<br><br>
+- <i>if they are **allophones**</i>, what is the phonological rule for the change?
+]
+
+.pull-right[
+<div style="text-align:center";>
+<span style="color:purple"><b>Italian</b></span>
+</div>
+<br><br>
+.pull-left[
+[t<span style="color:orange"><b>i</b></span><span style="color:green"><b>n</b></span>ta] '*dye*'<br><br>
+[t<span style="color:blue"><b>ɛ</b></span><span style="color:green"><b>n</b></span>da] '*tent*'<br><br>
+[<span style="color:green"><b>n</b></span>eɾo] '*black*'<br><br>
+[da<span style="color:green"><b>n</b></span>tsa] '*dance*'<br><br>
+[dʒ<span style="color:blue"><b>ɛ</b></span><span style="color:green"><b>n</b></span>te] '*people*'<br><br>
+[sapo<span style="color:green"><b>n</b></span>e] '*soap*'
+]
+.pull-right[
+[t<span style="color:orange"><b>i</b></span><span style="color:deeppink"><b>ŋ</b></span>go] '*I dye*'<br><br>
+[t<span style="color:blue"><b>ɛ</b></span><span style="color:deeppink"><b>ŋ</b></span>go] '*I keep*'<br><br>
+[fu<span style="color:deeppink"><b>ŋ</b></span>go] '*mushroom*'<br><br>
+[bja<span style="color:deeppink"><b>ŋ</b></span>ka] '*white*'<br><br>
+[a<span style="color:deeppink"><b>ŋ</b></span>ke] '*also*'<br><br>
+[fa<span style="color:deeppink"><b>ŋ</b></span>go] '*mud*'
+]
+]
+
+---
+## **Practice: Kazakh**
+<br>
+Examine the sounds <span style="color:orange"><b>[ɑ]</b></span> and <span style="color:blue"><b>[æ]</b></span> in this data from **Kazakh**.Do you notice any patterns?<br>
+Does the pattern suggest the sounds are in **contrastive** or **complementary** distribution? Are they separate <span style="color:deeppink"><b>phonemes</b></span> or <span style="color:deeppink"><b>allophones</b></span> of the same phoneme?
+<br><br>
+.pull-left[
+.pull-left[
+1. [q<span style="color:orange"><b>ɑ</b></span>r] 'snow'<br><br>
+2. [k<span style="color:blue"><b>æ</b></span>rɨ] 'old'<br><br>
+3. [<span style="color:orange"><b>ɑ</b></span>q] 'white'<br><br>
+4. [z<span style="color:orange"><b>ɑ</b></span>ɴʁ<span style="color:orange"><b>ɑ</b></span>r] a name<br><br>
+5. [<span style="color:blue"><b>æ</b></span>kelu] 'to bring'<br><br>
+6. [g<span style="color:blue"><b>æ</b></span>zet] 'newspaper'
+]
+.pull-right[
+<ol start="7">
+  <li>[ɨŋk<span style="color:blue"><b>æ</b></span>r] a name</li> <br>
+  <li>[<span style="color:blue"><b>æ</b></span>ke] 'father'</li> <br>
+  <li>[<span style="color:orange"><b>ɑ</b></span>ʁ<span style="color:orange"><b>a</b></span>] 'brother'</li> <br>
+  <li>[ʁ<span style="color:orange"><b>ɑ</b></span>lɯm] 'scholar'</li> <br>
+  <li>[g<span style="color:blue"><b>æ</b></span>lon] 'gallon'</li> <br>
+  <li>[q<span style="color:orange"><b>ɑ</b></span>zɯ] 'horse intestines'</li> <br>
+</ol>
+]
+<br>
+- <b>note</b>: [ɴ, ʁ, q] is <u>uvular</u> and [ŋ, g, k] is <u>velar</u>
+]
+.pull-right[
+<table style="width:70%; border-collapse: collapse; margin:auto; font-size:24px;">
+  <tr>
+    <th style="border: 1px solid #555; padding:10px; text-align:center;"><span style="color:orange"><b>ɑ</b></span></th>
+    <th style="border: 1px solid #555; padding:10px; text-align:center;"><span style="color:blue"><b>æ</b></span></th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #555; padding:40px; text-align:center; vertical-align:top;">
+      q_r<br>
+      <span style="color:white">#_q</span><br>
+      <span style="color:white">z_ɴ</span><br>
+      <span style="color:white">ʁ_r</span><br>
+      <span style="color:white">#_ʁ</span><br>
+      <span style="color:white">ʁ_#</span><br>
+      <span style="color:white">ʁ_l</span><br>
+      <span style="color:white">q_z</span><br>
+    </td>
+    <td style="border: 1px solid #555; padding:40px; text-align:center; vertical-align:top;">
+      <span style="color:white">k_r</span><br>
+      <span style="color:white">#_k</span><br>
+      <span style="color:white">g_z</span><br>
+      <span style="color:white">k_r</span><br>
+      <span style="color:white">#_k</span><br>
+      <span style="color:white">g_l</span><br>
+    </td>
+  </tr>
+</table>
+]
+
+---
+## **Practice: Kazakh**
+<br>
+Examine the sounds <span style="color:orange"><b>[ɑ]</b></span> and <span style="color:blue"><b>[æ]</b></span> in this data from **Kazakh**.Do you notice any patterns?<br>
+Does the pattern suggest the sounds are in **contrastive** or **complementary** distribution? Are they separate <span style="color:deeppink"><b>phonemes</b></span> or <span style="color:deeppink"><b>allophones</b></span> of the same phoneme?
+<br><br>
+.pull-left[
+.pull-left[
+1. [q<span style="color:orange"><b>ɑ</b></span>r] 'snow'<br><br>
+2. [k<span style="color:blue"><b>æ</b></span>rɨ] 'old'<br><br>
+3. [<span style="color:orange"><b>ɑ</b></span>q] 'white'<br><br>
+4. [z<span style="color:orange"><b>ɑ</b></span>ɴʁ<span style="color:orange"><b>ɑ</b></span>r] a name<br><br>
+5. [<span style="color:blue"><b>æ</b></span>kelu] 'to bring'<br><br>
+6. [g<span style="color:blue"><b>æ</b></span>zet] 'newspaper'
+]
+.pull-right[
+<ol start="7">
+  <li>[ɨŋk<span style="color:blue"><b>æ</b></span>r] a name</li> <br>
+  <li>[<span style="color:blue"><b>æ</b></span>ke] 'father'</li> <br>
+  <li>[<span style="color:orange"><b>ɑ</b></span>ʁ<span style="color:orange"><b>a</b></span>] 'brother'</li> <br>
+  <li>[ʁ<span style="color:orange"><b>ɑ</b></span>lɯm] 'scholar'</li> <br>
+  <li>[g<span style="color:blue"><b>æ</b></span>lon] 'gallon'</li> <br>
+  <li>[q<span style="color:orange"><b>ɑ</b></span>zɯ] 'horse intestines'</li> <br>
+</ol>
+]
+<br>
+- <b>note</b>: [ɴ, ʁ, q] is <u>uvular</u> and [ŋ, g, k] is <u>velar</u>
+]
+.pull-right[
+<table style="width:70%; border-collapse: collapse; margin:auto; font-size:24px;">
+  <tr>
+    <th style="border: 1px solid #555; padding:10px; text-align:center;"><span style="color:orange"><b>ɑ</b></span></th>
+    <th style="border: 1px solid #555; padding:10px; text-align:center;"><span style="color:blue"><b>æ</b></span></th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #555; padding:40px; text-align:center; vertical-align:top;">
+      q_r<br>
+      #_q<br>
+      z_ɴ<br>
+      ʁ_r<br>
+      #_ʁ<br>
+      ʁ_#<br>
+      ʁ_l<br>
+      q_z<br>
+    </td>
+    <td style="border: 1px solid #555; padding:40px; text-align:center; vertical-align:top;">
+      k_r<br>
+      #_k<br>
+      g_z<br>
+      k_r<br>
+      #_k<br>
+      g_l<br>
+    </td>
+  </tr>
+</table>
+]
+
+---
+class: center, middle
+### <span style="color:green"><b>THE END, THANK YOU EVERYONE!</b></span><br><br>
+**Homework VIII** is due **Dec 07** (Synday)<br><br>
+last office hour on **Dec 10** (Wednesday)<br>
+I will still be *available by appointment*!<br><br>
+last day to submit late homework/assignment is **Dec 10** (Wednesday)<br><br>
+The final exam is on **Dec 19** at **12:00 - 03:00 pm** in the lecture room [**ABE 1180**](https://webapps.rutgers.edu/dcs/classrooms/ABE-1180)<br><br>
+<img src="../pic/1121/ur.png" width="30%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
